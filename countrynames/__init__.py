@@ -20,6 +20,7 @@ COUNTRY_NAMES = {}
 
 
 def _normalize_name(country):
+    """Clean up a country name before comparison."""
     if country is None:
         return
     if not isinstance(country, six.text_type):
@@ -38,6 +39,7 @@ def _normalize_name(country):
 
 
 def _load_data():
+    """Load known aliases from a YAML file. Internal."""
     data_file = os.path.join(os.path.dirname(__file__), 'data.yaml')
     with open(data_file, 'r') as fh:
         for code, names in yaml.load(fh).items():
