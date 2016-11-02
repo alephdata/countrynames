@@ -54,6 +54,8 @@ def to_code(country_name):
     if not len(COUNTRY_NAMES):
         _load_data()
     name = _normalize_name(country_name)
+    if name is None:
+        return
 
     # Check if the input is actually an ISO code:
     upper = country_name.upper()

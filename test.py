@@ -3,7 +3,8 @@ import countrynames
 
 tests = [
     'Germany',
-    'DE'
+    'DE',
+    None
 ]
 
 for test in tests:
