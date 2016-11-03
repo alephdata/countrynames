@@ -61,6 +61,7 @@ def _fuzzy_search(name):
     if len(matches) == 1:
         for match in matches:
             log.debug("Guessing country: %s -> %s", name, match)
+            COUNTRY_NAMES[name] = match
             return match
 
 
