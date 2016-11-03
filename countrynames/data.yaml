@@ -1,3 +1,9 @@
+FAIL:
+  - fund
+  - channel islands
+  - THE WEST INDIES
+  - THE CHENNAL ISLES
+
 AD:
   - Andɔr
   - អង់ដូរ៉ា
@@ -78,6 +84,13 @@ AD:
   - ඇන්ඩෝරාව
   - ཨཱན་དོ་ར
 AE:
+  - ABU DHABI
+  - JEBEL ALI FREE ZONE
+  - RAS AL KHAIMAH FREE TRADE ZONE
+  - AJMAN
+  - SHARJAH
+  - AJMAN FREE ZONE
+  - FUJAIRAH MEDIA FREE ZONE
   - Emirâts araps unîts
   - Birleşik Arap Emirlikleri
   - i  -United Arab Emirates
@@ -458,6 +471,7 @@ AI:
   - ಆಂಗುಯಿಲ್ಲಾ
   - ແອນກຸຍລາ
   - Anguílla
+  - ANGUILIA
   - Ангвила
   - Anguillab
   - Ангила
@@ -3699,11 +3713,17 @@ CA:
   - Canadà
   - Kanada
   - Kanadà
+  - QUEBEC, CANADA
+  - ONTARIO, CANADA
+  - ALBERTA, CANADA
+  - BRITISH COLUMBIA, CANADA
+  - NEW BRUNSWICK, CANADA
   - Orílẹ́ède Kánádà
   - कनाडा
   - Kanadäa
   - Кана́да
   - Καναδάς
+  - NOVA SCOTIA, CANADA
   - கனடா
   - קאַנאַדע
   - ಕೆನಡಾ
@@ -4269,6 +4289,7 @@ CH:
   - Švica
   - Švicarska
   - CHE
+  - SWITERLAND
   - Suisse
   - ꖬꔃꕤ ꖨꕮꕊ
   - स्वित्झर्लंड
@@ -5793,6 +5814,7 @@ DE:
   - Alemani
   - ꕧꕮꔧ
   - Hamburg
+  - GREMANY
   - ⴰⵍⵎⴰⵏⵢⴰ
   - ജർമനി
   - Nemecko
@@ -6999,6 +7021,7 @@ ES:
   - ئىسپانىيە
   - ئیسپانیا
   - Sbanya
+  - TENERIFE
   - Espaŋiya
   - Hisipaniya
   - Spain
@@ -7222,6 +7245,7 @@ ET:
 EU:
   - European Union
   - Europäische Union
+  - THE EUROPEAN UNION
   - EU27
   - EU28
 FI:
@@ -8017,7 +8041,7 @@ GB:
   - യുണൈറ്റഡ് കിംഗ്ഡം
   - එක්සත් රාජධානිය
   - Reinu Xuníu
-  - RU
+  - THE BRITISH ISLANDS
   - Бирлашган Қироллик
   - Birtaniya
   - Стыр Британи
@@ -8075,7 +8099,6 @@ GB:
   - Royaume  -Uni
   - Jruußbrettannije
   - Y Deyrnas Unedig
-  - R. U.
   - እንግሊዝ
   - Zjednoćene kralestwo
   - Orílɛ́ède Omobabirin
@@ -8178,6 +8201,7 @@ GD:
   - گریناڈا
   - გრენადა
   - Gilenada
+  - STATE OF GRENADA
   - Grenada nutome
   - Kelenatā
   - גרענאַדאַ
@@ -8517,6 +8541,7 @@ GG:
   - Гурнси
   - Gwernenez
   - Guernesey
+  - ALDERNEY
   - ᎬᏂᏏ
   - Geàrnsaidh
   - గ్వేర్నసే
@@ -8890,6 +8915,7 @@ GM:
   - Republic of the Gambia
   - Gambiab
   - Gambia
+  - THE GAMBIA
   - แกมเบีย
   - Gambía
   - Gambie
@@ -10569,6 +10595,13 @@ ID:
 IE:
   - Irerandi
   - Irilandi
+  - IRELEND
+  - THE REPUBLI C OF IRELAND
+  - THE REPUBLIC OF IRELAND
+  - REPUBLIC OF IRELAND
+  - IRISH REPUBLIC
+  - REPULBIC OF IRELAND
+  - IRELANND
   - Ayalan
   - Ayalandi
   - අයර්ලන්තය
@@ -10792,6 +10825,7 @@ IM:
   - IOM
   - ཨ་ཡུལ་ ཨོཕ་ མཱན
   - Insula Man
+  - ILSE OF MAN
   - Mani saar
   - Isla de Man
   - Otok Man
@@ -11399,6 +11433,7 @@ IT:
   - Իտալիա
   - L  -Italja
   - Itālija
+  - ITLAY
   - ꔤꕚꔷ
   - An Iodáil
   - Italië
@@ -11537,6 +11572,7 @@ JE:
   - Deàrsaidh
   - جٔرسی
   - Jersey
+  - JARSEY
   - Cersi
   - Востраў Джэрсі
   - Jööseh
@@ -12390,6 +12426,7 @@ KN:
   - सेंट किट्स और नेविस
   - Сент  -Киттс ба Невис
   - St. Kitts en Nevis
+  - ST KITTS AND NEVIS
   - Sentkitsa un Nevisa
   - Saint Kitts i Nevis
   - Saint Kitts ne Nɛves
@@ -12667,6 +12704,7 @@ KR:
   - جنوٗبی کورِیا
   - Söd  -Koreja
   - Korea Kusini
+  - THE REPUBLIC OF KOREA
   - Koreya Amashuuma
   - Koreab, Suid
   - Lakore  -disid
@@ -13596,6 +13634,7 @@ LR:
   - Laybeeriya
   - ລິເບີເຣຍ
   - Liberia nutome
+  - THE REPUBLIC OF LIBE RIA
   - ലൈബീരിയ
   - LBR
   - Orílɛ́ède Laberia
@@ -14083,6 +14122,7 @@ LY:
   - Lebìa
   - Libja
   - Emetab Libya
+  - THE SOCIALIST PEOPLE'S LIBYAN ARAB JAMAHIRIYA
   - ลิเบีย
   - Lĩbia
   - Li  -bi
@@ -15164,6 +15204,7 @@ MN:
   - مَنٛگولِیا
   - i  -Mongolia
 MO:
+  - MACAU
   - Makau SAR Siaina
   - Makau SAR China
   - MACAU, REPUBLIC OF CHINA
@@ -15767,6 +15808,7 @@ MU:
   - ማሩሸስ
   - Mawrizju
   - Republic of Mauritius
+  - REPUBLIC OF MARITIUS
   - Mɔrehyeɔs
   - Маврикий
   - Mauricio
@@ -16166,6 +16208,10 @@ MX:
 MY:
   - Малайз
   - Malasia
+  - LABUAN, MALAYSIA
+  - LABUA
+  - MALAYASIA
+  - KUALA LUMPUR
   - MELAKA
   - མ་ལེ་ཤི་ཡ།
   - Orílɛ́ède Malasia
@@ -16967,6 +17013,8 @@ NI:
   - Nicaragua
   - Orílẹ́ède NIkaragua
 NL:
+  - Netherlands
+  - Holland
   - Țările de Jos
   - Netherlands nutome
   - هالېنډ
@@ -16978,6 +17026,10 @@ NL:
   - Países Bajos
   - Nederland
   - Nederlando
+  - DUTCH ANTILLES
+  - WEST-BRABANT
+  - BREDA
+  - Netherlands Antilles
   - הולנד
   - ნიდერლანდები
   - Paesi Bassi
@@ -17360,7 +17412,11 @@ NR:
   - Naorò
 NU:
   - Niuɛ
+  - THE ISLAND OF NIUE
+  - THE NIUE
   - i  -Niue
+  - NUIE
+  - NIUE ISLAND
   - Niue nutome
   - ನಿಯು
   - नियुइ
@@ -17640,6 +17696,7 @@ PA:
   - Hupanama
   - פּאַנאַמאַ
   - Panamo
+  - PAMANA
   - Upanama
   - 巴拿馬
   - Emetab Panama
@@ -18879,6 +18936,7 @@ PT:
   - Portugali
   - Portugall
   - PRT
+  - MADEIRA
   - Партугалія
   - Potogo
   - Portuguese Republic
@@ -19965,6 +20023,8 @@ SC:
   - Seszele
   - Seychelle  -szigetek
   - Sishelis
+  - REPUBLIC OF SEYCHELLE
+  - REPUBLIC OF SEYCHELLES
   - سېيشېل
   - Seischälle
   - 塞舌尔
@@ -22236,6 +22296,7 @@ TH:
   - THA
   - Tairandi
   - Thailanda
+  - CHONBURI
   - Taizeme
   - Taylànd
   - Tayilanda
@@ -22903,6 +22964,9 @@ TR:
   - ตุรกี
   - Turquie
   - Turquia
+  - TURKISH REPUBLIC OF NORTH
+  - NORTH CYPRUS
+  - THE TURKISH REPUBLIC
   - Түркия
   - టర్కీ
   - Турска
@@ -23672,6 +23736,48 @@ US:
   - សហរដ្ឋអាមេរិក
   - Usono
   - WDM
+  - AMERICA
+  - DELAWARE, U.S.A.
+  - ARIZONA, U.S.A.
+  - NORTH CAROLINA, U.S.A.
+  - SOUTH CAROLINA, U.S.A.
+  - NEW JERSEY, U.S.A.
+  - CALIFORNIA, U.S.A.
+  - TEXAS, U.S.A.
+  - HAWAII, U.S.A.
+  - NEW JERSEY, U.S.A.
+  - NEVADA, U.S.A.
+  - SOUTH DAKOTA, U.S.A.
+  - MISSOURI, U.S.A.
+  - MAINE, U.S.A.
+  - ALASKA, U.S.A.
+  - WASHINGTON, U.S.A.
+  - MASSACHUSETTS, U.S.A.
+  - MINNESOTA, U.S.A.
+  - PENNSYLVANIA, U.S.A.
+  - TENNESSEE, U.S.A.
+  - MARYLAND, U.S.A.
+  - WYOMING, U.S.A.
+  - OKLAHOMA, U.S.A.
+  - MICHIGAN, U.S.A.
+  - NEW YORK, U.S.A.
+  - LOUISIANA, U.S.A.
+  - GEORGIA, U.S.A.
+  - OHIO, U.S.A.
+  - FLORIDA, U.S.A.
+  - RHODE ISLAND, U.S.A.
+  - ILLINOIS, U.S.A.
+  - WISCONSIN, U.S.A.
+  - VIRGINIA, U.S.A.
+  - UTAH, U.S.A.
+  - KANSAS, U.S.A.
+  - OREGON, U.S.A.
+  - VERMONT, U.S.A.
+  - MISSOURI, U.S.A.
+  - NEW MEXICO, U.S.A.
+  - CONNECTICUT, U.S.A.
+  - COLORADO, U.S.A.
+  - IOWA, U.S.A.
   - Ameriketako Estatu Batuak
   - ສະຫະລັດ
   - Stadis Unids da l’America
@@ -24379,6 +24485,7 @@ VG:
   - i  -British Virgin Islands
   - Bìòn bi kɔnji bi Ŋgisì
   - Britiši Virgin gungey
+  - THE VIRGIN ISLANDS
   - Chisiwa Chivihi cha Wingalesa
   - ಬ್ರಿಟಿಷ್ ವರ್ಜಿನ್ ದ್ವೀಪಗಳು
   - Isulis vergjinis britanichis
@@ -24959,6 +25066,7 @@ WS:
   - 薩摩亞
   - Σαμόα
   - Husamoa
+  - WESTERN SAMOA
   - సమోవా
   - ซามัว
   - ساموئا
@@ -24969,6 +25077,7 @@ WS:
   - ସାମୋଆ
   - Samóoa
   - Szamoa
+  - SAMAO
   - Samó
   - სამოა
   - סאַמאאַ

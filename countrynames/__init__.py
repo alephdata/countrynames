@@ -64,6 +64,8 @@ def to_code(country_name):
 
     # Lookup
     code = COUNTRY_NAMES.get(name)
+    if code == 'FAIL':
+        return None
     if code is None:
         log.info("Unknown country name: %s (searched: %s)", country_name, name)
     return code
