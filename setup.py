@@ -32,6 +32,7 @@ setup(
     install_requires=[
         'normality',
         'unidecode',
+        'python-Levenshtein',
         'pyyaml',
         'six'
     ],

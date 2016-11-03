@@ -2,6 +2,7 @@ import six
 import os
 import yaml
 import logging
+import Levenshtein
 from unicodedata import normalize, category
 
 log = logging.getLogger(__name__)
@@ -48,6 +49,21 @@ def _load_data():
                 COUNTRY_NAMES[_normalize_name(name)] = code
 
 
+def _fuzzy_search(name):
+    matches = set()
+    for cand, code in COUNTRY_NAMES.items():
+        if len(cand) <= 4:
+            continue
+        if cand in name:
+            matches.add(code)
+        elif Levenshtein.distance(name, cand) <= 2:
+            matches.add(code)
+    if len(matches) == 1:
+        for match in matches:
+            log.debug("Guessing country: %s -> %s", name, match)
+            return match
+
+
 def to_code(country_name):
     """Given a human name for a country, return its ISO two-digit code."""
     # Lazy load country list
@@ -64,8 +80,10 @@ def to_code(country_name):
 
     # Lookup
     code = COUNTRY_NAMES.get(name)
+    if code is None:
+        code = _fuzzy_search(name)
     if code == 'FAIL':
         return None
     if code is None:
-        log.info("Unknown country name: %s (searched: %s)", country_name, name)
+        log.info("Unknown country: %s (searched: %s)", country_name, name)
     return code
