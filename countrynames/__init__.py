@@ -61,7 +61,6 @@ def _fuzzy_search(name):
     if len(matches) == 1:
         for match in matches:
             log.debug("Guessing country: %s -> %s", name, match)
-            COUNTRY_NAMES[name] = match
             return match
 
 
@@ -83,8 +82,10 @@ def to_code(country_name):
     code = COUNTRY_NAMES.get(name)
     if code is None:
         code = _fuzzy_search(name)
+        COUNTRY_NAMES[name] = code
     if code == 'FAIL':
         return None
     if code is None:
         log.info("Unknown country: %s (searched: %s)", country_name, name)
+        COUNTRY_NAMES[name] = code
     return code
