@@ -33,6 +33,7 @@ setup(
         'normality',
         'unidecode',
         'python-Levenshtein',
+        'pycountry',
         'pyyaml',
         'six'
     ],

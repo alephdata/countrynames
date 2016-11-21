@@ -4,12 +4,15 @@ FAIL:
   - THE WEST INDIES
   - THE CHENNAL ISLES
   - Other
+  - undetermined
   - Africa
   - N/A
   - unknown
 
 YUCS:
   - YUGOSLAVIA
+  - YU
+  - YUG
 
 CSXX:
   - SERBIA AND MONTENEGRO
@@ -253,6 +256,7 @@ AE:
 AF:
   - Авганистан
   - Afganistaŋ
+  - Afgan
   - अफगानिस्तान
   - أفغانستان
   - আফগানিস্তান
@@ -3955,6 +3959,7 @@ CD:
   - کۆنگۆ کینشاسا
   - Конго (Киншаса)
   - DR Congo
+  - DRC
   - ကွန်ဂို  -ကင်ရှာစ
   - කොංගො   - කින්ශාසා
   - i  -Congo   - Kinshasa
@@ -8104,6 +8109,9 @@ GA:
   - གེ་བཽན།
 GB:
   - U K
+  - GB-NIR
+  - GB-SCT
+  - GB-WLS
   - Lielbritānija
   - Bretland
   - Scotland
@@ -8646,6 +8654,7 @@ GG:
   - Гурнси
   - Gwernenez
   - Guernesey
+  - GG-ALD
   - ALDERNEY
   - ᎬᏂᏏ
   - Geàrnsaidh
@@ -11277,6 +11286,7 @@ IQ:
   - 伊拉克
   - ອີຣັກ
   - Ìrâk
+  - Iraq
   - Iraqi
   - Yiraaka
   - Iraaka
@@ -12670,7 +12680,9 @@ KN:
   - Sántu krístofe mpé Nevɛ̀s
   - ಸೇಂಟ್ ಕಿಟ್ಸ್ ಮತ್ತು ನೆವಿಸ್
 KP:
-  - Coréia do Norte
+  - Coréia do Norte\
+  - North Korean
+  - DPR Korea
   - Къилбаседа Корей
   - Түндүк Корея
   - ਉੱਤਰੀ ਕੋਰੀਆ
@@ -15102,6 +15114,7 @@ ML:
   - မာလီ
   - ማሊ
   - Mali nutome
+  - Malian
   - მალი
   - ម៉ាលី
   - Orílɛ́ède Mali
@@ -18949,6 +18962,8 @@ PS:
   - పాలస్తీనియన్ ప్రాంతాలు
   - Palesztin Terület
   - Palestina
+  - Palestinian territory
+  - West Bank
   - PALESTINE
   - zǝ palɛstínǝ
   - فَلَستیٖن
@@ -19851,6 +19866,7 @@ RW:
   - ຣວັນດາ
   - Ruande
   - Rwanda
+  - Rwandan
   - Ruanda
   - Emetab Rwanda
   - Rwáanda
@@ -20410,6 +20426,7 @@ SE:
   - Orílẹ́ède Swidini
   - Suécia
   - Svezia
+  - Sweden
   - Kingdom of Sweden
   - Swedish
   - Швеция
@@ -21226,6 +21243,7 @@ SM:
   - San  -Marino
 SN:
   - Senegalas
+  - Senegal
   - Ssiniɣal
   - Senegalese
   - Sinigaha
@@ -21303,6 +21321,7 @@ SN:
   - Senegali
   - Σενεγάλη
 SO:
+  - X-SO
   - Somālija
   - سومالی
   - სომალი
@@ -21712,6 +21731,7 @@ SV:
   - السالوادور
   - Эль Сальвадор
   - Salvadoras
+  - El salvador
   - Elsavado
   - 엘살바도르
   - Salwador
@@ -23653,6 +23673,7 @@ TZ:
 UA:
   - Ʉkɨréeni
   - Украйн
+  - Ukraine
   - អ៊ុយក្រែន
   - Yukileini
   - ယူကရိန်း
@@ -24639,6 +24660,7 @@ VC:
   - Сент  -Винсент жана Гренадиналар
   - សាំង​វីនសេន និង​ឌឹ​ហ្គ្រីណាឌីនីស
 VE:
+  - Venezuela
   - Emetab Venezuela
   - Vǝnǝzuela
   - Venezuelan
@@ -25029,6 +25051,7 @@ VI:
   - Амерыканскія Віргінскія астравы
 VN:
   - Vyeṭnam
+  - Viet nam
   - Sǝr Vietnam
   - Vietnamese
   - Wiyetnaam
