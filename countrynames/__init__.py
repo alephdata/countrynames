@@ -3,6 +3,7 @@ import os
 import yaml
 import logging
 import Levenshtein
+from pycountry import countries
 from unicodedata import normalize, category
 
 log = logging.getLogger(__name__)
@@ -89,3 +90,39 @@ def to_code(country_name):
         log.info("Unknown country: %s (searched: %s)", country_name, name)
         COUNTRY_NAMES[name] = code
     return code
+
+
+def to_alpha_3(country_name):
+    """Given a human name for a country, return its ISO three-digit code"""
+    try:
+        return countries.get(alpha_2=to_code(country_name)).alpha_3
+    except LookupError:
+        return None
+
+
+def to_name(country_name):
+    """Given a human name for a country, return its short name"""
+    try:
+        return countries.get(alpha_2=to_code(country_name)).name
+    except LookupError:
+        return None
+
+
+def to_official_name(country_name):
+    """Given a human name for a country, return its full official name"""
+    try:
+        country = countries.get(alpha_2=to_code(country_name))
+        if hasattr(country, "official_name"):
+            return country.official_name
+        else:
+            return country.name
+    except LookupError:
+        return None
+
+
+def to_numeric(country_name):
+    """Given a human name for a country, return its numeric code as a string"""
+    try:
+        return countries.get(alpha_2=to_code(country_name)).numeric
+    except LookupError:
+        return None
