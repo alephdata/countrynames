@@ -88,7 +88,7 @@ def to_code(country_name):
         return None
     if code is None:
         log.info("Unknown country: %s (searched: %s)", country_name, name)
-        COUNTRY_NAMES[name] = code
+        COUNTRY_NAMES[name] = 'FAIL'
     return code
 
 
