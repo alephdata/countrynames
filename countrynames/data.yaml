@@ -23,27 +23,28 @@ SUHH:
   - USSR
   - UdSSR
 
-GEAB:
+GE-AB:
+  - GEAB
   - Abkhazia
 
-XSO:
+X-SO:
   - South Ossetia
 
-SOSOM:
-  - SO-SOM
+SO-SOM:
+  - SOSOM
   - Somaliland
 
-GBWLS:
-  - GB-WLS
+GB-WLS:
+  - GBWLS
   - Wales
 
-GBSCT:
-  - GB-SCT
+GB-SCT:
+  - GBSCT
   - Scotland
 
-MDPMR:
+MD-PMR:
   - Transnistria
-  - MD-PMR
+  - MDPMR
 
 AD:
   - Andɔr
