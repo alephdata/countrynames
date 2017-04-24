@@ -65,7 +65,7 @@ def _fuzzy_search(name):
             return match
 
 
-def to_code(country_name):
+def to_code(country_name, fuzzy=True, warn=True):
     """Given a human name for a country, return its ISO two-digit code."""
     # Lazy load country list
     if not len(COUNTRY_NAMES):
@@ -81,12 +81,12 @@ def to_code(country_name):
 
     # Lookup
     code = COUNTRY_NAMES.get(name)
-    if code is None:
+    if fuzzy and code is None:
         code = _fuzzy_search(name)
         COUNTRY_NAMES[name] = code
     if code == 'FAIL':
         return None
-    if code is None:
+    if warn and code is None:
         log.info("Unknown country: %s (searched: %s)", country_name, name)
         COUNTRY_NAMES[name] = 'FAIL'
     return code

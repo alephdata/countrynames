@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='countrynames',
-    version='1.1.2',
+    version='1.2',
     description="A library to map country names to ISO codes.",
     long_description="",
     classifiers=[
