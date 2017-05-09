@@ -1,43 +1,20 @@
-import six
 import os
 import yaml
 import logging
 import Levenshtein
+from normality import normalize
 from pycountry import countries
-from unicodedata import normalize, category
 
 log = logging.getLogger(__name__)
+
 __all__ = ['to_code']
 
-# Unicode character classes, see:
-# http://www.fileformat.info/info/unicode/category/index.htm
-CATEGORIES = {
-    'C': None,
-    'M': None,
-    'Z': ' ',
-    'P': None,
-    'S': ' '
-}
 COUNTRY_NAMES = {}
 
 
 def _normalize_name(country):
     """Clean up a country name before comparison."""
-    if country is None:
-        return
-    if not isinstance(country, six.text_type):
-        country = six.text_type(country)
-    word = []
-    for character in normalize('NFKD', country.lower()):
-        cat = category(character)[0]
-        character = CATEGORIES.get(cat, character)
-        if character is None:
-            continue
-        word.append(character)
-    words = [w for w in ''.join(word).split(' ') if len(w)]
-    text = ' '.join(sorted(set(words)))
-    if len(text):
-        return text
+    return normalize(country, latinize=True)
 
 
 def _load_data():
@@ -65,7 +42,7 @@ def _fuzzy_search(name):
             return match
 
 
-def to_code(country_name, fuzzy=True, warn=True):
+def to_code(country_name, fuzzy=True):
     """Given a human name for a country, return its ISO two-digit code."""
     # Lazy load country list
     if not len(COUNTRY_NAMES):
@@ -81,14 +58,11 @@ def to_code(country_name, fuzzy=True, warn=True):
 
     # Lookup
     code = COUNTRY_NAMES.get(name)
-    if fuzzy and code is None:
-        code = _fuzzy_search(name)
-        COUNTRY_NAMES[name] = code
     if code == 'FAIL':
         return None
-    if warn and code is None:
-        log.info("Unknown country: %s (searched: %s)", country_name, name)
-        COUNTRY_NAMES[name] = 'FAIL'
+
+    if code is None and fuzzy is True:
+            code = _fuzzy_search(name)
     return code
 
 

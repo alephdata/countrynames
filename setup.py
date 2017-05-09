@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='countrynames',
-    version='1.2',
+    version='1.3',
     description="A library to map country names to ISO codes.",
     long_description="",
     classifiers=[
@@ -31,7 +31,6 @@ setup(
     test_suite='nose.collector',
     install_requires=[
         'normality',
-        'unidecode',
         'python-Levenshtein',
         'pycountry',
         'pyyaml',
