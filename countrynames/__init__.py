@@ -1,4 +1,5 @@
 import os
+import six
 import yaml
 import logging
 import Levenshtein
@@ -14,7 +15,8 @@ COUNTRY_NAMES = {}
 
 def _normalize_name(country):
     """Clean up a country name before comparison."""
-    return normalize(country, latinize=True)
+    norm = normalize(country, latinize=True)
+    return six.text_type(norm)
 
 
 def _load_data():
@@ -23,6 +25,7 @@ def _load_data():
     with open(data_file, 'r') as fh:
         for code, names in yaml.load(fh).items():
             code = code.strip().upper()
+            COUNTRY_NAMES[_normalize_name(code)] = code
             for name in names:
                 COUNTRY_NAMES[_normalize_name(name)] = code
 
@@ -47,22 +50,27 @@ def to_code(country_name, fuzzy=True):
     # Lazy load country list
     if not len(COUNTRY_NAMES):
         _load_data()
+
+    # shortcut before costly ICU stuff
+    if isinstance(country_name, six.text_type):
+        country_name = country_name.upper().strip()
+        # Check if the input is actually an ISO code:
+        if country_name in COUNTRY_NAMES.values():
+            return country_name
+
+    # Transliterate and clean up
     name = _normalize_name(country_name)
     if name is None:
         return
 
-    # Check if the input is actually an ISO code:
-    upper = country_name.upper()
-    if upper in COUNTRY_NAMES.values():
-        return upper
-
-    # Lookup
+    # Direct look up
     code = COUNTRY_NAMES.get(name)
     if code == 'FAIL':
         return None
 
+    # Find closest match with spelling mistakes
     if code is None and fuzzy is True:
-            code = _fuzzy_search(name)
+        code = _fuzzy_search(name)
     return code
 
 
