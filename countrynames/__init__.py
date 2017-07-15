@@ -5,6 +5,11 @@ import logging
 import Levenshtein
 from normality import normalize
 from pycountry import countries
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loader
+
 
 log = logging.getLogger(__name__)
 
@@ -23,7 +28,7 @@ def _load_data():
     """Load known aliases from a YAML file. Internal."""
     data_file = os.path.join(os.path.dirname(__file__), 'data.yaml')
     with open(data_file, 'r') as fh:
-        for code, names in yaml.load(fh).items():
+        for code, names in yaml.load(fh, Loader=Loader).items():
             code = code.strip().upper()
             COUNTRY_NAMES[_normalize_name(code)] = code
             for name in names:
