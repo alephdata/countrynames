@@ -8,6 +8,8 @@ tests = [
     u'Российская Федерация',
     'Rossiyskaya Federatsiya',
     'Tgermany',
+    'European Union',
+    'Kosovo',
     None
 ]
 

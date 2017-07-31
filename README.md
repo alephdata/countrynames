@@ -19,10 +19,10 @@ assert 'DEU' == countrynames.to_alpha_3('Germany')
 assert '004' == countrynames.to_numeric('Afghanistan')
 ```
 
-## Non-standard countries
+## Non-standard country codes
 
-* ``XK`` - Kosovo
-* ``EU`` - European Union
+* ``XK`` or ``XKX`` - Kosovo
+* ``EU`` or ``EUU`` - European Union
 
 ## License
 

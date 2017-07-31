@@ -91,8 +91,13 @@ def to_alpha_3(country_name, fuzzy=False):
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
     """
     try:
-        return countries.get(alpha_2=to_code(country_name,
-                                             fuzzy=fuzzy)).alpha_3
+        code = to_code(country_name, fuzzy=fuzzy)
+        if code == "EU":  # European Union
+            return "EUU"
+        elif code == "XK":  # Kosovo
+            return "XKX"
+        else:
+            return countries.get(alpha_2=code).alpha_3
     except LookupError:
         return None
 
