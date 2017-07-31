@@ -52,7 +52,11 @@ def _fuzzy_search(name):
 
 
 def to_code(country_name, fuzzy=False):
-    """Given a human name for a country, return its ISO two-digit code."""
+    """Given a human name for a country, return its ISO two-digit code.
+
+    Arguments:
+        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
+    """
     # Lazy load country list
     if not len(COUNTRY_NAMES):
         _load_data()
@@ -81,7 +85,11 @@ def to_code(country_name, fuzzy=False):
 
 
 def to_alpha_3(country_name, fuzzy=False):
-    """Given a human name for a country, return its ISO three-digit code"""
+    """Given a human name for a country, return its ISO three-digit code.
+
+    Arguments:
+        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
+    """
     try:
         return countries.get(alpha_2=to_code(country_name,
                                              fuzzy=fuzzy)).alpha_3
@@ -90,7 +98,11 @@ def to_alpha_3(country_name, fuzzy=False):
 
 
 def to_name(country_name, fuzzy=False):
-    """Given a human name for a country, return its short name"""
+    """Given a human name for a country, return its short name.
+
+    Arguments:
+        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
+    """
     try:
         return countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy)).name
     except LookupError:
@@ -98,7 +110,7 @@ def to_name(country_name, fuzzy=False):
 
 
 def to_official_name(country_name, fuzzy=False):
-    """Given a human name for a country, return its full official name"""
+    """Given a human name for a country, return its full official name."""
     try:
         country = countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy))
         if hasattr(country, "official_name"):
@@ -110,7 +122,11 @@ def to_official_name(country_name, fuzzy=False):
 
 
 def to_numeric(country_name, fuzzy=False):
-    """Given a human name for a country, return its numeric code as a string"""
+    """Given a human name for a country, return its numeric code as a string.
+
+    Arguments:
+        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
+    """
     try:
         return countries.get(alpha_2=to_code(country_name,
                                              fuzzy=fuzzy)).numeric
