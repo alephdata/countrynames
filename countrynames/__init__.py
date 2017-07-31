@@ -51,7 +51,7 @@ def _fuzzy_search(name):
             return match
 
 
-def to_code(country_name, fuzzy=True):
+def to_code(country_name, fuzzy=False):
     """Given a human name for a country, return its ISO two-digit code."""
     # Lazy load country list
     if not len(COUNTRY_NAMES):
@@ -80,7 +80,7 @@ def to_code(country_name, fuzzy=True):
     return code
 
 
-def to_alpha_3(country_name, fuzzy=True):
+def to_alpha_3(country_name, fuzzy=False):
     """Given a human name for a country, return its ISO three-digit code"""
     try:
         return countries.get(alpha_2=to_code(country_name,
@@ -89,7 +89,7 @@ def to_alpha_3(country_name, fuzzy=True):
         return None
 
 
-def to_name(country_name, fuzzy=True):
+def to_name(country_name, fuzzy=False):
     """Given a human name for a country, return its short name"""
     try:
         return countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy)).name
@@ -97,7 +97,7 @@ def to_name(country_name, fuzzy=True):
         return None
 
 
-def to_official_name(country_name, fuzzy=True):
+def to_official_name(country_name, fuzzy=False):
     """Given a human name for a country, return its full official name"""
     try:
         country = countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy))
@@ -109,7 +109,7 @@ def to_official_name(country_name, fuzzy=True):
         return None
 
 
-def to_numeric(country_name, fuzzy=True):
+def to_numeric(country_name, fuzzy=False):
     """Given a human name for a country, return its numeric code as a string"""
     try:
         return countries.get(alpha_2=to_code(country_name,
