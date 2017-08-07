@@ -37,18 +37,20 @@ def _load_data():
 
 
 def _fuzzy_search(name):
-    matches = set()
+    matches = []
     for cand, code in COUNTRY_NAMES.items():
         if len(cand) <= 4:
             continue
+        distance = Levenshtein.distance(name, cand)
         if cand in name:
-            matches.add(code)
+            matches.append((code, distance))
         elif Levenshtein.distance(name, cand) <= 2:
-            matches.add(code)
-    if len(matches) == 1:
-        for match in matches:
-            log.debug("Guessing country: %s -> %s", name, match)
-            return match
+            matches.append((code, distance))
+    matches = sorted(matches, key=lambda x: x[1])
+    if len(matches) > 0:
+        match = matches[0][0]
+        log.debug("Guessing country: %s -> %s", name, match)
+        return match
 
 
 def to_code(country_name, fuzzy=False):
