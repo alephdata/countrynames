@@ -31,3 +31,15 @@ def test_non_standard_codes():
     assert to_alpha_3("European Union") == "EUU"
     assert to_code("Kosovo") == "XK"
     assert to_alpha_3("Kosovo") == "XKX"
+
+
+def test_GB():
+    assert to_code("Scotland") == "GB-SCT"
+    assert to_code("Wales") == "GB-WLS"
+    assert to_code("Northern Ireland") == "GB-NIR"
+    assert to_code("Northern Ireland", fuzzy=True) == "GB-NIR"
+    assert to_code(
+        "United Kingdom of Great Britain and Northern Ireland") == "GB"
+    assert to_code(
+        "United Kingdom of Great Britain and Northern Ireland",
+        fuzzy=True) == "GB"

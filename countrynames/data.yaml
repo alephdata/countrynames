@@ -43,12 +43,21 @@ SO-SOM:
   - Somaliland
 
 GB-WLS:
-  - GBWLS
   - Wales
+  - GBWLS
 
 GB-SCT:
-  - GBSCT
   - Scotland
+  - GBSCT
+  - Scotish
+
+GB-NIR:
+  - Northern Ireland
+  - N Irish
+  - Northern Irish
+  - North Ireland
+  - N.Ireland
+  - GBNIR
 
 MD-PMR:
   - Transnistria
@@ -8139,25 +8148,19 @@ GA:
 GB:
   - U K
   - GB-NIR
-  - GB-SCT
-  - GB-WLS
   - Lielbritānija
   - Bretland
-  - Scotland
   - British
   - Gibralter
   - Britsh
   - Brish
   - Britsh
   - Brittish
-  - Scotish
   - Btitish
-  - N Irish
   - Cornwall
   - Engalnd
   - U K
   - British English
-  - N.Ireland
   - Ukengland
   - United Kindgom
   - United Kindgdom
@@ -8173,7 +8176,6 @@ GB:
   - United Kingdon
   - English
   - British Citizen
-  - Northern Irish
   - Regno Unito
   - დიდი ბრიტანეთი
   - যুক্তরাজ্য
@@ -8218,7 +8220,6 @@ GB:
   - युनायटेड किंगडम
   - Sǝr Anglofoŋ
   - GBR
-  - North Ireland
   - Angeletele
   - ᎩᎵᏏᏲ
   - Bungereza
@@ -8253,7 +8254,6 @@ GB:
   - ចក្រភព​អង់គ្លេស
   - Grossbritannien
   - Egyesült Királyság
-  - Wales
   - Uwingelesa
   - बेलायत
   - Birlashgan Qirollik
@@ -8312,7 +8312,6 @@ GB:
   - Uingereza
   - Àdnà i Lɔ̂ŋ
   - Улуу Британия
-  - Northern Ireland
   - Angɛlɛtɛ́lɛ
   - An Rìoghachd Aonaichte
   - Verenigde Koninkryk
