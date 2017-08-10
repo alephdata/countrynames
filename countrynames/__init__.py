@@ -98,7 +98,7 @@ def to_alpha_3(country_name, fuzzy=False):
             return "EUU"
         elif code == "XK":  # Kosovo
             return "XKX"
-        elif len(code) > 3:
+        elif code and len(code) > 3:
             return code
         else:
             return countries.get(alpha_2=code).alpha_3
