@@ -24,8 +24,8 @@ assert '004' == countrynames.to_numeric('Afghanistan')
 * ``XK`` or ``XKX`` - Kosovo
 * ``EU`` or ``EUU`` - European Union
 
-For some dissolved countries (e.g. SUHH for Soviet Union) and sub-regions
-(e.g. GB-SCT for Scotland) special codes are defined and returned from both
+For some dissolved countries (e.g. `SUHH` for Soviet Union) and sub-regions
+(e.g. `GB-SCT` for Scotland) special codes are defined and returned from both
 `to_code` and `to_alpha_3`.
 
 ## License
