@@ -12,6 +12,7 @@ FAIL:
 
 YUCS:
   - YUGOSLAVIA
+  - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
   - YU
   - YUG
 
@@ -26,10 +27,22 @@ SUHH:
 
 ANHH:
   - De Nederlandske Antiller
-  - NETHERLANDS ANTILLES
+  - NETHERLAND ANTILLES
   - Netherlands Antilles
   - DUTCH ANTILLES
   - Antilles yr Iseldiroedd
+
+CSHH:
+  - CZECHOSLOVAKIA
+
+DDDE:
+  - DDR
+  - German Democratic Republic
+  - FORMER GERMAN DEMOCRATIC REPUBLIC
+
+VDVN:
+  - Viet-Nam, Democratic Republic of
+  - DEMOCRATIC REPUBLIC OF VIETNAM
 
 GE-AB:
   - GEAB
@@ -3016,6 +3029,7 @@ BQ:
   - برطانوی قُطبہِ جَنوٗبی علاقہٕ
   - కరీబియన్ నెదర్లాండ్స్
   - Bonaire, Sint Eustatius and Saba
+  - BONAIRE, SAINT EUSTATIUS, AND SABA
   - Кариб Нидерландияси
   - क्यारिवियन नेदरल्याण्ड्स
   - Karibiska Nederländerna
@@ -4020,6 +4034,7 @@ CD:
   - Kongo   - Kinshasa
   - Republiche Democratiche dal Congo
   - Democratic Republic Of Congo
+  - DEMOCRATIC REPUBLIC OF THE CONGO (FORMERLY ZAIRE)
   - Kongo Kinshasa nutome
   - Republica Democratica dal Congo
   - Конго  -Киншаса
@@ -4994,6 +5009,7 @@ CN:
   - Kinë
   - CHN
   - People's Republic of China
+  - CHINA (MAINLAND)
   - כינע
   - ຈີນ
   - چین
@@ -7836,6 +7852,7 @@ FO:
   - Farer orollari
   - ഫറോ ദ്വീപുകൾ
   - Isulis Faroe
+  - FAEROE ISLANDS
   - Færøerne
   - Fearsullot
   - Färöarna
@@ -10010,6 +10027,7 @@ HK:
   - Hongkong SAR van Sina
   - Hongkong
   - China, Hong Kong Special Administrative Region
+  - HONG KONG SPECIAL ADMINSTRATIVE REGION OF CHINA
   - Hongkongi erihalduspiirkond
   - ሆንግ ኮንግ
   - ᎰᏂᎩ ᎪᏂᎩ
@@ -14308,6 +14326,7 @@ LY:
   - Libja
   - Emetab Libya
   - THE SOCIALIST PEOPLE'S LIBYAN ARAB JAMAHIRIYA
+  - LIBYAN ARAB JAMAHIRIYAH
   - ลิเบีย
   - Lĩbia
   - Li  -bi
@@ -15213,6 +15232,7 @@ MM:
   - Mjanmarsko
   - Myama
   - Myanmar (Burma) nutome
+  - MYANMAR (FORMERLY BURMA)
   - MYANMAR (MYANMA NAINGNGANDAW )
   - Miyamaha
   - Humyama
@@ -15397,6 +15417,7 @@ MN:
   - i  -Mongolia
 MO:
   - MACAU
+  - MACAU SPECIAL ADMINSTRATIVE REGION OF CHINA
   - China, Macao Special Administrative Region
   - Makau SAR Siaina
   - Makau SAR China
@@ -18997,6 +19018,7 @@ PS:
   - Palestinian territory
   - West Bank
   - PALESTINE
+  - OCCUPIED PALESTINIAN TERRITORY
   - zǝ palɛstínǝ
   - فَلَستیٖن
   - Territori Palestinais
@@ -19255,6 +19277,7 @@ PW:
   - پَلاو
   - પલાઉ
   - Palau
+  - PACIFIC ISLANDS (PALAU)
   - balaw
   - Палау
   - Paláau
@@ -20390,6 +20413,7 @@ SD:
   - Sudanese
   - Sudanas
   - Republic of the Sudan
+  - REPUBLIC OF SUDAN
   - სუდანი
   - Սուդան
   - ସୁଦାନ୍
@@ -21906,6 +21930,7 @@ SX:
   - סנט מארטן
   - Sintmārtena
   - Sint Maarten (Dutch part)
+  - SAINT MARTIN (DUTCH PORTION)
   - સિંટ માર્ટેન
   - Saint  -Martin (partie néerlandaise)
   - ಸಿಂಟ್ ಮಾರ್ಟೆನ್
@@ -22925,6 +22950,7 @@ TL:
   - Kɔrɔn Timɔr
   - Источни Тимор
   - Timor Leste
+  - TIMOR-LESTE (FORMERLY EAST TIMOR)
   - Timowa
   - Timoli ya Mashaliki
   - التيمور الشرقية
