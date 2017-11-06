@@ -1,5 +1,5 @@
 # coding: utf-8
-from countrynames import to_code, to_alpha_3, to_numeric
+from countrynames import to_code, to_alpha_3
 
 
 def test_to_code():
@@ -10,10 +10,6 @@ def test_to_code():
 def test_to_alpha_3():
     assert to_alpha_3("Germany") == "DEU"
     assert to_alpha_3("UK") == "GBR"
-
-
-def test_to_numeric():
-    assert to_numeric("Germany") == "276"
 
 
 def test_unicode():

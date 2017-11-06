@@ -13,8 +13,7 @@ except ImportError:
 
 log = logging.getLogger(__name__)
 
-__all__ = ['to_code', 'to_alpha_3', 'to_name', 'to_official_name',
-           'to_numeric']
+__all__ = ['to_code', 'to_alpha_3']
 
 COUNTRY_NAMES = {}
 
@@ -102,42 +101,5 @@ def to_alpha_3(country_name, fuzzy=False):
             return code
         else:
             return countries.get(alpha_2=code).alpha_3
-    except LookupError:
-        return None
-
-
-def to_name(country_name, fuzzy=False):
-    """Given a human name for a country, return its short name.
-
-    Arguments:
-        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
-    """
-    try:
-        return countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy)).name
-    except LookupError:
-        return None
-
-
-def to_official_name(country_name, fuzzy=False):
-    """Given a human name for a country, return its full official name."""
-    try:
-        country = countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy))
-        if hasattr(country, "official_name"):
-            return country.official_name
-        else:
-            return country.name
-    except LookupError:
-        return None
-
-
-def to_numeric(country_name, fuzzy=False):
-    """Given a human name for a country, return its numeric code as a string.
-
-    Arguments:
-        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
-    """
-    try:
-        return countries.get(alpha_2=to_code(country_name,
-                                             fuzzy=fuzzy)).numeric
     except LookupError:
         return None
