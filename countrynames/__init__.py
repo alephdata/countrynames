@@ -4,12 +4,12 @@ import yaml
 import logging
 import Levenshtein
 from normality import normalize
-from pycountry import countries
 try:
     from yaml import CLoader as Loader
 except ImportError:
     from yaml import Loader
 
+from .mappings import mappings
 
 log = logging.getLogger(__name__)
 
@@ -91,15 +91,10 @@ def to_alpha_3(country_name, fuzzy=False):
     Arguments:
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
     """
-    try:
-        code = to_code(country_name, fuzzy=fuzzy)
-        if code == "EU":  # European Union
-            return "EUU"
-        elif code == "XK":  # Kosovo
-            return "XKX"
-        elif code and len(code) > 3:
-            return code
-        else:
-            return countries.get(alpha_2=code).alpha_3
-    except LookupError:
-        return None
+    code = to_code(country_name, fuzzy=fuzzy)
+    if code and len(code) > 2:
+        return code
+    elif code is None:
+        return code
+    else:
+        return mappings[code]

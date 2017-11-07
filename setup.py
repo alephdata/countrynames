@@ -32,7 +32,6 @@ setup(
     install_requires=[
         'normality',
         'python-Levenshtein',
-        'pycountry',
         'pyyaml',
         'six'
     ],

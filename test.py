@@ -5,11 +5,13 @@ from countrynames import to_code, to_alpha_3
 def test_to_code():
     assert to_code("Germany") == "DE"
     assert to_code("UK") == "GB"
+    assert to_code("Nothing") == None
 
 
 def test_to_alpha_3():
     assert to_alpha_3("Germany") == "DEU"
     assert to_alpha_3("UK") == "GBR"
+    assert to_alpha_3("Nothing") == None
 
 
 def test_unicode():
