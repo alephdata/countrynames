@@ -13,7 +13,7 @@ from .mappings import mappings
 
 log = logging.getLogger(__name__)
 
-__all__ = ['to_code', 'to_alpha_3']
+__all__ = ['to_code', 'to_code_3']
 
 COUNTRY_NAMES = {}
 
@@ -53,7 +53,7 @@ def _fuzzy_search(name):
 
 
 def to_code(country_name, fuzzy=False):
-    """Given a human name for a country, return its ISO two-digit code.
+    """Given a human name for a country, return a two letter code.
 
     Arguments:
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
@@ -85,8 +85,8 @@ def to_code(country_name, fuzzy=False):
     return code
 
 
-def to_alpha_3(country_name, fuzzy=False):
-    """Given a human name for a country, return its ISO three-digit code.
+def to_code_3(country_name, fuzzy=False):
+    """Given a human name for a country, return a three letter code.
 
     Arguments:
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.

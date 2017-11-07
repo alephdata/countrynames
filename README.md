@@ -13,7 +13,7 @@ import countrynames
 assert 'DE' == countrynames.to_code('Germany')
 assert 'DE' == countrynames.to_code('Bundesrepublik Deutschland')
 assert 'DE' == countrynames.to_code('DE')
-assert 'DEU' == countrynames.to_alpha_3('Germany')
+assert 'DEU' == countrynames.to_code_3('Germany')
 ```
 
 ## Non-standard country codes
@@ -23,7 +23,7 @@ assert 'DEU' == countrynames.to_alpha_3('Germany')
 
 For some dissolved countries (e.g. `SUHH` for Soviet Union) and sub-regions
 (e.g. `GB-SCT` for Scotland) special codes are defined and returned from both
-`to_code` and `to_alpha_3`.
+`to_code` and `to_code_3`.
 
 ## License
 

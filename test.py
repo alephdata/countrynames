@@ -1,5 +1,5 @@
 # coding: utf-8
-from countrynames import to_code, to_alpha_3
+from countrynames import to_code, to_code_3
 
 
 def test_to_code():
@@ -8,10 +8,10 @@ def test_to_code():
     assert to_code("Nothing") == None
 
 
-def test_to_alpha_3():
-    assert to_alpha_3("Germany") == "DEU"
-    assert to_alpha_3("UK") == "GBR"
-    assert to_alpha_3("Nothing") == None
+def test_to_code_3():
+    assert to_code_3("Germany") == "DEU"
+    assert to_code_3("UK") == "GBR"
+    assert to_code_3("Nothing") == None
 
 
 def test_unicode():
@@ -26,9 +26,9 @@ def test_fuzzy_matching():
 
 def test_non_standard_codes():
     assert to_code("European Union") == "EU"
-    assert to_alpha_3("European Union") == "EUU"
+    assert to_code_3("European Union") == "EUU"
     assert to_code("Kosovo") == "XK"
-    assert to_alpha_3("Kosovo") == "XKX"
+    assert to_code_3("Kosovo") == "XKX"
 
 
 def test_GB():
