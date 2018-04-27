@@ -1,11 +1,17 @@
+import os
 from setuptools import setup, find_packages
 
+path = os.path.abspath(os.path.dirname(__file__))
+
+with open(os.path.join(path, 'README.md'), "r") as f:
+    readme = f.read()
 
 setup(
     name='countrynames',
     version='1.5',
     description="A library to map country names to ISO codes.",
-    long_description="",
+    long_description=readme,
+    long_description_content_type='text/markdown',
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
