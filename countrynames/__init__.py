@@ -4,17 +4,16 @@ import yaml
 import logging
 import Levenshtein
 from normality import normalize
-from pycountry import countries
 try:
     from yaml import CLoader as Loader
 except ImportError:
     from yaml import Loader
 
+from .mappings import mappings
 
 log = logging.getLogger(__name__)
 
-__all__ = ['to_code', 'to_alpha_3', 'to_name', 'to_official_name',
-           'to_numeric']
+__all__ = ['to_code', 'to_code_3']
 
 COUNTRY_NAMES = {}
 
@@ -54,7 +53,7 @@ def _fuzzy_search(name):
 
 
 def to_code(country_name, fuzzy=False):
-    """Given a human name for a country, return its ISO two-digit code.
+    """Given a human name for a country, return a two letter code.
 
     Arguments:
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
@@ -86,58 +85,16 @@ def to_code(country_name, fuzzy=False):
     return code
 
 
-def to_alpha_3(country_name, fuzzy=False):
-    """Given a human name for a country, return its ISO three-digit code.
+def to_code_3(country_name, fuzzy=False):
+    """Given a human name for a country, return a three letter code.
 
     Arguments:
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
     """
-    try:
-        code = to_code(country_name, fuzzy=fuzzy)
-        if code == "EU":  # European Union
-            return "EUU"
-        elif code == "XK":  # Kosovo
-            return "XKX"
-        elif code and len(code) > 3:
-            return code
-        else:
-            return countries.get(alpha_2=code).alpha_3
-    except LookupError:
-        return None
-
-
-def to_name(country_name, fuzzy=False):
-    """Given a human name for a country, return its short name.
-
-    Arguments:
-        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
-    """
-    try:
-        return countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy)).name
-    except LookupError:
-        return None
-
-
-def to_official_name(country_name, fuzzy=False):
-    """Given a human name for a country, return its full official name."""
-    try:
-        country = countries.get(alpha_2=to_code(country_name, fuzzy=fuzzy))
-        if hasattr(country, "official_name"):
-            return country.official_name
-        else:
-            return country.name
-    except LookupError:
-        return None
-
-
-def to_numeric(country_name, fuzzy=False):
-    """Given a human name for a country, return its numeric code as a string.
-
-    Arguments:
-        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
-    """
-    try:
-        return countries.get(alpha_2=to_code(country_name,
-                                             fuzzy=fuzzy)).numeric
-    except LookupError:
-        return None
+    code = to_code(country_name, fuzzy=fuzzy)
+    if code and len(code) > 2:
+        return code
+    elif code is None:
+        return code
+    else:
+        return mappings[code]

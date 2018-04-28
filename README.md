@@ -1,7 +1,7 @@
 # countrynames
 
 This library helps with the mapping of country names to their respective
-ISO 3166-1 alpha-2, alpha-3, and numeric codes or official names. The idea is
+two or three letter codes. The idea is
 to incorporate common names for countries, and even some limited misspellings,
 as they occur in source data.
 
@@ -13,10 +13,7 @@ import countrynames
 assert 'DE' == countrynames.to_code('Germany')
 assert 'DE' == countrynames.to_code('Bundesrepublik Deutschland')
 assert 'DE' == countrynames.to_code('DE')
-assert 'Germany' == countrynames.to_name('Deutschland')
-assert 'Federal Republic of Germany' == countrynames.to_official_name('Deutschland')
-assert 'DEU' == countrynames.to_alpha_3('Germany')
-assert '004' == countrynames.to_numeric('Afghanistan')
+assert 'DEU' == countrynames.to_code_3('Germany')
 ```
 
 ## Non-standard country codes
@@ -26,7 +23,7 @@ assert '004' == countrynames.to_numeric('Afghanistan')
 
 For some dissolved countries (e.g. `SUHH` for Soviet Union) and sub-regions
 (e.g. `GB-SCT` for Scotland) special codes are defined and returned from both
-`to_code` and `to_alpha_3`.
+`to_code` and `to_code_3`.
 
 ## License
 
