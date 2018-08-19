@@ -27,7 +27,7 @@ def _normalize_name(country):
 def _load_data():
     """Load known aliases from a YAML file. Internal."""
     data_file = os.path.join(os.path.dirname(__file__), 'data.yaml')
-    with open(data_file, 'r') as fh:
+    with open(data_file, 'r', encoding='utf-8') as fh:
         for code, names in yaml.load(fh, Loader=Loader).items():
             code = code.strip().upper()
             COUNTRY_NAMES[_normalize_name(code)] = code
