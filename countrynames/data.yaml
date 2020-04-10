@@ -1,69 +1,188 @@
 FAIL:
+  - ABC islands
   - fund
+  - antilles
+  - Lesser Antilles
+  - asia
+  - british overseas territories
+  - overseas territories
+  - abroad
   - channel islands
+  - channel island
   - Sark
+  - west indies
+  - indies
   - THE WEST INDIES
   - THE CHENNAL ISLES
   - Other
   - undetermined
   - Africa
+  - central america
+  - southern america
   - N/A
+  - na
+  - n a
   - unknown
-
+  - not applicable
+  - overseas
+  - not specified other
+  - not specified
+  - non specified
 YUCS:
   - YUGOSLAVIA
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
   - YU
   - YUG
-
 CSXX:
   - SERBIA AND MONTENEGRO
   - SERBIA & MONTENEGRO
-
 SUHH:
   - Soviet Union
   - USSR
   - UdSSR
-
 ANHH:
   - De Nederlandske Antiller
   - NETHERLAND ANTILLES
   - Netherlands Antilles
   - DUTCH ANTILLES
   - Antilles yr Iseldiroedd
-
 CSHH:
   - CZECHOSLOVAKIA
-
+  - Czecho-Slovakia
+  - Československo
+  - Česko-Slovensko
 DDDE:
   - DDR
   - German Democratic Republic
   - FORMER GERMAN DEMOCRATIC REPUBLIC
-
 VDVN:
   - Viet-Nam, Democratic Republic of
   - DEMOCRATIC REPUBLIC OF VIETNAM
-
+  - Việt Nam
+  - Cộng hòa xã hội chủ nghĩa Việt Nam
+  - Socialist Republic of Vietnam
 GE-AB:
   - GEAB
   - Abkhazia
-
+  - Abkhaziya
+  - Respublika Abkhaziya
 X-SO:
   - South Ossetia
-
+  - Republic of South Ossetia
+  - the State of Alania
+  - ცხინვალის რეგიონი
+  - Respublikæ Xussar Iryston
+  - Paddzaxad Allonston
 SO-SOM:
   - SOSOM
   - Somaliland
-
+  - Republic of Somaliland
 GB-WLS:
   - Wales
   - GBWLS
-
+  - Cymro
+  - Cymru
+  - Cymry
+  - Orkney
+  - Anglesey
+  - Brecknockshire
+  - Caernarfonshire
+  - Cardiganshire
+  - Carmarthenshire
+  - Clwyd
+  - Denbighshire
+  - Dyfed
+  - Flintshire
+  - Glamorgan
+  - Gwent
+  - Gwynedd
+  - Merionethshire
+  - Mid Glamorgan
+  - Monmouthshire
+  - Montgomeryshire
+  - Pembrokeshire
+  - Powys
+  - Radnorshire
+  - Glamorgan
+  - Wrexham
+  - Anglesea
+  - Brecon
+  - Brecknockshire
+  - Brecknock
+  - Carnarvonshire
+  - Carnarvon
+  - Caernarvon
+  - Cardigan
+  - Carmarthen
+  - Denbigh
+  - Flint
+  - Glamorganshire
+  - Merioneth
+  - Monmouth
+  - Monshire
+  - Montgomery
+  - Pembroke
+  - Radnor
+  - Angl
+  - Brecks
+  - Bcshire
+  - Carn
+  - Card's
+  - Cards
+  - Carm
+  - Carms
+  - Cthen
+  - Flints
 GB-SCT:
   - Scotland
   - GBSCT
   - Scotish
-
+  - alba
+  - Aberdeen
+  - Aberdeenshire
+  - Angus
+  - Forfarshire
+  - Argyll
+  - Ayrshire
+  - Banffshire
+  - Berwickshire
+  - Bute
+  - Caithness
+  - Clackmannanshire
+  - Cromartyshire
+  - Dumfriesshire
+  - Dunbartonshire
+  - Dumbarton
+  - Dundee
+  - East Lothian
+  - Haddingtonshire
+  - Edinburgh
+  - Fife
+  - Glasgow
+  - Inverness-shire
+  - Kincardineshire♠
+  - Kinross-shire
+  - Kirkcudbrightshire♠
+  - Lanarkshire
+  - Midlothian
+  - Moray
+  - Elginshire
+  - Nairnshire
+  - Orkney
+  - Peeblesshire
+  - Perthshire
+  - Renfrewshire
+  - Ross and Cromarty
+  - Ross-shire
+  - Roxburghshire
+  - Selkirkshire
+  - Shetland
+  - Zetland
+  - Stirlingshire
+  - Sutherland
+  - Lothian
+  - Linlithgowshire
+  - Wigtownshire
 GB-NIR:
   - Northern Ireland
   - N Irish
@@ -71,11 +190,19 @@ GB-NIR:
   - North Ireland
   - N.Ireland
   - GBNIR
-
+  - Tuaisceart Éireann
+  - Norlin Airlann
+  - Antrim
+  - Armagh
+  - Belfast
+  - Down
+  - Fermanagh
+  - Londonderry
+  - Derry
+  - Tyrone
 MD-PMR:
   - Transnistria
   - MDPMR
-
 AD:
   - Andɔr
   - អង់ដូរ៉ា
@@ -153,6 +280,8 @@ AD:
   - അന്റോറ
   - ອັນດໍຣາ
   - Principality of Andorra
+  - Principat d’Andorra
+  - Principado de Andorra
   - ඇන්ඩෝරාව
   - ཨཱན་དོ་ར
 AE:
@@ -409,6 +538,7 @@ AG:
   - Антыгуа і Барбуда
   - Aŋtígwa Ɓahabhuda
   - ANTIGUA
+  - barbuda
   - Emetab Antigua ak Barbuda
   - Antigua eta Barbuda
   - Antiguan And Barbudan
@@ -834,6 +964,7 @@ AM:
   - Armėnija
   - Armênia
 AO:
+
   - AGO
   - Ангола
   - Ungula
@@ -908,6 +1039,7 @@ AO:
   - ਅੰਗੋਲਾ
 AQ:
   - Antárktis
+  - British Antarctic Territory
   - แอนตาร์กติกา
   - اینٹارٹِکا
   - An Antartaig
@@ -978,6 +1110,8 @@ AQ:
   - એન્ટાર્કટિકા
   - Antartic
   - Antartide
+  - BAT
+  - Rothera
 AR:
   - Emetab Argentina
   - arjantin
@@ -1084,6 +1218,9 @@ AR:
   - Argentīnija
   - আর্জেন্টিনা
 AS:
+  - Amerika Sāmoa
+  - Amelika Sāmoa
+  - Sāmoa Amelika
   - Samoa m ́Amɛ́rka
   - samɔa a amɛrika
   - Amɛrika Samoa
@@ -1216,6 +1353,11 @@ AS:
   - ଆମେରିକାନ୍ ସାମୋଆ
   - อเมริกันซามัว
   - আমেরিকান সামোয়া
+  - tutuila
+  - Manuʻa islands
+  - Rose Atoll
+  - Swains Island
+  - Samoan Islands
 AT:
   - Àustria
   - austriya
@@ -2671,7 +2813,7 @@ BL:
   - ಸೇಂಟ್ ಬಾರ್ಥೆಲೆಮಿ
   - ساينىت  -بارتھېلەمي ئاراللىرى
   - செயின்ட் பார்தேலெமி
-  - S:t Barthélemy
+  - St Barthélemy
   - ቅዱስ በርቴሎሜ
   - 생바르텔레미
   - ᎠᏥᎸᏉᏗ ᏆᏕᎳᎻ
@@ -2826,6 +2968,9 @@ BM:
   - Bɛmuda
   - బెర్ముడా
   - Beirmiúda
+  - Islands of Bermuda
+  - Main Island
+  - Hamilton
 BN:
   - بروناي
   - Brunejo
@@ -3026,6 +3171,7 @@ BQ:
   - Karibų Nyderlandai
   - کریبیائی نیدرلینڈز
   - Caraibi Olandesi
+  - Caribisch Nederland
   - Karíbahafshluti Hollands
   - برطانوی قُطبہِ جَنوٗبی علاقہٕ
   - కరీబియన్ నెదర్లాండ్స్
@@ -3093,6 +3239,7 @@ BQ:
   - Na Tìrean Ìsle Caraibeach
   - オランダ領カリブ
   - BES
+  - BES islands
   - Niðurlonds Karibia
   - Caribe neerlandés
   - Karibiese Nederland
@@ -3106,6 +3253,8 @@ BQ:
   - Karibisk Nederland
   - Karib Niderlandı
   - Karibské Holandsko
+  - Sint Eustatius
+  - saba
 BR:
   - ブラジル
   - Bresil
@@ -3319,6 +3468,9 @@ BS:
   - بَہامَس
   - Бахами
   - Baħamas
+  - Nassau
+  - New Providence
+  - New Providence Island
 BT:
   - Bùtân
   - Butaani
@@ -3803,6 +3955,9 @@ BZ:
   - Beliza
   - بیلِج
   - බෙලීස්
+  - belize city
+  - san ignacio
+  - belmopan
 CA:
   - Canada
   - Canadian
@@ -3889,6 +4044,28 @@ CA:
   - ਕੈਨੇਡਾ
   - കാനഡ
   - Uŋčíyapi Makȟóčhe
+  - Ottawa
+  - Canada
+  - Newfoundland and Labrador
+  - Halifax
+  - Nova Scotia
+  - Fredericton
+  - New Brunswick
+  - Charlottetown
+  - Prince Edward Island
+  - Québec
+  - Quebec
+  - Toronto
+  - Ontario
+  - Manitoba
+  - Saskatchewan
+  - Edmonton, Alberta
+  - Victoria, British Columbia
+  - British Columbia
+  - bc canada
+  - Nunavut
+  - Northwest Territories
+  - Yukon
 CC:
   - Kokosų (Kilingo) Salos
   - Kókoseyjar (Keeling)
@@ -3896,6 +4073,7 @@ CC:
   - Νήσοι Κόκος (Κίλινγκ)
   - Кокосови острови (острови Кийлинг)
   - Cocos qeqertaq
+  - cocos
   - CCK
   - കോക്കസ് (കീലിംഗ്) ദ്വീപുകൾ
   - Кокосовые о  -ва
@@ -4001,6 +4179,7 @@ CC:
   - Ilhas dos Cocos (Keeling)
   - ኮኮስ(ኬሊንግ) ደሴቶች
   - ຫມູ່ເກາະໂກໂກສ
+  - Cocos Islands
 CD:
   - Jamhuuriyadda Dimuquraadiga Kongo
   - Tigduda Tagdudant n Kungu
@@ -4516,6 +4695,11 @@ CH:
   - Suwisi
   - Swisɛ
   - Švýcarsko
+  - Swiss Confederation
+  - Zürich
+  - Geneva
+  - Basel
+  - Lugano
 CI:
   - கோட் தி’வாயர்
   - Kodiwari
@@ -4986,6 +5170,132 @@ CM:
   - Kamerûne
   - कैमरून
   - ਕੈਮਰੂਨ
+CN-SH:
+  - 上海市
+  - Shànghǎi Shì
+  - shanghai
+  - Xúhuì Qū
+  - Chángníng Qū
+  - Jìng'ān Qū
+  - Pǔtuó Qū
+  - Hóngkǒu Qū
+  - Yángpǔ Qū
+  - Mǐnháng Qū
+  - Bǎoshān Qū
+  - Jiādìng Qū
+  - Pǔdōng Xīnqū
+  - Jīnshān Qū
+  - Sōngjiāng Qū
+  - Qīngpǔ Qū
+  - Fèngxián Qū
+  - Chóngmíng Qū
+  - Xuhui
+  - Changning
+  - Jing'an
+  - Putuo
+  - Hongkou
+  - Yangpu
+  - Minhang
+  - Baoshan
+  - Jiading
+  - Pudong New Area
+  - Jinshan
+  - Songjiang
+  - Qingpu
+  - Fengxian
+  - Chongming
+  - XHI
+  - CNQ
+  - JAQ
+  - PTQ
+  - HKQ
+  - YPU
+  - MHQ
+  - BAO
+  - JDG
+  - PDX
+  - JSH
+  - SOJ
+  - QPU
+  - FXI
+CN-BJ:
+  - Peking
+  - Beijing
+  - Xicheng
+  - Chaoyang
+  - Fengtai
+  - Shijingshan
+  - Haidian
+  - Mentougou
+  - Fangshan
+  - Tongzhou
+  - Shunyi
+  - Changping
+  - Daxing
+  - Huairou
+  - Pinggu
+  - Miyun
+  - Yanqing
+CN-XZ:
+  - Tientsin
+  - Tianjin
+  - Heping
+  - Hedong
+  - Hexi
+  - Nankai
+  - Hebei
+  - Hongqiao
+  - Dongli
+  - Xiqing
+  - Jinnan
+  - Beichen
+  - Wuqing
+  - Baodi
+  - Binhai
+  - Ninghe
+  - Jinghai
+  - Jizhou
+CN-CQ:
+  - Chungking
+  - Chongqing
+  - Wanzhou
+  - Fuling
+  - Yuzhong
+  - Dadukou
+  - Jiangbei
+  - Shapingba
+  - Jiulongpo
+  - Nan'an
+  - Beibei
+  - Qijiang
+  - Dazu
+  - Yubei
+  - Banan
+  - Qianjiang
+  - Changshou
+  - Jiangjin
+  - Hechuan
+  - Yongchuan
+  - Nanchuan
+  - Bishan
+  - Tongliang
+  - Tongnan
+  - Rongchang
+  - Kaizhou
+  - Liangping
+  - Wulong
+  - Chengkou
+  - Fengdu
+  - Dianjiang
+  - Zhong
+  - Yunyang
+  - Fengjie
+  - Wushan
+  - Wuxi
+  - Shizhu
+  - Xiushan
+  - Youyang
+  - Pengshui
 CN:
   - ਚੀਨ
   - Sinɛ
@@ -5086,6 +5396,7 @@ CN:
   - Txina
   - Ubushinwa
   - 中華人民共和國
+  - Zhōnghuá Rénmín Gònghéguó
   - Emetab China
   - Sjina
   - Shine
@@ -5491,10 +5802,16 @@ CV:
   - Kepuvede
   - يېشىل تۇمشۇق
   - de kapvärdesche Enselle
+  - Island Of Sal
+  - Ilha Do Sal
 CW:
   - კიურასაო
   - ኩራሳዎ
   - Curacao
+  - Country of Curaçao
+  - Land Curaçao
+  - Pais Kòrsou
+  - Kòrsou
   - ಕುರಾಕಾವ್
   - কিউরাসাও
   - キュラソー
@@ -5654,8 +5971,12 @@ CX:
 CY:
   - Xipre
   - سىپرۇس
+  - Republic of Cyprus
   - Saeprɔs
   - Cypriot
+  - Κυπριακή Δημοκρατία
+  - Cypriot Republic
+  - Kıbrıs Cumhuriyeti
   - Greek Cypriot
   - 키프로스
   - Xipri
@@ -5772,6 +6093,10 @@ CY:
   - ᏌᎢᏆᏍ
   - Kiprò
   - साइप्रस
+  - Λευκωσία
+  - Lefkoşa
+  - Lefkosía
+  - nicosia
 CZ:
   - Czechia
   - Ĉeĥujo
@@ -6361,6 +6686,7 @@ DM:
   - Domínike
   - Domíiníka
   - Ντομίνικα
+  - Roseau
 DO:
   - Ripaaburika ya Dominica
   - ཌོ་མིནནི་ཀན་སྤྱི་མཐུན་རྒྱལ་ཁབ།
@@ -7262,6 +7588,7 @@ ES:
   - สเปน
   - Lespagn
   - Sepanyol
+  - canary islands
 ET:
   - Etiopía
   - എത്യോപ്യ
@@ -7379,6 +7706,8 @@ EU:
   - THE EUROPEAN UNION
   - EU27
   - EU28
+  - europe
+  - european
 FI:
   - Phần Lan
   - Finlandie
@@ -7724,6 +8053,9 @@ FK:
   - Fɔlkman Aeland
   - Foklandska ostrva
   - Isulis Falkland
+  - East Falkland
+  - West Falkland
+  - Stanley
 FM:
   - Микронезија
   - Mikolonīsia
@@ -8169,11 +8501,10 @@ GA:
   - གེ་བཽན།
 GB:
   - U K
-  - GB-NIR
+  - uk
   - Lielbritānija
   - Bretland
   - British
-  - Gibralter
   - Britsh
   - Brish
   - Britsh
@@ -8181,7 +8512,12 @@ GB:
   - Btitish
   - Cornwall
   - Engalnd
-  - U K
+  - eng
+  - emgland
+  - en
+  - England and Wales
+  - England & Wales
+  - England/United Kingdom
   - British English
   - Ukengland
   - United Kindgom
@@ -8189,8 +8525,6 @@ GB:
   - The United Kingdom
   - Welsh
   - Cardiff
-  - Cymro
-  - Cymru
   - Britsh
   - Great British
   - Great Britain
@@ -8232,6 +8566,12 @@ GB:
   - ꖕꕯꔤꗳ
   - Йоккха Британи
   - London
+  - GB-LND
+  - lnd
+  - city of lnd
+  - londres
+  - londra
+  - city of london
   - Zjadnośone kralejstwo
   - Suurbritannia
   - Angilɛtɛri
@@ -8259,7 +8599,7 @@ GB:
   - ਯੂਨਾਈਟਡ ਕਿੰਗਡਮ
   - Velika Britanija
   - Tuluit Nunaat
-  - Royaume  -Uni
+  - Royaume-Uni
   - Jruußbrettannije
   - Y Deyrnas Unedig
   - እንግሊዝ
@@ -8348,6 +8688,138 @@ GB:
   - ꑱꇩ
   - tagldit imunn
   - פֿאַראייניגטע קעניגרייך
+  - Avon
+  - Bedfordshire
+  - Berkshire
+  - Bucks
+  - Buckinghamshire
+  - Cambridgeshire
+  - Cheshire
+  - Cleveland
+  - Cornwall
+  - Cumberland
+  - Cumbria
+  - Derbyshire
+  - Devon
+  - Dorset
+  - Durham
+  - Essex
+  - Gloucestershire
+  - Greater London
+  - Greater Manchester
+  - Hampshire
+  - Herefordshire
+  - Hertfordshire
+  - Humberside
+  - Huntingdonshire
+  - Isle of Wight
+  - Kent
+  - Lancashire
+  - Leicestershire
+  - Lincolnshire
+  - London
+  - Merseyside
+  - Middlesex
+  - Norfolk
+  - Northamptonshire
+  - Northumberland
+  - Nottinghamshire
+  - Oxfordshire
+  - Rutland
+  - Shropshire
+  - Somerset
+  - Staffordshire
+  - Suffolk
+  - Surrey
+  - Sussex
+  - Tyne and Wear
+  - Warwickshire
+  - West Midlands
+  - Westmorland
+  - Wiltshire
+  - Worcestershire
+  - Yorkshire
+  - County of Bedford
+  - County of Berks
+  - County of Buckingham
+  - County of Cambridge
+  - County of Chester
+  - County of Derby
+  - Devonshire
+  - Dorsetshire
+  - County of Durham
+  - County of Gloucester
+  - County of Southampton
+  - Southamptonshire
+  - County of Hereford
+  - County of Hertford
+  - County of Huntingdon
+  - County of Lancaster
+  - County of Leicester
+  - County of Lincoln
+  - County of Northampton
+  - County of Nottingham
+  - County of Oxford
+  - Rutlandshire
+  - County of Salop
+  - Somersetshire
+  - County of Stafford
+  - County of Warwick
+  - County of Wilts
+  - County of Worcester
+  - County of York
+  - Beds
+  - Berks
+  - Bucks
+  - Cambs
+  - Ches
+  - Corn
+  - Cumb
+  - Derbys
+  - Derbs
+  - Dev
+  - Dor
+  - Co Dur
+  - Glos
+  - Gloucs
+  - Hants
+  - Here
+  - Heref
+  - Herts
+  - Hunts
+  - Lancs
+  - Leics
+  - Lincs
+  - Mx
+  - Middx
+  - Mddx
+  - M'sex
+  - Norf
+  - Northants
+  - Northumb
+  - Northd
+  - Notts
+  - Oxon
+  - Rut
+  - Shrops
+  - Salop
+  - Som
+  - Staffs
+  - Staf
+  - Suff
+  - Sy
+  - Sx
+  - Ssx
+  - Warks
+  - War
+  - Warw
+  - Westm
+  - Wilts
+  - Worcs
+  - Worsts
+  - Yorks
+  - coumpanies house uk
+  - companies house wales
 GD:
   - Gelenadɛ
   - ഗ്രനേഡ
@@ -8436,6 +8908,8 @@ GD:
   - Girenáada
   - グレナダ
   - گرنادا
+  - St. George's
+  - st georges
 GE:
   - جارجیا
   - Грузија
@@ -8694,6 +9168,21 @@ GF:
   - Prancūzijos Gviana
 GG:
   - ເກີນຊີ
+  - Guernési
+  - Bailliage de Guernesey
+  - Bailliage dé Guernési
+  - Bailiwick of Guernsey
+  - States of Guernsey
+  - saint peter port
+  - st peters port
+  - saint peter's port
+  - saint peters port
+  - St Martins
+  - St Sampsons
+  - St. Pierre Du Bois
+  - St Andrews
+  - Alderney
+  - Sark
   - கெர்ன்சி
   - गेर्नसे
   - Гернсі
@@ -8828,6 +9317,7 @@ GH:
   - ଘାନା
   - Kana
   - Գանա
+
 GI:
   - ཇིབ་རཱལ་ཊར།
   - Emetab Gibraltar
@@ -9676,6 +10166,10 @@ GS:
   - Sydgeorgien och Sydsandwichöarna
   - Janubiy Georgiya va Janubiy Sendvich orollari
   - Islles Xeorxa del Sur y Sandwich del Sur
+  - sandwitch islands
+  - SGSSI
+  - King Edward Point
+  - sandwitch
 GT:
   - Gwatemala
   - Gvatemalo
@@ -10034,6 +10528,8 @@ HK:
   - China, Hong Kong Special Administrative Region
   - HONG KONG SPECIAL ADMINSTRATIVE REGION OF CHINA
   - Hongkongi erihalduspiirkond
+  - HKSAR
+  - Hēunggóng
   - ሆንግ ኮንግ
   - ᎰᏂᎩ ᎪᏂᎩ
   - Honkongo
@@ -10139,6 +10635,19 @@ HK:
   - Sonderverwaltungszone Hongkong
   - હોંગકોંગ SAR ચીન
   - ਹਾਂਗ ਕਾਂਗ ਐਸਏਆਰ ਚੀਨ
+  - Wan Chai
+  - Sham Shui Po
+  - Kowloon City
+  - Kwun Tong
+  - Wong Tai Sin
+  - Yau Tsim Mong
+  - Kwai Tsing
+  - Sai Kung
+  - Sha Tin
+  - Tai Po
+  - Tsuen Wan
+  - Tuen Mun
+  - Yuen Long
 HM:
   - ໝູ່ເກາະເຮີດ & ແມັກໂດນອລ
   - جزيرة هيرد وجزر ماكدونالد
@@ -10249,6 +10758,8 @@ HM:
   - Oileán Heard agus Oileáin McDonald
   - Inizi Heard ha McDonald
   - हर्ड आणि मॅक्डोनाल्ड बेटे
+  - McDonald
+  - McDonald islands
 HN:
   - Republic of Honduras
   - ཧོན་དུ་རས྄།
@@ -10887,6 +11398,37 @@ IE:
   - ⵉⵔⵍⴰⵏⴷⴰ
   - Èirinn
   - Irska
+  - Galway
+  - Mayo
+  - Donegal
+  - Kerry
+  - Tipperary
+  - Clare
+  - Tyrone
+  - Antrim
+  - Limerick
+  - Roscommon
+  - Down
+  - Wexford
+  - Meath
+  - Londonderry
+  - Kilkenny
+  - Wicklow
+  - Offaly
+  - Cavan
+  - Waterford
+  - Westmeath
+  - Sligo
+  - Laois
+  - Kildare
+  - Fermanagh
+  - Leitrim
+  - Armagh
+  - Monaghan
+  - Longford
+  - Dublin
+  - Carlow
+  - Louth
 IL:
   - Orílɛ́ède Iserɛli
   - အစ္စရေး
@@ -11079,6 +11621,20 @@ IM:
   - i  -Isle of Man
   - Illa de Man
   - Pulau Man
+  - Mann
+  - Ellan Vannin
+  - Mannin
+  - Douglas
+  - Douglas, Isle of Man
+  - ramsey
+  - ramsey bay
+  - Ramsey, Isle of Man
+  - Ramsey Island
+  - Malew
+  - Braddan
+  - Onchan
+  - Port St Mary
+  - Santon
 IN:
   - Hindujo
   - ɛ́ɛnd
@@ -11200,6 +11756,10 @@ IO:
   - Territorio Británico do Océano Índico
   - Britiske område i Det indiske hav
   - Tiriogaeth Brydeinig Cefnfor India
+  - BIOT
+  - British Indian Ocean Territory
+  - Diego Garcia
+  - Camp Justice
   - IOT
   - Thuộc địa Anh tại Ấn Độ Dương
   - tamnaḍt tanglizit n ugaru ahindi
@@ -11511,7 +12071,6 @@ IS:
   - Ayceland
   - Islandë
   - ⵉⵙⵍⴰⵏⴷ
-  - Island
   - Islánda
   - આઇસલેન્ડ
   - Áisi Lumaã
@@ -11770,6 +12329,18 @@ JE:
   - ਜਰਸੀ
   - जर्सी
   - ဂျာစီ
+  - Bailiwick of Jersey
+  - Bailliage de Jersey
+  - Bailliage dé Jèrri
+  - Saint Helier
+  - st helier
+  - gorey
+  - st aubin
+  - st john
+  - saint john
+  - saint aubin
+  - St. Mary
+  - saint mary
 JM:
   - Hamaíka
   - Jamajka
@@ -11862,6 +12433,8 @@ JM:
   - Zamayiki
   - Jamaayik
   - Ямайка
+  - Jumieka
+  - kingston
 JO:
   - Yolodani
   - jɔrdán
@@ -12089,6 +12662,73 @@ JP:
   - ជប៉ុន
   - Japãu
   - Giappone
+  - Tokyo
+  - Yokohama
+  - Osaka
+  - Nagoya
+  - Sapporo
+  - Fukuoka
+  - Kobe
+  - Kawasaki
+  - Kyoto
+  - Saitama
+  - Hiroshima
+  - Sendai
+  - Chiba
+  - Kitakyushu
+  - Sakai
+  - Niigata
+  - Hamamatsu
+  - Kumamoto
+  - Sagamihara
+  - Shizuoka
+  - Aichi
+  - Akita
+  - Aomori
+  - Chiba
+  - Ehime
+  - Fukui
+  - Fukuoka
+  - Fukushima
+  - Gifu
+  - Gunma
+  - Hiroshima
+  - Hokkaidō
+  - Hyōgo
+  - Ibaraki
+  - Ishikawa
+  - Iwate
+  - Kagawa
+  - Kagoshima
+  - Kanagawa
+  - Kōchi
+  - Kumamoto
+  - Kyōto
+  - Mie
+  - Miyagi
+  - Miyazaki
+  - Nagano
+  - Nagasaki
+  - Nara
+  - Niigata
+  - Ōita
+  - Okayama
+  - Okinawa
+  - Ōsaka
+  - Saga
+  - Saitama
+  - Shiga
+  - Shimane
+  - Shizuoka
+  - Tochigi
+  - Tokushima
+  - Tōkyō
+  - Tottori
+  - Toyama
+  - Wakayama
+  - Yamagata
+  - Yamaguchi
+  - Yamanashi
 KE:
   - Kénya
   - ⴽⵉⵏⵢⴰ
@@ -12475,7 +13115,8 @@ KM:
   - ကိုမိုရိုစ်
   - ኮሞሮስ
   - Union of the Comoros
-  - Comore  -szigetek
+  - Comore
+  - szigetek
   - Comorosu
   - komɔr
   - Κομόρες
@@ -12594,6 +13235,13 @@ KM:
   - കോമൊറോസ്
   - Komori
   - Comoros
+  - جزر القمر‎
+  - Juzur al-Qumur
+  - Udzima wa Komori
+  - Union des Comores
+  - Union of the Comoros
+  - الاتحاد القمري‎
+  - al-Ittiḥād al-Qumurī
 KN:
   - Saint Kitts ve Nevis
   - SAINT KITTS & NEVIS
@@ -12731,6 +13379,20 @@ KN:
   - ቅዱስ ኪትስ እና ኔቪስ
   - Sántu krístofe mpé Nevɛ̀s
   - ಸೇಂಟ್ ಕಿಟ್ಸ್ ಮತ್ತು ನೆವಿಸ್
+  - kitts
+  - nevis
+  - saint kitts
+  - kittsnevis
+  - Federation of Saint Christopher and Nevis
+  - Basseterre
+  - Charlestown, nevis
+  - Charlestown
+  - Leeward Islands
+  - Saint Paul Charlestown
+  - st Paul Charlestown
+  - Saint Christopher Island
+  - basseterre
+  - sandy point town
 KP:
   - Coréia do Norte\
   - North Korean
@@ -13113,6 +13775,9 @@ KW:
   - គុយវ៉ែត
   - lkwit
   - Kòwêt
+  - State of Kuwait
+  - Dawlat al-Kuwait
+  - Kuwait City
 KY:
   - Chisiwa cha Kemen
   - جزر الكايمن
@@ -13267,6 +13932,11 @@ KY:
   - zǝ i gan
   - Kajmanska Ostrva
   - Figunguli ifya Kayimayi
+  - Grand Cayman
+  - Cayman Brac
+  - Little Cayman
+  - George Town
+  - Ky1-1104
 KZ:
   - Kazahstan
   - Kazakh
@@ -13558,7 +14228,7 @@ LC:
   - Shën  -Luçia
   - St. Lusia
   - Sante Lusie
-  - S:t Lucia
+  - St Lucia
   - ශාන්ත ලුසියා
   - sɛntlísí
   - Santa Lucia
@@ -13715,6 +14385,7 @@ LI:
   - Lixtenshteyn
   - लिचेंस्टीन
   - Principality of Liechtenstein
+  - Fürstentum Liechtenstein
   - Лихтенштейн
   - Lisɛnsitayini
   - Lichtenštejnsko
@@ -13742,6 +14413,8 @@ LI:
   - لِکٹیٛسٹیٖن
   - リヒテンシュタイン
   - Orílɛ́ède Lɛshitɛnisiteni
+  - Vaduz
+  - Schaan
 LK:
   - श्रीलङ्का
   - Thirilanka
@@ -14210,6 +14883,7 @@ LU:
   - Լյուքսեմբուրգ
   - Luxemburgu
   - Luksemburgan
+  - luxemburg city
 LV:
   - ਲਾਟਵੀਆ
   - ལཏ་བི་ཡ།
@@ -14570,6 +15244,11 @@ MC:
   - 모나코
   - monako
   - Mónakó
+  - Principality of Monaco
+  - Principauté de Monaco
+  - Principato di Monaco
+  - Principat de Mónegue
+  - Principatu de Mùnegu
 MD:
   - Moldawska
   - Moldavian
@@ -15039,6 +15718,9 @@ MH:
   - Wyspy Marshalla
   - ꕮꕊꕣ ꔳꘋꗣ
   - Marshalleilande
+  - Republic of the Marshall Islands
+  - Aolepān Aorōkin Ṃajeḷ
+  - Majuro
 MK:
   - The Former Yugoslav Republic of Macedonia
   - REPUBLIC OF MACEDONIA (F.Y.R.O.M.)
@@ -15534,6 +16216,21 @@ MO:
   - SAR Makao (Kina)
   - RAS di Macao
   - മക്കാവു (SAR) ചൈന
+  - Nossa Senhora de Fátima
+  - Santo António
+  - São Lázaro
+  - Sé
+  - São Lourenço
+  - Nossa Senhora do Carmo
+  - São Francisco Xavier
+  - Zona do Aterro de Cotai
+  - Macau
+  - Macao
+  - 澳門
+  - Macao Special Administrative Region of the People's Republic of China
+  - 中華人民共和國澳門特別行政區
+  - Jūng'wàh Yàhnmàhn Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
+  - Região Administrativa Especial de Macau da República Popular da China
 MP:
   - Commonwealth of the Northern Mariana Islands
   - Commonwealth of the Northern Marianas
@@ -17381,7 +18078,7 @@ NL:
   - Nedàlân
   - Niderland
   - Hà Lan
-'NO':
+NO:
   - Норвегия
   - Orílẹ́ède Nọọwii
   - নরওয়ে
@@ -24581,6 +25278,8 @@ VA:
   - Vatikanu
   - Letëe tî Vatikäan
   - awank n fatikan
+  - Vatican City State
+  - Vatican State
 VC:
   - ⵙⴰⵏⴼⴰⵏⵙⴰⵏ ⴷ ⴳⵔⵉⵏⴰⴷⵉⵏ
   - Saint Vincent și Grenadinele
@@ -24971,6 +25670,14 @@ VG:
   - Ifisima fya Virgin fya Huingereza
   - Виргинские о  -ва (Британские)
   - Βρετανικές Παρθένοι Νήσοι
+  - tortola
+  - bv islands
+  - b virgin islands
+  - bvi foreign
+  - road town
+  - Virgin Gorda
+  - Anegada
+  - Jost Van Dyke
 VI:
   - آمریکای ویرجین
   - AOS Virgin  -sullot
