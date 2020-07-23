@@ -5,13 +5,13 @@ from countrynames import to_code, to_code_3
 def test_to_code():
     assert to_code("Germany") == "DE"
     assert to_code("UK") == "GB"
-    assert to_code("Nothing") == None
+    assert to_code("Nothing") is None
 
 
 def test_to_code_3():
     assert to_code_3("Germany") == "DEU"
     assert to_code_3("UK") == "GBR"
-    assert to_code_3("Nothing") == None
+    assert to_code_3("Nothing") is None
 
 
 def test_unicode():
@@ -19,7 +19,7 @@ def test_unicode():
 
 
 def test_fuzzy_matching():
-    assert to_code("Rossiyskaya Federatsiya", fuzzy=True) == "RU"
+    assert to_code("Rossiyskaya Federacia", fuzzy=True) == "RU"
     assert to_code("Falklands Islands", fuzzy=True) == "FK"
     assert to_code("TGermany", fuzzy=True) == "DE"
 
@@ -36,8 +36,7 @@ def test_GB():
     assert to_code("Wales") == "GB-WLS"
     assert to_code("Northern Ireland") == "GB-NIR"
     assert to_code("Northern Ireland", fuzzy=True) == "GB-NIR"
-    assert to_code("United Kingdom of Great Britain and Northern Ireland") == "GB"
-    assert (
-        to_code("United Kingdom of Great Britain and Northern Ireland", fuzzy=True)
-        == "GB"
-    )
+    text = "United Kingdom of Great Britain and Northern Ireland"
+    assert to_code(text) == "GB"
+    text = "United Kingdom of Great Britain and Northern Ireland"
+    assert to_code(text, fuzzy=True) == "GB"
