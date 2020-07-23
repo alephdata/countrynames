@@ -1,9 +1,9 @@
 import os
-import six
 import yaml
 import logging
 import Levenshtein
 from normality import normalize
+from functools import lru_cache
 
 try:
     from yaml import CLoader as Loader
@@ -21,8 +21,7 @@ COUNTRY_NAMES = {}
 
 def _normalize_name(country):
     """Clean up a country name before comparison."""
-    norm = normalize(country, latinize=True)
-    return six.text_type(norm)
+    return normalize(country, latinize=True)
 
 
 def _load_data():
@@ -52,6 +51,7 @@ def _fuzzy_search(name):
     return best_code
 
 
+@lru_cache(maxsize=3000)
 def to_code(country_name, fuzzy=False):
     """Given a human name for a country, return a two letter code.
 
@@ -63,7 +63,7 @@ def to_code(country_name, fuzzy=False):
         _load_data()
 
     # shortcut before costly ICU stuff
-    if isinstance(country_name, six.text_type):
+    if isinstance(country_name, str):
         country_name = country_name.upper().strip()
         # Check if the input is actually an ISO code:
         if country_name in COUNTRY_NAMES.values():
