@@ -4,6 +4,7 @@ import yaml
 import logging
 import Levenshtein
 from normality import normalize
+
 try:
     from yaml import CLoader as Loader
 except ImportError:
@@ -13,7 +14,7 @@ from .mappings import mappings
 
 log = logging.getLogger(__name__)
 
-__all__ = ['to_code', 'to_code_3']
+__all__ = ["to_code", "to_code_3"]
 
 COUNTRY_NAMES = {}
 
@@ -26,8 +27,8 @@ def _normalize_name(country):
 
 def _load_data():
     """Load known aliases from a YAML file. Internal."""
-    data_file = os.path.join(os.path.dirname(__file__), 'data.yaml')
-    with open(data_file, 'r', encoding='utf-8') as fh:
+    data_file = os.path.join(os.path.dirname(__file__), "data.yaml")
+    with open(data_file, "r", encoding="utf-8") as fh:
         for code, names in yaml.load(fh, Loader=Loader).items():
             code = code.strip().upper()
             COUNTRY_NAMES[_normalize_name(code)] = code
@@ -36,20 +37,19 @@ def _load_data():
 
 
 def _fuzzy_search(name):
-    matches = []
+    best_code = None
+    best_distance = None
     for cand, code in COUNTRY_NAMES.items():
         if len(cand) <= 4:
             continue
         distance = Levenshtein.distance(name, cand)
-        if cand in name:
-            matches.append((code, distance))
-        elif Levenshtein.distance(name, cand) <= 2:
-            matches.append((code, distance))
-    matches = sorted(matches, key=lambda x: x[1])
-    if len(matches) > 0:
-        match = matches[0][0]
-        log.debug("Guessing country: %s -> %s", name, match)
-        return match
+        if best_distance is None or distance < best_distance:
+            best_distance = distance
+            best_code = code
+    if best_distance > 2:
+        return None
+    log.debug("Guessing country: %s -> %s (distance %d)", name, code, best_distance)
+    return best_code
 
 
 def to_code(country_name, fuzzy=False):
@@ -76,7 +76,7 @@ def to_code(country_name, fuzzy=False):
 
     # Direct look up
     code = COUNTRY_NAMES.get(name)
-    if code == 'FAIL':
+    if code == "FAIL":
         return None
 
     # Find closest match with spelling mistakes
