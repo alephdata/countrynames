@@ -51,7 +51,7 @@ def _fuzzy_search(name):
     return best_code
 
 
-@lru_cache(maxsize=3000)
+@lru_cache(maxsize=5000)
 def to_code(country_name, fuzzy=False):
     """Given a human name for a country, return a two letter code.
 
