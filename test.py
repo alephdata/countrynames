@@ -1,4 +1,3 @@
-# coding: utf-8
 from countrynames import to_code, to_code_3
 
 
