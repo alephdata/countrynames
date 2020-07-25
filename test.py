@@ -4,6 +4,7 @@ from countrynames import to_code, to_code_3
 def test_to_code():
     assert to_code("Germany") == "DE"
     assert to_code("UK") == "GB"
+    assert to_code("North Macedonia") == "MK"
     assert to_code("Nothing") is None
 
 
@@ -21,6 +22,7 @@ def test_fuzzy_matching():
     assert to_code("Rossiyskaya Federacia", fuzzy=True) == "RU"
     assert to_code("Falklands Islands", fuzzy=True) == "FK"
     assert to_code("TGermany", fuzzy=True) == "DE"
+    assert to_code_3("State of Palestine", fuzzy=True) == "PSE"
 
 
 def test_non_standard_codes():
