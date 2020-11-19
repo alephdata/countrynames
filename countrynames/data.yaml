@@ -133,6 +133,7 @@ GB-WLS:
   - Carms
   - Cthen
   - Flints
+  - Gales
 GB-SCT:
   - Scotland
   - GBSCT
@@ -183,6 +184,7 @@ GB-SCT:
   - Lothian
   - Linlithgowshire
   - Wigtownshire
+  - Escocia
 GB-NIR:
   - Northern Ireland
   - N Irish
@@ -200,6 +202,7 @@ GB-NIR:
   - Londonderry
   - Derry
   - Tyrone
+  - Irlanda del Norte
 MD-PMR:
   - Transnistria
   - MDPMR
@@ -8535,6 +8538,7 @@ GB:
   - United Kingdon
   - English
   - British Citizen
+  - Inglaterra
   - Regno Unito
   - დიდი ბრიტანეთი
   - যুক্তরাজ্য
@@ -8656,7 +8660,8 @@ GB:
   - یُنایٹِڑ کِنٛگڈَم
   - United Kingdom of Great Britain and Northern Ireland
   - Huuingereza
-  - Stuorra  -Británnia
+  - Stuorra  
+  - Británnia
   - Birləşmiş Krallıq
   - Albaasalaama Marganta
   - 英國
