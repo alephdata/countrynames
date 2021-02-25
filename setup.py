@@ -31,9 +31,9 @@ setup(
     include_package_data=True,
     zip_safe=False,
     test_suite="nose.collector",
-    install_requires=["normality", "python-Levenshtein", "pyyaml", "pyicu"],
+    install_requires=["normality", "python-Levenshtein", "pyyaml"],
     extras_require={
-        "dev": ["mypy", "nosetests"],
+        "dev": ["mypy", "nose"],
     },
     tests_require=[],
     entry_points={},
