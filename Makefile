@@ -1,11 +1,9 @@
 
-all: clean build upload
+all: clean
 
-build:
-	python setup.py sdist bdist_wheel
-
-upload:
-	twine upload dist/*
+test:
+	pip install -q -e ".[dev]"
+	nosetests
 
 clean:
 	rm -rf dist build
