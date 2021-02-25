@@ -1,2 +1,3 @@
 include README.md
 include countrynames/data.yaml
+include countrynames/py.typed

@@ -1,14 +1,11 @@
 import os
 import yaml
 import logging
-import Levenshtein
+import Levenshtein  # type: ignore
 from normality import normalize
 from functools import lru_cache
-
-try:
-    from yaml import CLoader as Loader
-except ImportError:
-    from yaml import Loader
+from typing import Any, Optional, Dict
+from yaml import Loader
 
 from .mappings import mappings
 
@@ -16,26 +13,30 @@ log = logging.getLogger(__name__)
 
 __all__ = ["to_code", "to_code_3"]
 
-COUNTRY_NAMES = {}
+COUNTRY_NAMES: Dict[str, str] = {}
 
 
-def _normalize_name(country):
+def _normalize_name(country: Optional[str]) -> Optional[str]:
     """Clean up a country name before comparison."""
     return normalize(country, latinize=True)
 
 
-def _load_data():
+def _load_data() -> None:
     """Load known aliases from a YAML file. Internal."""
     data_file = os.path.join(os.path.dirname(__file__), "data.yaml")
     with open(data_file, "r", encoding="utf-8") as fh:
         for code, names in yaml.load(fh, Loader=Loader).items():
             code = code.strip().upper()
-            COUNTRY_NAMES[_normalize_name(code)] = code
+            name = _normalize_name(code)
+            if name is not None:
+                COUNTRY_NAMES[name] = code
             for name in names:
-                COUNTRY_NAMES[_normalize_name(name)] = code
+                alias = _normalize_name(name)
+                if alias is not None:
+                    COUNTRY_NAMES[alias] = code
 
 
-def _fuzzy_search(name):
+def _fuzzy_search(name: str) -> Optional[str]:
     best_code = None
     best_distance = None
     for cand, code in COUNTRY_NAMES.items():
@@ -45,14 +46,14 @@ def _fuzzy_search(name):
         if best_distance is None or distance < best_distance:
             best_distance = distance
             best_code = code
-    if best_distance > (len(name) * 0.15):
+    if best_distance is None or best_distance > (len(name) * 0.15):
         return None
     log.debug("Guessing country: %s -> %s (distance %d)", name, code, best_distance)
     return best_code
 
 
 @lru_cache(maxsize=5000)
-def to_code(country_name, fuzzy=False):
+def to_code(country_name: Any, fuzzy: bool = False) -> Optional[str]:
     """Given a human name for a country, return a two letter code.
 
     Arguments:
@@ -72,7 +73,7 @@ def to_code(country_name, fuzzy=False):
     # Transliterate and clean up
     name = _normalize_name(country_name)
     if name is None:
-        return
+        return None
 
     # Direct look up
     code = COUNTRY_NAMES.get(name)
@@ -85,7 +86,7 @@ def to_code(country_name, fuzzy=False):
     return code
 
 
-def to_code_3(country_name, fuzzy=False):
+def to_code_3(country_name: Any, fuzzy: bool = False) -> Optional[str]:
     """Given a human name for a country, return a three letter code.
 
     Arguments:
