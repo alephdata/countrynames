@@ -1,5 +1,7 @@
 # countrynames
 
+[![build](https://github.com/alephdata/countrynames/actions/workflows/build.yml/badge.svg)](https://github.com/alephdata/countrynames/actions/workflows/build.yml)
+
 This library helps with the mapping of country names to their respective
 two or three letter codes. The idea is
 to incorporate common names for countries, and even some limited misspellings,
