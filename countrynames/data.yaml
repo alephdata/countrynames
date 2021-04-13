@@ -27,6 +27,8 @@ FAIL:
   - not specified other
   - not specified
   - non specified
+CN-XZ:
+  - Tibet
 YUCS:
   - YUGOSLAVIA
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
@@ -35,10 +37,18 @@ YUCS:
 CSXX:
   - SERBIA AND MONTENEGRO
   - SERBIA & MONTENEGRO
+  - Federal Republic of Yugoslavia
+  - Сербия и Черногория
+  - Srbija i Crna Gora
+  - Србија и Црна Гора
 SUHH:
   - Soviet Union
   - USSR
   - UdSSR
+  - Union of Soviet Socialist Republics
+  - Сове́тский Сою́з
+  - Сою́з ССР
+  - Сою́з Сове́тских Социалисти́ческих Респу́блик
 ANHH:
   - De Nederlandske Antiller
   - NETHERLAND ANTILLES
@@ -65,6 +75,19 @@ GE-AB:
   - Abkhazia
   - Abkhaziya
   - Respublika Abkhaziya
+AZ-NK:
+  - AZ--NK
+  - Nagorno-Karabakh
+  - Bergkarabach
+  - Нагорный Карабах
+  - Gorski Karabah
+  - Լեռնային Ղարաբաղ
+  - Արցախ
+  - Dağlıq Qarabağ
+  - Yuxarı Qarabağ
+  - Nagornij Karabah
+  - Haut-Karabagh
+  - Artsakh
 X-SO:
   - South Ossetia
   - Republic of South Ossetia
@@ -9174,6 +9197,12 @@ GF:
   - Guiana thuộc Pháp
   - Gùyanà Pùlàsi
   - Prancūzijos Gviana
+GG-SRK:
+  - Sark
+  - Sercq
+  - Sèr
+  - Cerq
+  - Сарк
 GG:
   - ເກີນຊີ
   - Guernési
@@ -9190,7 +9219,6 @@ GG:
   - St. Pierre Du Bois
   - St Andrews
   - Alderney
-  - Sark
   - கெர்ன்சி
   - गेर्नसे
   - Гернсі
