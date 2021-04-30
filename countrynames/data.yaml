@@ -22,11 +22,13 @@ FAIL:
   - na
   - n a
   - unknown
+  - unk
   - not applicable
   - overseas
   - not specified other
   - not specified
   - non specified
+  - stateless
 CN-XZ:
   - Tibet
 YUCS:
@@ -49,6 +51,7 @@ SUHH:
   - Сове́тский Сою́з
   - Сою́з ССР
   - Сою́з Сове́тских Социалисти́ческих Респу́блик
+  - Russia (USSR)
 ANHH:
   - De Nederlandske Antiller
   - NETHERLAND ANTILLES
@@ -464,6 +467,7 @@ AF:
   - Авганистан
   - Afganistaŋ
   - Afgan
+  - Afghan
   - अफगानिस्तान
   - أفغانستان
   - আফগানিস্তান
@@ -4242,6 +4246,7 @@ CD:
   - Republiche Democratiche dal Congo
   - Democratic Republic Of Congo
   - DEMOCRATIC REPUBLIC OF THE CONGO (FORMERLY ZAIRE)
+  - RÉPUBLIQUE DÉMOCRATIQUE DU CONGO
   - Kongo Kinshasa nutome
   - Republica Democratica dal Congo
   - Конго  -Киншаса
@@ -5332,6 +5337,7 @@ CN:
   - Siaina
   - Cine
   - Chnese
+  - China/Chine
   - Caina, Sin
   - Cina
   - Chinese
@@ -8552,6 +8558,7 @@ GB:
   - United Kindgom
   - United Kindgdom
   - The United Kingdom
+  - United Kingdom of Great Britain
   - Welsh
   - Cardiff
   - Britsh
@@ -9651,6 +9658,7 @@ GN:
   - Gínea
   - Guineab
   - Guinea
+  - Guinean
   - An Ghuine
   - Gineea
   - گینه
@@ -11215,6 +11223,7 @@ ID:
   - インドネシア
   - Indonethia
   - Indonesian
+  - Indonesia
   - ಇಂಡೋನೇಶಿಯಾ
   - Undonesia
   - Indonezi
@@ -11325,6 +11334,8 @@ IE:
   - REPUBLIC OF IRELAND
   - IRISH REPUBLIC
   - Rep Of Ireland
+  - Éire-Ireland
+  - Éire-Irlande
   - REPULBIC OF IRELAND
   - IRELANND
   - Ayalan
@@ -11654,6 +11665,7 @@ IM:
   - 맨 섬
   - Мэн аралы
   - Île de Man
+  - Man, Isle of
   - Wyspa Man
   - i  -Isle of Man
   - Illa de Man
@@ -12968,6 +12980,7 @@ KG:
   - Kirigizisitaŋ
   - Kirgizië
   - Kirgizistan
+  - Kyrgyz SSR (now Kyrgyzstan)
 KH:
   - ਕੰਬੋਡੀਆ
   - Kambodj
@@ -14081,6 +14094,7 @@ KZ:
   - Kazasitaŋ
   - kazaxstan
   - ካዛኪስታን
+  - Kazakh SSR
 LA:
   - Laóosi
   - لائوس
@@ -15389,6 +15403,8 @@ MD:
   - Moldavië
   - Moldau
   - مولداوی
+  - Moldovian SSR (now Republic of Moldovia)
+  - Moldovian SSR
 ME:
   - Чорногорія
   - ಮೊಂಟೆನೆಗ್ರೋ
@@ -15761,6 +15777,7 @@ MH:
 MK:
   - North Macedonia
   - The Former Yugoslav Republic of Macedonia
+  - Macedonia, The Former Yugoslav Republic of
   - REPUBLIC OF MACEDONIA (F.Y.R.O.M.)
   - Macedonian
   - F.Y.R.O.M.
@@ -15949,6 +15966,7 @@ MM:
   - म्यानमार (बर्मा)
   - Pema
   - Birma
+  - Burmese
   - മ്യാൻമാർ (ബർമ്മ)
   - Miáama
   - Birimaniya
@@ -15959,6 +15977,7 @@ MM:
   - Myanmar (Burma) nutome
   - MYANMAR (FORMERLY BURMA)
   - MYANMAR (MYANMA NAINGNGANDAW )
+  - BIRMANIE/MYANMAR
   - Miyamaha
   - Humyama
   - Myanma
@@ -16494,6 +16513,7 @@ MQ:
 MR:
   - Mauritani
   - Mauritian
+  - Mauritanian
   - ماۋرىتانىيە
   - മൗറിറ്റാനിയ
   - ሞሪቴኒያ
@@ -19756,6 +19776,7 @@ PS:
   - పాలస్తీనియన్ ప్రాంతాలు
   - Palesztin Terület
   - Palestina
+  - Palestinian
   - Palestinian territory
   - West Bank
   - PALESTINE
@@ -20537,6 +20558,7 @@ RU:
   - Uburusiya
   - 俄羅斯
   - Russian Federation
+  - Russia Federation
   - Российская Федерация
   - rusya
   - Huulusi
@@ -24134,6 +24156,7 @@ TT:
   - Trinite  -ni  -Tobago
   - Тринидад ва Тобаго
   - Tinidadɛ mpé Tobago
+  - TRINIDAD ET TOBAGO
   - Trinidad och Tobago
   - त्रिनिदाद आणि टोबॅगो
   - Trinidāds be Tobagō
@@ -24581,6 +24604,10 @@ UA:
   - Ukreni
   - Wcráin
   - Україна
+  - Former USSR (currently Ukraine)
+  - Ukrainian SSR (Ukraine)
+  - Ukrainian SSR
+  - Ukraine SSR
 UG:
   - Ùgandà
   - Yùgandà
