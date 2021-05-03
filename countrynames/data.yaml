@@ -34,12 +34,13 @@ CN-XZ:
 YUCS:
   - YUGOSLAVIA
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
+  - Federal Republic of Yugoslavia
+  - Federal Socialist Republic of Yugoslavia
   - YU
   - YUG
 CSXX:
   - SERBIA AND MONTENEGRO
   - SERBIA & MONTENEGRO
-  - Federal Republic of Yugoslavia
   - Сербия и Черногория
   - Srbija i Crna Gora
   - Србија и Црна Гора
@@ -47,6 +48,7 @@ SUHH:
   - Soviet Union
   - USSR
   - UdSSR
+  - SU
   - Union of Soviet Socialist Republics
   - Сове́тский Сою́з
   - Сою́з ССР
@@ -229,7 +231,16 @@ GB-NIR:
   - Tyrone
   - Irlanda del Norte
 MD-PMR:
+  - Шериф
   - Transnistria
+  - Transdniestria
+  - Stînga Nistrului
+  - Приднестровье
+  - Придністров'я
+  - Pridnestrovian Moldavian Republic
+  - Приднестровская Молдавская Республика
+  - Republica Moldovenească Nistreană
+  - Придністровська Молдавська Республіка
   - MDPMR
 AD:
   - Andɔr
