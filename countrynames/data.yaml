@@ -29,8 +29,6 @@ FAIL:
   - not specified
   - non specified
   - stateless
-CN-XZ:
-  - Tibet
 YUCS:
   - YUGOSLAVIA
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
@@ -65,9 +63,14 @@ CSHH:
   - Czecho-Slovakia
   - Československo
   - Česko-Slovensko
-DDDE:
+DD:
   - DDR
+  - GDR
+  - DDDE
+  - East Germany
+  - Deutsche Demokratische Republik
   - German Democratic Republic
+  - Germany, Democratic Republic (GDR)
   - FORMER GERMAN DEMOCRATIC REPUBLIC
 VDVN:
   - Viet-Nam, Democratic Republic of
@@ -1004,7 +1007,6 @@ AM:
   - Armėnija
   - Armênia
 AO:
-
   - AGO
   - Ангола
   - Ungula
@@ -4258,6 +4260,7 @@ CD:
   - Democratic Republic Of Congo
   - DEMOCRATIC REPUBLIC OF THE CONGO (FORMERLY ZAIRE)
   - RÉPUBLIQUE DÉMOCRATIQUE DU CONGO
+  - Congo DR
   - Congo, Democratic Republic of
   - Kongo Kinshasa nutome
   - Republica Democratica dal Congo
@@ -5302,6 +5305,7 @@ CN-XZ:
   - Ninghe
   - Jinghai
   - Jizhou
+  - Tibet
 CN-CQ:
   - Chungking
   - Chongqing
@@ -8706,7 +8710,7 @@ GB:
   - یُنایٹِڑ کِنٛگڈَم
   - United Kingdom of Great Britain and Northern Ireland
   - Huuingereza
-  - Stuorra  
+  - Stuorra
   - Británnia
   - Birləşmiş Krallıq
   - Albaasalaama Marganta
@@ -10587,6 +10591,7 @@ HK:
   - Hongkong SAR van Sina
   - Hongkong
   - China, Hong Kong Special Administrative Region
+  - Hong Kong Special Administrative Region
   - HONG KONG SPECIAL ADMINSTRATIVE REGION OF CHINA
   - Hongkongi erihalduspiirkond
   - HKSAR
@@ -13460,7 +13465,12 @@ KN:
   - basseterre
   - sandy point town
 KP:
-  - Coréia do Norte\
+  - Korea, Democratic People's Republic of
+  - Democratic People's Republic of Korea (DPRK)
+  - DPRK
+  - RPDC
+  - Democratic People's Republic of Korea
+  - Coréia do Norte
   - North Korean
   - DPR Korea
   - Къилбаседа Корей
@@ -13598,10 +13608,8 @@ KP:
   - КНДР
   - Koriya Kɔi Kaŋndɔ
   - བྱང་ ཀོ་རི་ཡ
-  - Democratic People's Republic of Korea
   - မြောက်ကိုရီးယား
   - Kɛɲɛka Kore
-  - Korea, Democratic People's Republic of
   - شمالی کُره
 KR:
   - Republic of Korea
