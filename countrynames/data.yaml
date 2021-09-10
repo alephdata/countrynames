@@ -3,6 +3,7 @@ FAIL:
   - fund
   - antilles
   - Lesser Antilles
+  - Antillean
   - asia
   - british overseas territories
   - overseas territories
@@ -10,6 +11,7 @@ FAIL:
   - channel islands
   - channel island
   - west indies
+  - West Indian
   - indies
   - THE WEST INDIES
   - THE CHENNAL ISLES
@@ -19,7 +21,7 @@ FAIL:
   - central america
   - southern america
   - N/A
-  - na
+  # - na -> namibia
   - n a
   - unknown
   - unk
@@ -50,6 +52,7 @@ SUHH:
   - Union of Soviet Socialist Republics
   - Сове́тский Сою́з
   - Сою́з ССР
+  - Soviet
   - Сою́з Сове́тских Социалисти́ческих Респу́блик
   - Russia (USSR)
 ANHH:
@@ -62,6 +65,7 @@ CSHH:
   - CZECHOSLOVAKIA
   - Czecho-Slovakia
   - Československo
+  - Czechoslovakian
   - Česko-Slovensko
 DD:
   - DDR
@@ -75,13 +79,13 @@ DD:
 VDVN:
   - Viet-Nam, Democratic Republic of
   - DEMOCRATIC REPUBLIC OF VIETNAM
-  - Việt Nam
   - Cộng hòa xã hội chủ nghĩa Việt Nam
   - Socialist Republic of Vietnam
 GE-AB:
   - GEAB
   - Abkhazia
   - Abkhaziya
+  - Abkhazian
   - Respublika Abkhaziya
 AZ-NK:
   - AZ--NK
@@ -99,6 +103,7 @@ AZ-NK:
 X-SO:
   - South Ossetia
   - Republic of South Ossetia
+  - South Ossetian
   - the State of Alania
   - ცხინვალის რეგიონი
   - Respublikæ Xussar Iryston
@@ -107,14 +112,15 @@ SO-SOM:
   - SOSOM
   - Somaliland
   - Republic of Somaliland
+  - Somalilander
 GB-WLS:
   - Wales
   - GBWLS
   - Cymro
   - Cymru
   - Cymry
-  - Orkney
   - Anglesey
+  - Welshwoman
   - Brecknockshire
   - Caernarfonshire
   - Cardiganshire
@@ -153,7 +159,7 @@ GB-WLS:
   - Montgomery
   - Pembroke
   - Radnor
-  - Angl
+  # - Angl
   - Brecks
   - Bcshire
   - Carn
@@ -220,6 +226,7 @@ GB-NIR:
   - N Irish
   - Northern Irish
   - North Ireland
+  - Ulsterman
   - N.Ireland
   - GBNIR
   - Tuaisceart Éireann
@@ -255,6 +262,7 @@ AD:
   - Àŋdɔ̂r
   - ⴰⵏⴷⵓⵔⴰ
   - Andorra
+  - Andorrano
   - अँडोरा
   - Uandora
   - Andorre
@@ -353,6 +361,7 @@ AE:
   - Emirà Arabo mitambatra
   - limarat
   - එක්සත් අරාබි එමිර් රාජ්‍යය
+  - Emirian
   - UAE
   - RAK
   - RAS AL KHAIMAH
@@ -701,6 +710,7 @@ AG:
   - Antigua ne Barbuda
   - Antigúua na Baribúuda
   - Antigua va Barbados
+  # - Barbados
   - Untiga d Barbuda
   - एंटिगुआ और बरबुडा
   - एन्टिगुआ र बारबुडा
@@ -726,7 +736,7 @@ AI:
   - Anguillab
   - Ангила
   - ઍંગ્વિલા
-  - ཨང་གི་ལ
+  # - ཨང་གི་ལ
   - Orílẹ́ède Ààngúlílà
   - ᎠᏂᎩᎳ
   - Anguilla
@@ -1026,7 +1036,7 @@ AO:
   - Aŋgɔ́la
   - 安哥拉
   - Angòla
-  - ཨང་གྷོ་ལ
+  # - ཨང་གྷོ་ལ
   - Orílɛ́ède Ààngólà
   - ⴰⵏⴳⵓⵍⴰ
   - ອັນໂກລາ
@@ -1259,6 +1269,7 @@ AR:
   - ARG
   - Argentīnija
   - আর্জেন্টিনা
+  - Buenos Aires
 AS:
   - Amerika Sāmoa
   - Amelika Sāmoa
@@ -1437,7 +1448,7 @@ AT:
   - Òstrǐk
   - An Ostair
   - עסטרייך
-  - Áo
+  # - Áo
   - Áustria
   - Rakousko
   - Osətəlía
@@ -1642,6 +1653,8 @@ AU:
   - Ositáli
   - ɔstralí
   - Awusitureliya
+  - Tasmania
+  - Taswegian
 AW:
   - ᎠᎷᏆ
   - അറൂബ
@@ -1939,6 +1952,7 @@ BA:
   - Bosnia And Herzergov
   - Bosnia-Herzegowina
   - Bosnia And Herzegowina
+  - Herzegovinian
   - Bosnia
   - Bosnian
   - באסניע הערצעגאווינע
@@ -2111,6 +2125,8 @@ BB:
   - Bàbadòs
   - Барбадос
   - Barbados nutome
+  - Barbadian
+  - Barbudan
   - Barbaados
   - Barubadosi
   - बार्बाडोस
@@ -2305,7 +2321,7 @@ BE:
   - Bélgica
   - BEL
   - 벨기에
-  - Bỉ
+  # - Bỉ
   - belgika
   - Bêleze, Belezîki
   - Kingdom of Belgium
@@ -2385,6 +2401,8 @@ BE:
   - Orílɛ́ède Bégíɔ́mù
   - ⴱⵍⵊⵉⴽⴰ
   - Belgicko
+  - Brussels
+  - Bruxellois
 BF:
   - ਬੁਰਕੀਨਾ ਫ਼ਾਸੋ
   - Bùrkìnà Fasò
@@ -2392,6 +2410,9 @@ BF:
   - بۇركىنا  -فاسو
   - Burkina Fasob
   - Burkina Faso
+  - Burkina Fasoa
+  - Burkinabé
+  - Burkinabè
   - Буркина  - Фасо
   - Buircíne Fasó
   - बर्किना फासो
@@ -2693,6 +2714,7 @@ BI:
   - Burandi
   - An Bhurúin
   - Burundib
+  - Burundian
   - BI
   - बुरुंडी
   - Bhurundi
@@ -3112,6 +3134,7 @@ BO:
   - BOL
   - බොලීවියාව
   - Bolivia
+  - Bolivian
   - Boliifiya
   - Bolivïi
   - Bolivia nutome
@@ -3411,6 +3434,13 @@ BR:
   - Brazilska
   - Βραζιλία
   - บราซิล
+  - São Paulo
+  - Paulistano
+  - Minas Gerais
+  - Mineiro
+  - Rio De Janeiro
+  - Fluminense
+  - Belo Horizonte
 BS:
   - បាហាម៉ា
   - i  -Bahamas
@@ -3949,6 +3979,7 @@ BZ:
   - Bilidha
   - Belizë
   - i  -Belize
+  - Belizean
   - Belizi
   - ꔆꔷꔘ
   - Белиз
@@ -4301,6 +4332,8 @@ CD:
   - קונגו   - קינשאסה
   - Kɔ́ŋgɔ  -Kinshása
   - Kongo (Zair)
+  - Zairean
+  - Zaire
   - República Democrática del Congo
   - Congo   - Kinshasa
   - Kongo, Dem. Lýðveldið
@@ -4317,10 +4350,10 @@ CD:
   - کونٛگو کِنشاسا
   - Конго – Кіншаса
   - الكونغو   - كينشاسا
-  - Orilɛ́ède Kóngò
+  # - Orilɛ́ède Kóngò
   - କଙ୍ଗୋ  -କିନସାସା
   - Конго   - Киншаса
-  - Orilẹ́ède Kóngò
+  # - Orilẹ́ède Kóngò
   - ຄອງໂກ   - ຄິນຊາຊາ
   - Repibiki demokratiki ya Kongó
   - Jamhuri ya Kidemokrathia ya Kongo
@@ -4350,7 +4383,7 @@ CD:
   - کنگو کینشاسا
   - Demokratska Republika Kongo
   - Kongo   - Kinšasa
-  - Конго
+  # - Конго
   - Ködörösêse tî Ngunuhalëzo tî kongö
   - Kongo ka republiki demɔkratiki
   - Jamuhuli ya Chidemoklasia ya kuKongo
@@ -4554,10 +4587,10 @@ CG:
   - Конго – Браззавіль
   - ኮንጐ
   - കോംഗോ   - ബ്രാസവില്ലി
-  - Orílẹ́ède Kóngò
+  # - Orílẹ́ède Kóngò
   - COG
   - Kongolo
-  - Orílɛ́ède Kóngò
+  # - Orílɛ́ède Kóngò
   - Kongo Vabariik
   - کنگو   - برازویل
   - Kɔ́ŋgɔ  -Mbɛlazavîl
@@ -4657,6 +4690,8 @@ CH:
   - i  -Switzerland
   - Šwēici
   - Sveits
+  - Zurich
+  - Zuricher
   - swís
   - ஸ்விட்சர்லாந்து
   - Suíza
@@ -5224,6 +5259,8 @@ CN-SH:
   - 上海市
   - Shànghǎi Shì
   - shanghai
+  - Shanghai
+  - Shanghainese
   - Xúhuì Qū
   - Chángníng Qū
   - Jìng'ān Qū
@@ -5306,6 +5343,7 @@ CN-XZ:
   - Jinghai
   - Jizhou
   - Tibet
+  - Tibetan
 CN-CQ:
   - Chungking
   - Chongqing
@@ -5624,6 +5662,7 @@ CR:
   - ⴽⵓⵙⵜⴰ ⵔⵉⴽⴰ
   - コスタリカ
   - Costa Rica
+  - Costa Rican
   - Коста Рика
   - کاستاریکا
   - Κόστα Ρίκα
@@ -5759,9 +5798,11 @@ CV:
   - ခေ့ပ်ဗာဒူ
   - Kepi i Gjelbër
   - i  -Cape Verde
+  - Cape Verdian
   - כף ורדה
   - Kepvɛdfo Islands
   - Cabo Verde
+  - Cabo Verdean
   - Зеленортска Острва
   - Grænhöfðaeyjar
   - Kaboverde
@@ -5863,6 +5904,7 @@ CW:
   - Curacao
   - Country of Curaçao
   - Land Curaçao
+  - Curaçaoan
   - Pais Kòrsou
   - Kòrsou
   - ಕುರಾಕಾವ್
@@ -6027,6 +6069,7 @@ CY:
   - Republic of Cyprus
   - Saeprɔs
   - Cypriot
+  - Cypriote
   - Κυπριακή Δημοκρατία
   - Cypriot Republic
   - Kıbrıs Cumhuriyeti
@@ -6150,6 +6193,7 @@ CY:
   - Lefkoşa
   - Lefkosía
   - nicosia
+  - Nicosian
 CZ:
   - Czechia
   - Ĉeĥujo
@@ -6295,6 +6339,8 @@ CZ:
   - ቼክ ሪፑብሊክ
   - Ditunga dya Tsheka
   - جمهوری چک
+  - Prague
+  - Praguer
 DE:
   - nsáman
   - जर्मनी
@@ -6458,6 +6504,7 @@ DJ:
   - ஜிபௌட்டி
   - Djiboti
   - REPUBLIQUE DE DJIBOUTI
+  - Djiboutian
   - Τζιμπουτί
   - Dyibuti
   - ဂျီဘူတီ
@@ -6556,6 +6603,7 @@ DK:
   - danmark
   - دنمارک
   - Denmakhi
+  - Dansker
   - Denemarke
   - डेन्मार्क
   - דענמאַרק
@@ -6654,6 +6702,8 @@ DK:
   - דנמרק
   - ډنمارک
   - Danmark
+  - Copenhagen
+  - Københavner
 DM:
   - DMA
   - ドミニカ国
@@ -6672,6 +6722,7 @@ DM:
   - ڈومنیکا
   - ᏙᎻᏂᎧ
   - i  -Dominica
+  - Dominican
   - डोमिनिका
   - Duminiku
   - ଡୋମିନାକା
@@ -7008,6 +7059,7 @@ EC:
   - ʻEkuetoa
   - Ikwaḍur
   - Republic of Ecuador
+  - Ecuadoran
   - Ikuwadɔ
   - エクアドル
   - Էկվադոր
@@ -7224,7 +7276,7 @@ EG:
   - Emetab Misiri
   - مِسٔر
   - Ägypten
-  - مصر
+  # - مصر
   - ɛjípt
   - ეგვიპტე
   - עגיפּטן
@@ -7337,6 +7389,7 @@ EH:
   - Vestursahara
   - Sáḥara Occidental
   - Weštsahara
+  - Sahrawian
   - Gorllewin Sahara
   - Заходняя Сахара
   - ਪੱਛਮੀ ਸਹਾਰਾ
@@ -7433,6 +7486,7 @@ ER:
   - Эрытрэя
   - Эритрея
   - Eritreia
+  - Eritrean
   - Еритрея
   - Iritrya
   - Eritureya
@@ -7643,6 +7697,9 @@ ES:
   - Lespagn
   - Sepanyol
   - canary islands
+  - Canarian
+  - Calatayud
+  - Barcelona
 ET:
   - Etiopía
   - എത്യോപ്യ
@@ -7876,6 +7933,7 @@ FJ:
   - فجی
   - فیجی
   - Fijib
+  - Fijian
   - Φίτζι
   - Fidji
   - ફીજી
@@ -7979,6 +8037,8 @@ FK:
   - ཕལྐ་ལནྜ་གླིང་ཕྲན།
   - Fáháki Luma Tiŋŋɛ
   - Falklandy
+  - Falkland Islander
+  - Falkland Islands
   - Vithiwa vya Falkland
   - zǝ maalwín
   - फकल्याण्ड टापुहरु
@@ -8197,6 +8257,7 @@ FM:
   - Micronesie
   - Mikroneesije
   - Micronesia
+  - Micronesian
   - Мікронезія
   - Emetab Micronesia
   - mikronɛ́si
@@ -8234,6 +8295,8 @@ FO:
   - Farerų Salos
   - Illes Fèroe
   - Îles Féroé
+  - Faroese
+  - Faroe Islands
   - ෆැරෝ දූපත්
   - Farēirai
   - የፋሮ ደሴቶች
@@ -8333,6 +8396,7 @@ FR:
   - ಫ್ರಾನ್ಸ್
   - Prancūzija
   - French
+  - Frenchwoman
   - Emetab France
   - França
   - Франция
@@ -8470,6 +8534,8 @@ FR:
   - Frankriich
   - फ़्रांस
   - ଫ୍ରାନ୍ସ
+  - Paris
+  - Parisienne
 GA:
   - گابن
   - Գաբոն
@@ -8574,6 +8640,8 @@ GB:
   - England & Wales
   - England/United Kingdom
   - British English
+  - Englishwoman
+  - England
   - Ukengland
   - United Kindgom
   - United Kindgdom
@@ -8848,7 +8916,6 @@ GB:
   - Lancs
   - Leics
   - Lincs
-  - Mx
   - Middx
   - Mddx
   - M'sex
@@ -8861,12 +8928,12 @@ GB:
   - Rut
   - Shrops
   - Salop
-  - Som
+  # - Som
   - Staffs
   - Staf
   - Suff
-  - Sy
-  - Sx
+  # - Sy
+  # - Sx
   - Ssx
   - Warks
   - War
@@ -9085,6 +9152,8 @@ GE:
   - Zorzïi
   - Gjeorgjie
   - Georgía
+  - Tbilisi
+  - Tbilisian
 GF:
   - Французийн Гвиана
   - Ranskan Guayana
@@ -9230,6 +9299,7 @@ GG-SRK:
   - Sèr
   - Cerq
   - Сарк
+  - Sarkese
 GG:
   - ເກີນຊີ
   - Guernési
@@ -9323,12 +9393,12 @@ GH:
   - Khana
   - gána
   - GHA
-  - གྷ་ན།
+  # - གྷ་ན།
   - 가나
   - Gáana
   - غنا
   - ఘనా
-  - གྷ་ན
+  # - གྷ་ན
   - Ghana
   - ガーナ
   - Ugana
@@ -9435,6 +9505,7 @@ GI:
   - ဂျီဘရော်လ်တာ
   - Dzibɨ̀latà
   - Gibraltar
+  - Gibraltarian
   - 直布罗陀
   - జిబ్రాల్టార్
   - ジブラルタル
@@ -9495,6 +9566,7 @@ GL:
   - Grenlàndia
   - Grenlande
   - Greenland
+  - Greenlandic
   - Grunland
   - Hujinlandi
   - Yr Ynys Las
@@ -9681,7 +9753,7 @@ GN:
   - Guinean
   - An Ghuine
   - Gineea
-  - گینه
+  # - گینه
   - Guinee
   - ጊኒ
   - ഗിനിയ
@@ -9796,6 +9868,8 @@ GP:
   - ກົວດາລູບ
   - גוואדלופ
   - Guadalupe
+  - Guadalupense
+  - Guadalupense
   - Guadalupa
   - Gwadeloup
   - GLP
@@ -9899,6 +9973,8 @@ GQ:
   - Экваторан Гвиней
   - ഇക്വറ്റോറിയൽ ഗിനിയ
   - Republic of Equatorial Guinea
+  - Equatorial Guinean
+  - Equatorial Guinea
   - Gini Ta Ikwaita
   - 赤道幾內亞
   - Gíine Ikwéeta
@@ -10065,6 +10141,7 @@ GR:
   - ግሪክ
   - Ugilichi
   - Hellenic Republic
+  - Hellenic
   - اليونان
   - lyunan
   - Greece nutome
@@ -10244,6 +10321,7 @@ GT:
   - Gwatemáala
   - Guatemala nutome
   - Guwaatamaala
+  - Guatemalan
   - Juwatemaala
   - Gwaatemalaa
   - Guwatɛmala
@@ -10330,6 +10408,7 @@ GU:
   - GUM
   - ଗୁଆମ୍
   - Guama
+  - Guambat
   - Gwamu
   - Gùâm
   - gwám
@@ -10391,6 +10470,7 @@ GW:
   - Kini  -Pisau
   - Guine Bissau
   - Guinea-Bissau
+  - Guinea-Bissauan
   - ગિની  -બિસાઉ
   - გვინეა  -ბისაუ
   - ഗിനിയ  -ബിസൗ
@@ -10530,6 +10610,7 @@ GY:
   - Giyane
   - Güiana
   - Orílẹ́ède Guyana
+  - Guyanese
   - Γουιάνα
   - ᎦᏯᎾ
   - గయానా
@@ -10538,7 +10619,7 @@ GY:
   - Gvæjana
   - གྷུ་ཡཱ་ན།
   - guyán
-  - Гаяна
+  # - Гаяна
   - kuyáan
   - Guyanadu
   - กายอานา
@@ -10578,7 +10659,7 @@ GY:
   - gwiyana
   - Giyaan
   - Gajāna
-  - גיאנה
+  # - גיאנה
   - i  -Guyana
   - ហ្គីយ៉ាណា
   - Giyan
@@ -10602,6 +10683,7 @@ HK:
   - Sonderverwaltigszone Hongkong
   - Hong Kong SAR China
   - HONG KONG S.A.R.
+  - Hongkongish
   - हाँगकाँग एसएआर चीन
   - Hong Kong (S. A. R. Kina)
   - RAS di Hong Kong
@@ -10855,6 +10937,7 @@ HN:
   - ɔndúlas
   - Hɔnduras
   - Hondurasi
+  - Honduran
   - ሆንዱራስ
   - ஹோண்டூராஸ்
   - 온두라스
@@ -11158,6 +11241,7 @@ HU:
   - হাঙ্গেরি
   - HUN
   - Magyarország
+  - Magyar
   - Ungarni
   - הונגריה
   - Унгария
@@ -11240,6 +11324,8 @@ HU:
   - ۋېنگىرىيە
   - ହଙ୍ଗେରୀ
   - හන්ගේරියාව
+  - Budapesti
+  - Budapest
 ID:
   - インドネシア
   - Indonethia
@@ -11345,6 +11431,8 @@ ID:
   - ھىندونېزىيە
   - Indónesía
   - indonɛsí
+  - Jakarta
+  - Jakartan
 IE:
   - Irerandi
   - Irilandi
@@ -11358,6 +11446,7 @@ IE:
   - Éire-Ireland
   - Éire-Irlande
   - REPULBIC OF IRELAND
+  - Irishwoman
   - IRELANND
   - Ayalan
   - Ayalandi
@@ -11371,7 +11460,7 @@ IE:
   - أيرلندا
   - ཨཱ་ཡ་ལེནཌ
   - Irrland
-  - ilán
+  # - ilán
   - Ireland nutome
   - ಐರ್ಲೆಂಡ್
   - ཨ་ཡར་ལནཌ།
@@ -11473,14 +11562,14 @@ IE:
   - Kerry
   - Tipperary
   - Clare
-  - Tyrone
-  - Antrim
+  # - Tyrone
+  # - Antrim
   - Limerick
   - Roscommon
-  - Down
+  # - Down
   - Wexford
   - Meath
-  - Londonderry
+  # - Londonderry
   - Kilkenny
   - Wicklow
   - Offaly
@@ -11490,9 +11579,9 @@ IE:
   - Sligo
   - Laois
   - Kildare
-  - Fermanagh
+  # - Fermanagh
   - Leitrim
-  - Armagh
+  # - Armagh
   - Monaghan
   - Longford
   - Dublin
@@ -11507,6 +11596,8 @@ IL:
   - इस्त्राइल
   - Iosrael
   - State of Israel
+  - Israelite
+  - Israeli
   - Isirairi
   - Isroil
   - Իսրայել
@@ -11599,6 +11690,8 @@ IL:
   - ഇസ്രായേൽ
   - இஸ்ரேல்
   - Islayɛ̂l
+  - Tel Aviv
+  - Tel Avivi
 IM:
   - Man Adası
   - ଆଇଲ୍ ଅଫ୍ ମୈନ୍
@@ -11642,6 +11735,8 @@ IM:
   - Ellan Vannin
   - Ostrvo Man
   - Isle of Man
+  - Manxwoman
+  - Manx
   - 曼島
   - આઈલ ઓફ મૅન
   - マン島
@@ -11676,7 +11771,7 @@ IM:
   - Mena
   - Ilha de Man
   - Isule di Man
-  - Man
+  # - Man
   - Eiland Man
   - Νήσος Μαν
   - Острво Ман
@@ -11791,7 +11886,7 @@ IN:
   - indí
   - ⵍⵀⵉⵏⴷ
   - الهند
-  - هند
+  # - هند
   - Hind
   - Eynda
   - L  -Indja
@@ -12045,6 +12140,7 @@ IR:
   - အီရန်
   - Iraŋ
   - Iranian
+  - Persian
   - អ៊ីរ៉ង់
   - iran
   - An Iaráin
@@ -12344,6 +12440,10 @@ IT:
   - Italska
   - ʻĪtali
   - 義大利
+  - Sicilian
+  - Sicily
+  - Sardinian
+  - Sardinia
 JE:
   - Selusī
   - Geirsí
@@ -12905,6 +13005,8 @@ KG:
   - قرغیزستان
   - Quirguistão
   - Kyrgyzstan
+  - Kyrgyz
+  - Kirghiz
   - Kirgisië
   - قرقیزستون
   - Кыргызстан
@@ -13123,6 +13225,7 @@ KI:
   - Κιριμπάτι
   - ಕಿರಿಬಾತಿ
   - kiribati
+  - I-Kiribati
   - ཀི་རི་བ་ཏི་མཚོ་གླིང
   - کیریباس
   - Sǝr Kiribati
@@ -14015,6 +14118,7 @@ KZ:
   - Kazahstan
   - Kazakh
   - Kazakhstanni
+  - Kazakhstani
   - Kazakstan
   - Kazakstan nutome
   - කසකස්තානය
@@ -14213,6 +14317,7 @@ LB:
   - Livan
   - Libanon
   - Lebanese
+  - Beirut
   - Lebanonni
   - ꔒꕑꗟꘋ
   - เลบานอน
@@ -14317,6 +14422,7 @@ LC:
   - سەینت لووسیا
   - Sankti Lúsía
   - Saint Lucia
+  - Saint Lucian
   - ເຊນ ລູເຊຍ
   - სენტ  -ლუსია
   - Emetab Lucia Ne
@@ -14403,6 +14509,7 @@ LI:
   - likinctayn
   - लिक्टेनस्टाइन
   - Liechtensteini
+  - Liechtensteiner
   - ლიხტენშტაინი
   - ལིཀ་ཏནས་ཏ་ཡིན
   - Liečteštei
@@ -14648,6 +14755,7 @@ LR:
   - Լիբերիա
   - లైబీరియా
   - Liberia
+  - Liberian
   - Lìberìà
   - Libérie
   - Laipelia
@@ -14675,6 +14783,7 @@ LS:
   - lǝsóto
   - Lezoto
   - Lesothob
+  - Mosotho
   - លើសូតូ
   - lesotó
   - ليسوتو
@@ -14813,7 +14922,7 @@ LT:
   - Lituaniya
   - Republic of Lithuania
   - Lituania nutome
-  - لتونی
+  # - لتونی
   - 리투아니아
   - Литва
   - LTU
@@ -14857,6 +14966,7 @@ LU:
   - Lyuksemburg
   - Luxembourg, Luxembourg
   - Luxembourger
+  - Luxembourgish
   - Luxemburger
   - لىيۇكسېمبۇرگ
   - luksanburg
@@ -15021,7 +15131,7 @@ LV:
   - ལཊ་བི་ཡ
   - ⵍⴰⵜⴼⵢⴰ
   - لاتویا
-  - لتونی
+  # - لتونی
   - Làdvià
   - Läti
   - latfya
@@ -15449,6 +15559,7 @@ ME:
   - मोंटेनेग्रो
   - Μαυροβούνιο
   - Montenegro
+  - Montenegrin
   - ਮੋਂਟੇਨੇਗਰੋ
   - Черногория
   - Montenegró
@@ -15503,6 +15614,7 @@ MF:
   - Saint Martin
   - ሴንት ማርቲን
   - Saint Martin (French part)
+  - Saint-Martinoise
   - Saint  -Martin
   - 法属圣马丁
   - i  -Saint Martin
@@ -15529,6 +15641,7 @@ MF:
   - Saint Martin nutome
   - ເຊນ ມາທິນ
   - Sveti Martin
+  - Свети Мартин
   - સેન્ટ માર્ટિન
   - Sant Martin
   - San Martiño
@@ -15565,11 +15678,12 @@ MF:
   - Svatý Martin (Francie)
   - เซนต์มาติน
   - MAF
-  - སེནཊ་ མཱར་ཊིན
+  # - སེནཊ་ མཱར་ཊིན
   - Frankriikka Saint Martin
   - Sent  -Martin
 MG:
   - Madagascar
+  - Malagasy
   - ماداغاسقار
   - Orílɛ́ède Madasika
   - มาดากัสการ์
@@ -15715,6 +15829,7 @@ MH:
   - Republic of the Marshall Islands
   - Marshallöarna
   - Marshall  -Inseln
+  - Marshallese
   - Islles Marshall
   - Marshal ƒudomekpowo nutome
   - Maršalska Ostrva
@@ -16300,7 +16415,7 @@ MO:
   - Nossa Senhora de Fátima
   - Santo António
   - São Lázaro
-  - Sé
+  # - Sé
   - São Lourenço
   - Nossa Senhora do Carmo
   - São Francisco Xavier
@@ -17113,6 +17228,7 @@ MX:
   - Mecsico
   - ሜክሲኮ
   - Mexican
+  - Mexicano
   - Mäxikän
   - Mɛksiko
   - Spayóla Makȟóčhe
@@ -17342,6 +17458,7 @@ MZ:
   - Mözämbîka
   - 莫三比克
   - Mozambik
+  - Mozambican
   - Мозамбик
   - Mozambic
   - Mosambik
@@ -17461,6 +17578,7 @@ NA:
   - Namibie
   - Namibiab
   - Namibia
+  - Namibian
   - นามิเบีย
   - Namiibiya
   - Намибия
@@ -17733,7 +17851,7 @@ NF:
   - Minlán Nɔrəfɔ́ləkə
   - నార్ఫాక్ దీవి
   - Norfolksullot
-  - Norfolk
+  # - Norfolk
   - Ekizinga Norifoko
   - ᏃᎵᏬᎵᎩ ᎤᎦᏚᏛᎢ
   - de Noofok  -Ensel
@@ -17745,6 +17863,7 @@ NF:
   - නෝෆෝක් දූපත
   - il nɔ́lfɔ́lɔk
   - Norfolk Island
+  - Norfolk Islander
   - 诺福克岛
   - tigzirin n nurfulk
   - نورفولک جزیره
@@ -17872,12 +17991,12 @@ NG:
   - Nigerija
   - ਨਾਈਜੀਰੀਆ
   - Naĩjiriya
-  - Нигери
+  # - Нигери
   - Naijelia
   - ನೈಜೀರಿಯಾ
   - ნიგერია
   - Nìgerìà
-  - Nigeri
+  # - Nigeri
   - નાઇજીરીયા
   - Nihéria
   - Naigyeriya
@@ -18027,6 +18146,8 @@ NL:
   - Netherlands
   - Netjherland
   - The Netherlands
+  - Netherlander
+  - Netherlandic
   - Holland
   - Dutch
   - Țările de Jos
@@ -18433,6 +18554,7 @@ NU:
   - NUIE
   - NIUE ISLAND
   - Niue nutome
+  - Niuean
   - ನಿಯು
   - नियुइ
   - ნიუე
@@ -18645,6 +18767,7 @@ OM:
   - ଓମାନ୍
   - i  -Oman
   - Omaani
+  - Omani
   - Orílɛ́ède Ɔɔma
   - Sultanate of Oman
   - ओमान
@@ -18998,6 +19121,7 @@ PG:
   - Hupapua
   - פּאַפּואַ נײַ גינע
   - Papua New Gini nutome
+  - Papuan
   - பப்புவா நியூ கினியா
   - Papúa Nova Guinea
   - Papwazi Ginɛ ya sika
@@ -19324,6 +19448,8 @@ PK:
   - Paquistão
   - باكستان
   - پاکستون
+  - Balochistan
+  - Baluch
 PL:
   - Pólandi
   - ໂປໂລຍ
@@ -19712,6 +19838,7 @@ PR:
   - प्युएर्तो रिको
   - Pueto Liko
   - i  -Puerto Rico
+  - Puerto Rican
   - Puertorican
   - Pɔ̀rtò Rikò
   - Пуерто Рико
@@ -20186,6 +20313,7 @@ PY:
   - Paraguái
   - PRY
   - Republic of Paraguay
+  - Paraguayan
   - Hupalagwai
   - Парагвай
   - პარაგვაი
@@ -20369,6 +20497,8 @@ RE:
   - رئونیون
   - Réunion nutome
   - Réunion
+  - Reunionese
+  - Réunionnais
   - רעאוניאן
   - Lèyunyɔ̀ŋ
   - ꔓꗠꖻ
@@ -20499,6 +20629,9 @@ RO:
   - Rumaani
   - රුමේනියාව
   - Rumānija
+  - Transylvanian
+  - Transylvania
+  - Bucharest
 RS:
   - ເຊີເບຍ
   - સર્બિયા
@@ -20510,6 +20643,8 @@ RS:
   - ಸೆರ್ಬಿಯಾ
   - Sérvia
   - Serbian
+  - Belgrade
+  - Serb
   - Сербія
   - سَربِیا
   - سېربىيە
@@ -20568,7 +20703,7 @@ RS:
   - Sırbistan
   - सर्बिया
 RU:
-  - Nga
+  # - Nga
   - Oroszország
   - ڕووسیا
   - Арассыыйа
@@ -20698,6 +20833,10 @@ RU:
   - روٙسیە
   - Ruush
   - Ρωσία
+  - Siberian
+  - Siberia
+  - Dagestan
+  - Dagestani
 RW:
   - Ruwwanḍa
   - Luanitā
@@ -21274,6 +21413,8 @@ SE:
   - Svezia
   - Sweden
   - Kingdom of Sweden
+  - Stockholm
+  - Stockholmer
   - Swedish
   - Швеция
   - ስዊድን
@@ -21903,6 +22044,8 @@ SK:
   - סלובקיה
   - Словак
   - Slovakkja
+  - Bratislava
+  - Bratislavan
 SL:
   - Сьера  -Леонэ
   - Siera Leone
@@ -21926,6 +22069,7 @@ SL:
   - סיערע לעאנע
   - Siela Liyoni
   - i  -Sierra Leone
+  - Sierra Leonean
   - সিয়েরালিওন
   - Sierra Leɔn
   - سیٖرالیوون
@@ -22168,7 +22312,7 @@ SN:
   - Senegali
   - Σενεγάλη
 SO:
-  - X-SO
+  # - X-SO
   - Somālija
   - سومالی
   - სომალი
@@ -22195,6 +22339,7 @@ SO:
   - 소말리아
   - Somalie
   - Somalia
+  - Somalian
   - Somalii
   - سۆمالیا
   - Sumalia
@@ -22271,6 +22416,7 @@ SR:
   - سُرِنام
   - SUR
   - Suriname
+  - Surinamese
   - ಸುರಿನಾಮ
   - སུ་རི་ནཱམ
   - Surinami
@@ -22440,6 +22586,7 @@ ST:
   - Sayo Tome ni Pilinikipe
   - Sao Tóome na Pirinsipe
   - Santu Tomé y Príncipe
+  - Sao Tomean
   - 聖多美和普林西比
   - Sao Tomē mo Pilinisipe
   - Sao Tome na Principe
@@ -22670,7 +22817,6 @@ SX:
   - سينت مارتن
   - Sint Marten
   - सिंट मार्टेन
-  - Свети Мартин
   - 荷属圣马丁
   - Svatý Martin (Nizozemsko)
   - 신트마르턴
@@ -22687,12 +22833,12 @@ SX:
   - Saint  -Martin (Pays  -Bas)
   - Sā Mātini (fakahōlani)
   - SXM
-  - Sveti Martin
+  # - Sveti Martin
   - ਸਿੰਟ ਮਾਰਟੀਨ
   - ሲንት ማርተን
   - Синт Маартен
   - ຊິນ ມາເທັນ
-  - སིནཊ་ མཱར་ཊེན
+  # - སིནཊ་ མཱར་ཊེན
   - ශාන්ත මාර්ටෙන්
   - சின்ட் மார்டென்
   - Sint Maarten nutome
@@ -23296,7 +23442,7 @@ TG:
   - Togö
   - 多哥
   - Togu
-  - ටොගෝ
+  # - ටොගෝ
   - Togó
   - ꕿꖑ
   - Toko
@@ -23625,6 +23771,7 @@ TK:
 TL:
   - East Timor
   - East Timorese
+  - Timorese
   - Timoru wa diboku
   - Ekialdeko Timor
   - Timɔr tsindikēh
@@ -23994,6 +24141,7 @@ TO:
   - टॉंगा
   - ટોંગા
   - Tonga
+  - Tongan
   - Emetab Tonga
   - Kingdom of Tonga
   - Tɔngá
@@ -24014,7 +24162,7 @@ TO:
   - ტონგა
   - تونگا
   - တွန်ဂါ
-  - ටොංගා
+  # - ටොංගා
   - トンガ
   - টোঙ্গা
   - Tongà
@@ -24888,6 +25036,9 @@ US:
   - OKLAHOMA
   - MICHIGAN
   - NEW YORK
+  - New York City
+  - New Yorker
+  - New Orleans
   - LOUISIANA
   - OHIO
   - FLORIDA
@@ -25838,6 +25989,7 @@ VI:
   - Minsilɛ mí maŋ́ m´Amɛrka
   - Islas Vírgenes de EE. UU.
   - U.S. Virgin Islands
+  - Virgin Islander
   - US Virgin Islands
   - United States Virgin Islands
   - American Virgin Islands
@@ -26035,6 +26187,7 @@ VU:
   - వనాటు
   - וואַנואַטו
   - Vanuatu
+  - Vanuatuan
   - Vanuatú
   - વાનુઆતુ
   - Emetab Vanuatu
@@ -26313,6 +26466,7 @@ YE:
   - Yaman
   - Iêmen
   - Uyemeni
+  - Yemenite
   - យេមែន
   - යේමනය
   - येमेन
@@ -26348,7 +26502,7 @@ YE:
   - 也门
   - เยเมน
   - ਯਮਨ
-  - Яман
+  # - Яман
   - YEM
   - ເຢເມນ
   - یمن
@@ -26598,6 +26752,7 @@ ZA:
   - جَنوٗبی اَفریٖکا
   - སཱའུཐ་ ཨཕ་རི་ཀ
   - दक्षिण अफ्रिका
+  - Johannesburg
 ZM:
   - זאַמביע
   - Zâmbia
@@ -26622,6 +26777,7 @@ ZM:
   - ཛམ་བི་ཡ།
   - Zambië
   - Emetab Zambia
+  - Zambian
   - ઝામ્બિયા
   - Զամբիա
   - Zambio
@@ -26771,3 +26927,5 @@ ZW:
   - ジンバブエ
   - ꔽꕓꖜꔃ
   - Zìmbagbɛ̀
+  - Rhodesian
+  - Rhodesia

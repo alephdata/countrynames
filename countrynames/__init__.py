@@ -4,14 +4,14 @@ import logging
 import Levenshtein  # type: ignore
 from normality import normalize
 from functools import lru_cache
-from typing import Any, Optional, Dict
+from typing import Any, Iterator, Optional, Dict, Set, Tuple
 from yaml import Loader
 
 from .mappings import mappings
 
 log = logging.getLogger(__name__)
 
-__all__ = ["to_code", "to_code_3"]
+__all__ = ["to_code", "to_code_3", "validate_data"]
 
 COUNTRY_NAMES: Dict[str, str] = {}
 
@@ -21,19 +21,56 @@ def _normalize_name(country: Optional[str]) -> Optional[str]:
     return normalize(country, latinize=True)
 
 
-def _load_data() -> None:
+FORMS = {}
+
+
+def _assign_code(original: Optional[str], code: str) -> None:
+    name = _normalize_name(original)
+    if name is None:
+        return
+    if name not in FORMS:
+        FORMS[name] = []
+    FORMS[name].append(original)
+
+    if name in COUNTRY_NAMES and COUNTRY_NAMES[name] != code:
+        log.debug("Conflict: %r (%r) -> %r", FORMS[name], name, code)
+    # print("NX", name, code)
+    COUNTRY_NAMES[name] = code
+
+
+def _read_data() -> Iterator[Tuple[str, str, str]]:
     """Load known aliases from a YAML file. Internal."""
     data_file = os.path.join(os.path.dirname(__file__), "data.yaml")
     with open(data_file, "r", encoding="utf-8") as fh:
         for code, names in yaml.load(fh, Loader=Loader).items():
             code = code.strip().upper()
-            name = _normalize_name(code)
-            if name is not None:
-                COUNTRY_NAMES[name] = code
+            norm_code = _normalize_name(code)
+            if norm_code is not None:
+                yield code, norm_code, code
             for name in names:
-                alias = _normalize_name(name)
-                if alias is not None:
-                    COUNTRY_NAMES[alias] = code
+                norm_name = _normalize_name(name)
+                if norm_name is not None:
+                    yield code, norm_name, name
+
+
+def _load_data() -> None:
+    """Load known aliases from a YAML file. Internal."""
+    for code, norm, _ in _read_data():
+        COUNTRY_NAMES[norm] = code
+
+
+def validate_data() -> None:
+    """Run a check on the country name database."""
+    mappings: Dict[str, Set[Tuple[str, str]]] = {}
+    for code, norm, original in _read_data():
+        if norm not in mappings:
+            mappings[norm] = set()
+        mappings[norm].add((code, original))
+    for norm, assigned in mappings.items():
+        countries = set([c for (c, _) in assigned])
+        if len(countries) == 1:
+            continue
+        print("CONFLICT", norm, assigned)
 
 
 def _fuzzy_search(name: str) -> Optional[str]:
