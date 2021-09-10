@@ -21,23 +21,6 @@ def _normalize_name(country: Optional[str]) -> Optional[str]:
     return normalize(country, latinize=True)
 
 
-FORMS = {}
-
-
-def _assign_code(original: Optional[str], code: str) -> None:
-    name = _normalize_name(original)
-    if name is None:
-        return
-    if name not in FORMS:
-        FORMS[name] = []
-    FORMS[name].append(original)
-
-    if name in COUNTRY_NAMES and COUNTRY_NAMES[name] != code:
-        log.debug("Conflict: %r (%r) -> %r", FORMS[name], name, code)
-    # print("NX", name, code)
-    COUNTRY_NAMES[name] = code
-
-
 def _read_data() -> Iterator[Tuple[str, str, str]]:
     """Load known aliases from a YAML file. Internal."""
     data_file = os.path.join(os.path.dirname(__file__), "data.yaml")

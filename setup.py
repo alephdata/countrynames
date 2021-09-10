@@ -33,7 +33,7 @@ setup(
     test_suite="nose.collector",
     install_requires=["normality", "python-Levenshtein", "pyyaml"],
     extras_require={
-        "dev": ["mypy", "wheel", "twine", "nose"],
+        "dev": ["mypy", "wheel", "twine", "nose", "types-PyYAML"],
     },
     tests_require=[],
     entry_points={},
