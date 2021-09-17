@@ -31,6 +31,9 @@ FAIL:
   - not specified
   - non specified
   - stateless
+ZZ:
+  - Global
+  - Worldwide
 YUCS:
   - YUGOSLAVIA
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
@@ -111,8 +114,12 @@ X-SO:
 SO-SOM:
   - SOSOM
   - Somaliland
+  - Soomaaliland
   - Republic of Somaliland
+  - Jamhuuriyadda Soomaaliland
   - Somalilander
+  - Dschumhūriyyat Arḍ aṣ-Ṣūmāl
+  - جمهورية أرض الصومال
 GB-WLS:
   - Wales
   - GBWLS
@@ -4332,8 +4339,6 @@ CD:
   - קונגו   - קינשאסה
   - Kɔ́ŋgɔ  -Kinshása
   - Kongo (Zair)
-  - Zairean
-  - Zaire
   - República Democrática del Congo
   - Congo   - Kinshasa
   - Kongo, Dem. Lýðveldið
@@ -4389,6 +4394,10 @@ CD:
   - Jamuhuli ya Chidemoklasia ya kuKongo
   - คองโก  -กินชาซา
   - Congo, Democratic Republic of the
+ZR:
+  - Zairean
+  - Zaire
+  - République du Zaïre
 CF:
   - Orílɛ́ède Àrin gùngun Áfíríkà
   - Jamhuri ya Afrika ya Kati
@@ -6194,6 +6203,12 @@ CY:
   - Lefkosía
   - nicosia
   - Nicosian
+CY-TRNC:
+  - Northern Cyprus
+  - Kuzey Kıbrıs
+  - Turkish Republic of Northern Cyprus
+  - Kuzey Kıbrıs Türk Cumhuriyeti
+  - KKTC
 CZ:
   - Czechia
   - Ĉeĥujo
@@ -26440,6 +26455,11 @@ XK:
   - Kosovan
   - Kosovar
   - Kosovon
+  - Республика Косово
+  - Република Косово
+  - Republika e Kosovës
+  - Kosovës
+  - Republika Kosovo
 YE:
   - ஏமன்
   - ཡེ་མེན

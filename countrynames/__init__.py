@@ -73,7 +73,9 @@ def _fuzzy_search(name: str) -> Optional[str]:
 
 
 @lru_cache(maxsize=5000)
-def to_code(country_name: Any, fuzzy: bool = False) -> Optional[str]:
+def to_code(
+    country_name: Any, fuzzy: bool = False, default: Optional[str] = None
+) -> Optional[str]:
     """Given a human name for a country, return a two letter code.
 
     Arguments:
@@ -93,17 +95,17 @@ def to_code(country_name: Any, fuzzy: bool = False) -> Optional[str]:
     # Transliterate and clean up
     name = _normalize_name(country_name)
     if name is None:
-        return None
+        return default
 
     # Direct look up
     code = COUNTRY_NAMES.get(name)
     if code == "FAIL":
-        return None
+        return default
 
     # Find closest match with spelling mistakes
     if code is None and fuzzy is True:
         code = _fuzzy_search(name)
-    return code
+    return code or default
 
 
 def to_code_3(country_name: Any, fuzzy: bool = False) -> Optional[str]:
