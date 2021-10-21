@@ -4290,6 +4290,7 @@ CD:
   - Konqo   - Kinşasa
   - Kongó   - Kinshasa
   - コンゴ民主共和国(キンシャサ)
+  - コンゴ民主共和国
   - కాంగో  - కిన్షాసా
   - Ijamhuri ya Hidemokrasi ya Hukongo
   - Kòŋgo ìkɛŋi
@@ -4553,6 +4554,7 @@ CG:
   - કોંગો   - બ્રાઝાવિલે
   - Kòŋgo
   - CONGO REP.
+  - コンゴ共和国
   - Конго  -Браззавил
   - ਕਾਂਗੋ   - ਬ੍ਰਾਜ਼ਾਵਿਲੇ
   - Kɔŋgɔ
@@ -7503,6 +7505,7 @@ ER:
   - Эритрея
   - Eritreia
   - Eritrean
+  - エリトリア国
   - Еритрея
   - Iritrya
   - Eritureya
@@ -9105,6 +9108,7 @@ GE:
   - ජෝර්ජියාව
   - Joriji
   - 조지아
+  - グルジア
   - جورجيا
   - Zeorzia
   - sɔlsíi
@@ -13595,6 +13599,7 @@ KP:
   - Къилбаседа Корей
   - Түндүк Корея
   - ਉੱਤਰੀ ਕੋਰੀਆ
+  - 北朝鮮
   - Põhja  -Korea
   - Gogledd Korea
   - Davvi  -Korea
@@ -13898,6 +13903,7 @@ KW:
   - ກູເວດ
   - కువైట్
   - 科威特
+  - クウェイト
   - Кувейт
   - କୁଏତ୍
   - Kuweiti
@@ -16094,6 +16100,7 @@ ML:
   - Emetab Mali
   - Màili
   - Republic of Mali
+  - マリ共和国
   - מאלי
   - ᎹᎵ
   - 말리
@@ -20748,6 +20755,7 @@ RU:
   - Ресей
   - រុស្ស៊ី
   - 俄罗斯
+  - ロシア連邦
   - Rusia
   - Russland
   - Rasha
@@ -20889,6 +20897,7 @@ RW:
   - rwanda
   - روآندا
   - 盧旺達
+  - ルワンダ共和国
   - रवाण्डा
   - รวันดา
   - རུ་ཝན་ཌ།
@@ -21367,6 +21376,7 @@ SD:
   - Sudão
   - 蘇丹
   - 苏丹
+  - スーダン共和国
   - Sudãu
   - سودان
   - 수단
@@ -22522,6 +22532,7 @@ SS:
   - Etelä  -Sudan
   - Suðursudan
   - 南スーダン
+  - 南スーダン共和国
   - Өмнөд Судан
   - Sûd  -Soedan
   - Sudán del Sur
@@ -22978,6 +22989,7 @@ SY:
   - Siridhea
   - Lasiri
   - シリア
+  - シリア・アラブ共和国
   - Siliya
   - Syria
   - سوریه
@@ -23271,6 +23283,7 @@ TD:
   - Tyâde
   - Tsjaad
   - Tschad
+  - チャド共和国
   - Ċad
   - Câd
   - Tsjad
@@ -24868,6 +24881,7 @@ UG:
   - أوغندا
   - UG
   - ウガンダ
+  - ウガンダ共和国
   - Ugandë
   - Emetab Uganda
   - ꖳꕭꕡ
@@ -25125,6 +25139,7 @@ US:
   - i  -United States
   - United States
   - 美國
+  - 米国
   - Yhdysvallat
   - وڵاتە یەکگرتووەکان
   - A.B.Ş.
