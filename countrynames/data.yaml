@@ -1173,6 +1173,7 @@ AQ:
   - BAT
   - Rothera
 AR:
+  - YF
   - Emetab Argentina
   - arjantin
   - Argentinian
@@ -1551,6 +1552,7 @@ AU:
   - Avstraliya
   - Austràlia
   - Australian
+  - Commonwealth of Australia
   - Austrailian
   - אוסטרליה
   - ಆಸ್ಟ್ರೇಲಿಯ
@@ -7574,6 +7576,7 @@ ER:
   - Sǝr Eritre
   - ਇਰੀਟ੍ਰਿਆ
   - the State of Eritrea
+  - State of Eritrea
   - Eritrea
   - Eritree
   - Elitəlé
@@ -10653,6 +10656,7 @@ GY:
   - Uguyana
   - གྷ་ཡ་ན
   - Republic of Guyana
+  - Co-operative Republic of Guyana
   - ගයනාව
   - Гайана
   - Huguyana
@@ -15944,6 +15948,7 @@ MK:
   - Macedonian
   - F.Y.R.O.M.
   - FYROM
+  - Macedonia, Republic of North
   - ແມຊິໂດເນຍ
   - መቄዶንያ
   - మేసిడోనియా
@@ -16140,6 +16145,7 @@ MM:
   - Myanmar (Burma) nutome
   - MYANMAR (FORMERLY BURMA)
   - MYANMAR (MYANMA NAINGNGANDAW )
+  - Republic of the Union of Myanmar
   - BIRMANIE/MYANMAR
   - Miyamaha
   - Humyama
@@ -17771,6 +17777,7 @@ NE:
   - নাইজার
   - Nijeer
   - Republic of the Niger
+  - Republic of Niger
   - Nidyeli
   - Niĝero
   - Nizer
@@ -19948,6 +19955,7 @@ PR:
   - Upwetoriko
   - Kpǒto Leko
 PS:
+  - GZ
   - State of Palestine
   - Territorios palestinos
   - పాలస్తీనియన్ ప్రాంతాలు
@@ -19957,6 +19965,7 @@ PS:
   - Palestinian territory
   - West Bank
   - Gaza Strip
+  - West Bank and Gaza
   - רצועת עזה
   - הרשות הפלסטינית
   - PALESTINE
@@ -22372,6 +22381,7 @@ SO:
   - Somalie
   - Somalia
   - Somalian
+  - Somali Democratic Republic
   - Somalii
   - سۆمالیا
   - Sumalia
@@ -23011,6 +23021,7 @@ SZ:
   - Suwazilan
   - Свазіленд
   - Swaziland
+  - Kingdom of Eswatini
   - Eswatini
   - Swazi
   - Svazijsko
@@ -23490,6 +23501,7 @@ TG:
   - Togob
   - โตโก
   - Togolese Republic
+  - Republic of Togo
   - Emetab Togo
   - ਟੋਗੋ
   - តូហ្គោ
@@ -23804,6 +23816,7 @@ TK:
   - Tókelá
   - Tokelau nutome
 TL:
+  - TP
   - East Timor
   - East Timorese
   - Timorese
@@ -25291,6 +25304,7 @@ UY:
   - Yuwegɔwe
   - ཨུ་རུ་གྷེ།
   - Eastern Republic of Uruguay
+  - Oriental Republic of Uruguay
   - ఉరుగువే
   - ཡུ་རུ་གུ་ཝའི
   - Yulùgwɛ̂
@@ -25719,6 +25733,7 @@ VE:
   - Venezuelan
   - Vènèzùelà
   - Bolivarian Republic of Venezuela
+  - Republica Bolivariana de Venezuela
   - Venezuela, Republica Bolivariana de
   - Huvenezuela
   - ベネズエラ
@@ -26119,6 +26134,7 @@ VN:
   - Sǝr Vietnam
   - Vietnamese
   - Wiyetnaam
+  - Socialist Republic of Vietnam
   - VNM
   - ဗီယက်နမ်
   - Vjetnam
@@ -26481,9 +26497,11 @@ XK:
   - Республика Косово
   - Република Косово
   - Republika e Kosovës
+  - Republic of Kosovo
   - Kosovës
   - Republika Kosovo
 YE:
+  - RY
   - ஏமன்
   - ཡེ་མེན
   - Yɛmɛ̀n
