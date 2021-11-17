@@ -918,6 +918,7 @@ AM:
   - Arəménia
   - Armenian
   - Armeenia
+  - Республіка Вірменія
   - Arminya
   - Ерменија
   - Aɛrmänia
@@ -3835,6 +3836,7 @@ BY:
   - Wísrussland
   - بېلارۇسىيە
   - Orílɛ́ède Bélárúsì
+  - Республіка Білорусь
   - Belarusi
   - Balarus
   - Belarusian
@@ -6086,6 +6088,7 @@ CY:
   - Cypriote
   - Κυπριακή Δημοκρατία
   - Cypriot Republic
+  - Республіка Кіпр
   - Kıbrıs Cumhuriyeti
   - Greek Cypriot
   - 키프로스
@@ -13031,6 +13034,7 @@ KG:
   - Quirguistão
   - Kyrgyzstan
   - Kyrgyz
+  - Киргизька Республіка
   - Kirghiz
   - Kirgisië
   - قرقیزستون
@@ -14148,6 +14152,7 @@ KZ:
   - Kazakhstani
   - Kazakstan
   - Kazakstan nutome
+  - Республіка Казахстан
   - කසකස්තානය
   - Kaazakstan
   - i  -Kazakhstan
@@ -19500,6 +19505,7 @@ PL:
   - Booland
   - ᏉᎳᏂ
   - Lengyelország
+  - Республіка Польща
   - Pólland
   - पोलैण्ड
   - لهستون
@@ -20748,6 +20754,7 @@ RU:
   - Russian
   - Krievija
   - Расія
+  - Росія
   - Rusya
   - Risí
   - روس
@@ -20756,6 +20763,8 @@ RU:
   - 俄羅斯
   - Russian Federation
   - Russia Federation
+  - РФ
+  - Російська Федерація
   - Российская Федерация
   - rusya
   - Huulusi
