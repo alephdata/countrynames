@@ -39,6 +39,7 @@ YUCS:
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
   - Federal Republic of Yugoslavia
   - Federal Socialist Republic of Yugoslavia
+  - Socialist Federal Republic of Yugoslavia
   - YU
   - YUG
 CSXX:
@@ -4277,6 +4278,7 @@ CD:
   - کۆنگۆ کینشاسا
   - Конго (Киншаса)
   - DR Congo
+  - Congo DR
   - DRC
   - ကွန်ဂို  -ကင်ရှာစ
   - කොංගො   - කින්ශාසා
@@ -4585,6 +4587,7 @@ CG:
   - Kongoo
   - Kongas  -Brazavilis
   - Republic of the Congo
+  - CONGO, People's Republic of
   - კონგო   - ბრაზავილი
   - Конго   - Бразавил
   - Kongo (Brazzaville)
@@ -5521,7 +5524,6 @@ CN:
   - Қытай
   - Tsáina
   - An tSín
-  - Macao SAR, China
 CO:
   - ਕੋਲੰਬੀਆ
   - Kɔlɔ́mbía
@@ -10702,6 +10704,7 @@ HK:
   - China, Hong Kong Special Administrative Region
   - Hong Kong Special Administrative Region
   - HONG KONG SPECIAL ADMINSTRATIVE REGION OF CHINA
+  - Hong Kong, China
   - Hongkongi erihalduspiirkond
   - HKSAR
   - Hēunggóng
@@ -12252,6 +12255,8 @@ IR:
   - ئێران
   - ईरान
   - İran
+  - Teheran
+  - Tehran
 IS:
   - i  -Iceland
   - ئایسلەند
@@ -13449,6 +13454,7 @@ KM:
 KN:
   - Saint Kitts ve Nevis
   - SAINT KITTS & NEVIS
+  - SAINT-KITTS-ET-NEVIS
   - ST KITTS-NEVIS
   - Sãu Kristovãu i Nevis
   - Saint Kitts dan Nevis
@@ -13600,6 +13606,7 @@ KN:
 KP:
   - Korea, Democratic People's Republic of
   - Democratic People's Republic of Korea (DPRK)
+  - Democratic People's Republic of Korea,RPDC
   - DPRK
   - RPDC
   - Democratic People's Republic of Korea
@@ -16343,6 +16350,8 @@ MO:
   - Makau SAR China
   - MACAU, REPUBLIC OF CHINA
   - Macao RAE
+  - Macao SAR, China
+  - Macao Special Administrative Region
   - Región Administrativa Especial de Macao de la República Popular China
   - Macao, S.A.R. Kina
   - Rejiãu Administrativu Special di Makau
@@ -20768,6 +20777,7 @@ RU:
   - РФ
   - Російська Федерація
   - Российская Федерация
+  - Російська Федерація
   - rusya
   - Huulusi
   - Русия
@@ -20899,6 +20909,7 @@ RW:
   - Ruande
   - Rwanda
   - Rwandan
+  - Rawanda
   - Ruanda
   - Emetab Rwanda
   - Rwáanda
@@ -24372,6 +24383,7 @@ TT:
   - Trinidad aamma Tobago
   - Тринидад жана Тобаго
   - ترینیداد و تۆباگو
+  - トリニダード・トバゴ共和国
   - Ṭrindad d Ṭubagu
   - i  -Trinidad ne  -Tobago
   - Trinidad ja Tobago
@@ -24572,6 +24584,8 @@ TW:
   - i  -Taiwan
   - Taiwan, Province of China
   - Taiwan, China
+  - Taiwan (Republic of China)
+  - Taipei,China
   - Тайван
   - Taayiwan
   - Thayiwani
