@@ -2,6 +2,7 @@ import os
 import yaml
 import logging
 import Levenshtein  # type: ignore
+from threading import RLock
 from normality import normalize
 from functools import lru_cache
 from typing import Any, Iterator, Optional, Dict, Set, Tuple
@@ -10,6 +11,7 @@ from yaml import Loader
 from .mappings import mappings
 
 log = logging.getLogger(__name__)
+lock = RLock()
 
 __all__ = ["to_code", "to_code_3", "validate_data"]
 
@@ -36,10 +38,12 @@ def _read_data() -> Iterator[Tuple[str, str, str]]:
                     yield code, norm_name, name
 
 
-def _load_data() -> None:
+def _load_data() -> Dict[str, str]:
     """Load known aliases from a YAML file. Internal."""
+    names: Dict[str, str] = {}
     for code, norm, _ in _read_data():
-        COUNTRY_NAMES[norm] = code
+        names[norm] = code
+    return names
 
 
 def validate_data() -> None:
@@ -82,8 +86,9 @@ def to_code(
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
     """
     # Lazy load country list
-    if not len(COUNTRY_NAMES):
-        _load_data()
+    with lock:
+        if not len(COUNTRY_NAMES):
+            COUNTRY_NAMES.update(_load_data())
 
     # shortcut before costly ICU stuff
     if isinstance(country_name, str):
