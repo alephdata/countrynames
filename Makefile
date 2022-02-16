@@ -3,7 +3,7 @@ all: clean
 
 test:
 	pip install -q -e ".[dev]"
-	nosetests
+	pytest
 
 clean:
 	rm -rf dist build
