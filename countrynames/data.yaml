@@ -108,6 +108,26 @@ X-SO:
   - ცხინვალის რეგიონი
   - Respublikæ Xussar Iryston
   - Paddzaxad Allonston
+UA-LPR:
+  - Luhansk
+  - Луга́нская
+  - Luhansk People's Republic
+  - Луга́нская Наро́дная Респу́блика
+UA-DPR:
+  - Donetsk
+  - Донецька
+  - Donetsk People's Republic
+  - Донецкая Народная Республика
+UA-CRI:
+  - Crimea
+  - Крым
+  - Крим
+  - Krim
+  - Republic of Crimea
+  - Autonomous Republic of Crimea
+  - Автономна Республіка Крим
+  - Автономная Республика Крым
+  - Qırım Muhtar Cumhuriyeti
 SO-SOM:
   - SOSOM
   - Somaliland
@@ -7389,6 +7409,7 @@ EH:
   - Wäß  -Sahara
   - पश्चिमी सहारा
   - Sahara Occidental
+  - Sahrawi Arab Democratic Republic
   - Västsahara
   - Δυτική Σαχάρα
   - Sahara occidentale
@@ -24852,6 +24873,10 @@ UA:
   - Ukrainian SSR (Ukraine)
   - Ukrainian SSR
   - Ukraine SSR
+  # separate from the break-away republics:
+  - Luhansk Oblast
+  - Donetsk Oblast
+  - Донецька область
 UG:
   - Ùgandà
   - Yùgandà
