@@ -1,7 +1,13 @@
 
 all: clean
 
-test:
+compile:
+	python countrynames/compile.py
+
+typecheck:
+	mypy --strict countrynames
+
+test: compile typecheck
 	pip install -q -e ".[dev]"
 	pytest
 

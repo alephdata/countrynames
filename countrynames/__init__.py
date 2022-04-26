@@ -1,63 +1,27 @@
-import os
-import yaml
 import logging
 import Levenshtein  # type: ignore
-from threading import RLock
-from normality import normalize
 from functools import lru_cache
-from typing import Any, Iterator, Optional, Dict, Set, Tuple
-from yaml import Loader
+from typing import Any, Optional, Dict
 
-from .mappings import mappings
+from countrynames.mappings import mappings
+from countrynames.util import normalize_name, process_data
+
 
 log = logging.getLogger(__name__)
-lock = RLock()
 
 __all__ = ["to_code", "to_code_3", "validate_data"]
 
 COUNTRY_NAMES: Dict[str, str] = {}
 
 
-def _normalize_name(country: Optional[str]) -> Optional[str]:
-    """Clean up a country name before comparison."""
-    return normalize(country, latinize=True)
-
-
-def _read_data() -> Iterator[Tuple[str, str, str]]:
-    """Load known aliases from a YAML file. Internal."""
-    data_file = os.path.join(os.path.dirname(__file__), "data.yaml")
-    with open(data_file, "r", encoding="utf-8") as fh:
-        for code, names in yaml.load(fh, Loader=Loader).items():
-            code = code.strip().upper()
-            norm_code = _normalize_name(code)
-            if norm_code is not None:
-                yield code, norm_code, code
-            for name in names:
-                norm_name = _normalize_name(name)
-                if norm_name is not None:
-                    yield code, norm_name, name
-
-
 def _load_data() -> Dict[str, str]:
     """Load known aliases from a YAML file. Internal."""
+    from countrynames.data import DATA
+
     names: Dict[str, str] = {}
-    for code, norm, _ in _read_data():
+    for code, norm, _ in process_data(DATA):
         names[norm] = code
     return names
-
-
-def validate_data() -> None:
-    """Run a check on the country name database."""
-    mappings: Dict[str, Set[Tuple[str, str]]] = {}
-    for code, norm, original in _read_data():
-        if norm not in mappings:
-            mappings[norm] = set()
-        mappings[norm].add((code, original))
-    for norm, assigned in mappings.items():
-        countries = set([c for (c, _) in assigned])
-        if len(countries) == 1:
-            continue
-        print("CONFLICT", norm, assigned)
 
 
 def _fuzzy_search(name: str) -> Optional[str]:
@@ -86,9 +50,8 @@ def to_code(
         ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
     """
     # Lazy load country list
-    with lock:
-        if not len(COUNTRY_NAMES):
-            COUNTRY_NAMES.update(_load_data())
+    if not len(COUNTRY_NAMES):
+        COUNTRY_NAMES.update(_load_data())
 
     # shortcut before costly ICU stuff
     if isinstance(country_name, str):
@@ -98,7 +61,7 @@ def to_code(
             return country_name
 
     # Transliterate and clean up
-    name = _normalize_name(country_name)
+    name = normalize_name(country_name)
     if name is None:
         return default
 

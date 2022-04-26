@@ -19,6 +19,9 @@ jobs:
           DEBIAN_FRONTEND: noninteractive
         run: |
           pip install -e ".[dev]"
+      - name: Compile the data
+        run: |
+          python countrynames/compile.py
       - name: Run the tests
         run: |
           pytest
