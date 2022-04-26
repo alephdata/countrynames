@@ -6,6 +6,7 @@ from collections import defaultdict
 
 from countrynames.util import process_data
 
+log = logging.getLogger("countrynames.compile")
 CODE_DIR = os.path.dirname(__file__)
 
 
@@ -21,6 +22,7 @@ def load_yaml_data() -> Dict[str, List[str]]:
 def write_python(data: Dict[str, List[str]]) -> None:
     python_file = os.path.join(CODE_DIR, "data.py")
     with open(python_file, "w", encoding="utf-8") as pyfh:
+        pyfh.write("# generated file, do not edit.\n")
         pyfh.write("from typing import Dict, List\n\n")
         pyfh.write("DATA: Dict[str, List[str]] = {}\n")
         for code, names in data.items():
@@ -38,7 +40,7 @@ def validate_data(data: Dict[str, List[str]]) -> None:
         countries = set([c for (c, _) in assigned])
         if len(countries) == 1:
             continue
-        raise ValueError("Ambiguous string [%s]: %r" % (norm, assigned))
+        log.warning("Ambiguous string [%s]: %r", norm, assigned)
 
 
 if __name__ == "__main__":
