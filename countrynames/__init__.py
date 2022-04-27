@@ -1,5 +1,7 @@
 import logging
 import Levenshtein  # type: ignore
+import _pickle as CPickle
+import os
 from functools import lru_cache
 from typing import Any, Optional, Dict
 
@@ -51,7 +53,12 @@ def to_code(
     """
     # Lazy load country list
     if not len(COUNTRY_NAMES):
-        COUNTRY_NAMES.update(_load_data())
+        try:
+            pickle_file = os.path.join(os.path.dirname(__file__), "data.pickle")
+            with open(pickle_file, "rb") as fh:
+                COUNTRY_NAMES.update(CPickle.load(fh))
+        except:
+            COUNTRY_NAMES.update(_load_data())
 
     # shortcut before costly ICU stuff
     if isinstance(country_name, str):

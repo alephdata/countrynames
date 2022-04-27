@@ -1,6 +1,7 @@
 import os
 import yaml
 import logging
+import _pickle as CPickle
 from typing import List, Dict, Set, Tuple
 from collections import defaultdict
 
@@ -18,6 +19,10 @@ def load_yaml_data() -> Dict[str, List[str]]:
             data[code].extend(names)
     return data
 
+def write_pickle(data: Dict[str, List[str]]) -> None:
+    pickle_file = os.path.join(CODE_DIR, "data.pickle")
+    with open(pickle_file, "wb") as fh:
+        CPickle.dump(data, fh)
 
 def write_python(data: Dict[str, List[str]]) -> None:
     python_file = os.path.join(CODE_DIR, "data.py")
@@ -48,3 +53,7 @@ if __name__ == "__main__":
     data = load_yaml_data()
     validate_data(data)
     write_python(data)
+    names = {}
+    for code, norm, _ in process_data(data):
+        names[norm] = code
+    write_pickle(names)
