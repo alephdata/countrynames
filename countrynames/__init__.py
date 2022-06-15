@@ -1,6 +1,6 @@
 import logging
 import Levenshtein  # type: ignore
-from functools import lru_cache
+from functools import cache
 from typing import Any, Optional, Dict
 
 from countrynames.mappings import mappings
@@ -40,7 +40,7 @@ def _fuzzy_search(name: str) -> Optional[str]:
     return best_code
 
 
-@lru_cache(maxsize=5000)
+@cache
 def to_code(
     country_name: Any, fuzzy: bool = False, default: Optional[str] = None
 ) -> Optional[str]:
