@@ -8,7 +8,7 @@ with open(os.path.join(path, "README.md"), "r") as f:
 
 setup(
     name="countrynames",
-    version="1.13.1",
+    version="1.13.2",
     description="A library to map country names to ISO codes.",
     long_description=readme,
     long_description_content_type="text/markdown",
