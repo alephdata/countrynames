@@ -21,6 +21,11 @@ FAIL:
   - central america
   - southern america
   - N/A
+  - "00"
+  - UNKNOWN
+  - "NULL"
+  - "undetermined"
+  - "Other"
   # - na -> namibia
   - n a
   - unknown
@@ -30,6 +35,8 @@ FAIL:
   - not specified other
   - not specified
   - non specified
+  - "Not Known"
+  - "Not Disclosed"
   - stateless
 ZZ:
   - Global
@@ -39,12 +46,15 @@ YUCS:
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
   - Federal Republic of Yugoslavia
   - Federal Socialist Republic of Yugoslavia
+  - Federal People's Republic of Yugoslavia
   - Socialist Federal Republic of Yugoslavia
+  - Democratic Federal Yugoslavia
   - YU
   - YUG
 CSXX:
   - SERBIA AND MONTENEGRO
   - SERBIA & MONTENEGRO
+  - Yougoslavie (Serbie-Montenegro)
   - Сербия и Черногория
   - Srbija i Crna Gora
   - Србија и Црна Гора
@@ -90,6 +100,8 @@ GE-AB:
   - Abkhaziya
   - Abkhazian
   - Respublika Abkhaziya
+  - Republic of Abkhazia
+  - Республика Абхазия
 AZ-NK:
   - AZ--NK
   - Nagorno-Karabakh
@@ -131,17 +143,21 @@ UA-CRI:
   - Автономна Республіка Крим
   - Автономная Республика Крым
   - Qırım Muhtar Cumhuriyeti
+  - тимчасово окупована територія Автономної Республіки Крим
 SO-SOM:
   - SOSOM
   - Somaliland
   - Soomaaliland
   - Republic of Somaliland
+  - State of Somaliland
+  - British Somaliland
   - Jamhuuriyadda Soomaaliland
   - Somalilander
   - Dschumhūriyyat Arḍ aṣ-Ṣūmāl
   - جمهورية أرض الصومال
 GB-WLS:
   - Wales
+  - Welsh
   - GBWLS
   - Cymro
   - Cymru
@@ -201,6 +217,7 @@ GB-SCT:
   - Scotland
   - GBSCT
   - Scotish
+  - Kingdom of Scotland
   - alba
   - Aberdeen
   - Aberdeenshire
@@ -1444,6 +1461,7 @@ AT:
   - Àustria
   - austriya
   - Austrian
+  - Austrians
   - Австрија
   - অস্ট্রিয়া
   - Austrija
@@ -1992,6 +2010,9 @@ BA:
   - Bosniya Hersigoviina
   - Bosiniya na Herigozevine
   - Republic of Bosnia and Herzegovina
+  - Socialist Republic of Bosnia and Herzegovina
+  - Republika Srpska
+  - Bosniaks
   - البوسنة والهرسك
   - Bosnïi na Herzegovînni
   - Bósnia e Herzegovina
@@ -2223,6 +2244,7 @@ BD:
   - Emetab Bangladesh
   - ബംഗ്ലാദേശ്
   - Bengladêshi
+  - Bangladeshis
   - بەنگلادیش
   - バングラデシュ
   - Μπανγκλαντές
@@ -3850,6 +3872,7 @@ BW:
   - बोट्स्वाना
   - Botswana
   - Botsoana
+  - Bechuanaland Protectorate
 BY:
   - ਬੇਲਾਰੂਸ
   - Wísrussland
@@ -3858,6 +3881,7 @@ BY:
   - Республіка Білорусь
   - Belarusi
   - Balarus
+  - Belrus
   - Belarusian
   - Bilarus
   - བེལ་ཨ་རུ་སུ
@@ -4066,6 +4090,7 @@ BZ:
 CA:
   - Canada
   - Canadian
+  - Canadians
   - Canadá
   - ᎨᎾᏓ
   - Känɛda
@@ -4309,6 +4334,7 @@ CD:
   - ཀོང་གྷོ ཀིན་ཤ་ས
   - ኮንጎ  -ኪንሻሳ
   - Repubulika Iharanira Demokarasi ya Kongo
+  - CONGO, Democratic Republic of (was Zaire)
   - dä Konggo (Kinschasa)
   - കോംഗോ   - കിൻഷാസ
   - Konqo   - Kinşasa
@@ -6278,6 +6304,7 @@ CZ:
   - Cộng hòa Séc
   - tagdudant tatcikit
   - Czech Republic
+  - TCHEQUE (REPUBLIQUE)
   - චෙක් ජනරජය
   - Tjekkia
   - चेक गणतन्त्र
@@ -6398,6 +6425,7 @@ DE:
   - ᎠᏂᏛᏥ
   - جرمنی
   - Federal Republic of Germany
+  - Allemagne (Rép.féd.)
   - West Germany
   - Германія
   - Däitschland
@@ -7625,6 +7653,8 @@ ES:
   - Sipeini
   - Spanish
   - Espana
+  - Andalusia
+  - Catalonia
   - Іспанія
   - ஸ்பெயின்
   - Ispanija
@@ -7903,6 +7933,7 @@ FI:
   - فنلینډ
   - Фінляндыя
   - Republic of Finland
+  - Grand Duchy of Finland
   - ᏫᏂᎦᏙᎯ
   - फिन्ल्याण्ड
   - Filandɛ
@@ -8694,7 +8725,9 @@ GB:
   - United Kindgdom
   - The United Kingdom
   - United Kingdom of Great Britain
-  - Welsh
+  - United Kingdom of Great Britain
+  - Grande-Bretagne
+  - Kingdom of England
   - Cardiff
   - Britsh
   - Great British
@@ -9203,6 +9236,7 @@ GE:
   - Georgía
   - Tbilisi
   - Tbilisian
+  - Democratic Republic of Georgia
 GF:
   - Французийн Гвиана
   - Ranskan Guayana
@@ -10024,6 +10058,7 @@ GQ:
   - Republic of Equatorial Guinea
   - Equatorial Guinean
   - Equatorial Guinea
+  - Ecuatorial Guinea
   - Gini Ta Ikwaita
   - 赤道幾內亞
   - Gíine Ikwéeta
@@ -10725,6 +10760,7 @@ HK:
   - Hong Kong Special Administrative Region
   - HONG KONG SPECIAL ADMINSTRATIVE REGION OF CHINA
   - Hong Kong, China
+  - British Hong Kong
   - Hongkongi erihalduspiirkond
   - HKSAR
   - Hēunggóng
@@ -11378,6 +11414,8 @@ HU:
   - හන්ගේරියාව
   - Budapesti
   - Budapest
+  - Republic of Hungary
+  - People's Republic of Hungary
 ID:
   - インドネシア
   - Indonethia
@@ -11957,6 +11995,9 @@ IN:
   - Індія
   - Indiya
   - Ấn Độ
+  - Kingdom of Mysore
+  - Pondicherry
+  - Provinces of India
 IO:
   - బ్రిటీష్ భారతీయ సముద్రపు ప్రాంతం
   - Ieneo la Uingeredha katika Bahari Hindi
@@ -12779,6 +12820,7 @@ JP:
   - japɔ́ŋ
   - Jjappun
   - Japan
+  - Empire of Japan
   - Japɔn
   - ଜାପାନ୍
   - Japanese
@@ -13628,6 +13670,7 @@ KP:
   - Korea, Democratic People's Republic of
   - Democratic People's Republic of Korea (DPRK)
   - Democratic People's Republic of Korea,RPDC
+  - Democratic People`s Republic of Korea
   - DPRK
   - RPDC
   - Democratic People's Republic of Korea
@@ -14666,6 +14709,7 @@ LK:
   - سِریٖلَنٛکا
   - Siriláanka
   - Sri Lankan
+  - British Ceylon
   - ສີລັງກາ
   - Schri Lanka
   - Шрі  -Ланка
@@ -15027,6 +15071,7 @@ LU:
   - Luxembogu
   - Lyuksemburg
   - Luxembourg, Luxembourg
+  - Luxembourg (Grand-Duché)
   - Luxembourger
   - Luxembourgish
   - Luxemburger
@@ -15979,6 +16024,7 @@ MK:
   - North Macedonia
   - The Former Yugoslav Republic of Macedonia
   - Macedonia, The Former Yugoslav Republic of
+  - North Macedonia, The Republic of
   - REPUBLIC OF MACEDONIA (F.Y.R.O.M.)
   - Macedonian
   - F.Y.R.O.M.
@@ -17325,6 +17371,7 @@ MX:
   - Messic
   - میکسیکو
   - United Mexican States
+  - State of Mexico
   - Meksik
   - Mexíkó
   - Mɛksîk
@@ -19442,6 +19489,7 @@ PK:
   - Pakistäan
   - Pakistán
   - Pakisitani
+  - Pakistanis
   - An Phacastáin
   - פקיסטן
   - Пәкістан
@@ -20010,6 +20058,7 @@ PS:
   - הרשות הפלסטינית
   - PALESTINE
   - OCCUPIED PALESTINIAN TERRITORY
+  - PALESTINIAN TERRITORY, Occupied
   - zǝ palɛstínǝ
   - فَلَستیٖن
   - Territori Palestinais
@@ -20797,6 +20846,7 @@ RU:
   - 俄羅斯
   - Russian Federation
   - Russia Federation
+  - Russie ( Fédération de )
   - РФ
   - Російська Федерація
   - Российская Федерация
@@ -20919,6 +20969,12 @@ RU:
   - Siberia
   - Dagestan
   - Dagestani
+  - Chechen Republic
+  - Russian Empire
+  - Russian Republic
+  - Chechen Republic of Ichkeria
+  - Chechen
+  - Moscow
 RW:
   - Ruwwanḍa
   - Luanitā
@@ -22130,6 +22186,7 @@ SK:
   - סלובקיה
   - Словак
   - Slovakkja
+  - SLOVAKIA (Slovak Republic)
   - Bratislava
   - Bratislavan
 SL:
@@ -22972,6 +23029,7 @@ SY:
   - Siriya
   - Syrian
   - Republic Of Syria
+  - Second Syrian Republic
   - 敘利亞
   - 叙利亚
   - Syyria
@@ -23192,6 +23250,7 @@ TC:
   - Törks  - und Gaiggos  -Insle
   - Turkis Da Tsibiran Kaikwas
   - Turks va Kaykos orollari
+  - Turks and Caicos Islads
   - Turiki Gun ni Kayiki
   - Острва Туркс и Каикос
   - Turks a Caicos kupy
@@ -23599,6 +23658,7 @@ TH:
   - THA
   - Tairandi
   - Thailanda
+  - Siam
   - CHONBURI
   - Taizeme
   - Taylànd
@@ -24200,6 +24260,9 @@ TN:
   - তিউনিশিয়া
   - Tuinisea
   - Tunisia nutome
+  - Beylik of Tunis
+  - French protectorate of Tunisia
+  - Kingdom of Tunisia
 TO:
   - Tanga
   - Thonga
@@ -25309,6 +25372,9 @@ US:
   - JSY
   - FLO
   - FLORIDA
+  - Etats-Unis d'Amérique
+  - The United States Of America
+  - Confederate States of America
 UY:
   - Orogoay
   - उरुग्वे
@@ -25408,6 +25474,7 @@ UZ:
   - Uzibekisitani
   - Usibekisitáani
   - Wuzibekisitaani
+  - Uzbekhistan
   - Uzbek
   - උස්බෙකිස්ථානය
   - ಉಜ್ಬೇಕಿಸ್ಥಾನ್
@@ -27047,5 +27114,6 @@ ZW:
   - ジンバブエ
   - ꔽꕓꖜꔃ
   - Zìmbagbɛ̀
+  - Zimbabwe Rhodesia
   - Rhodesian
   - Rhodesia
