@@ -24,8 +24,8 @@ FAIL:
   - "00"
   - UNKNOWN
   - "NULL"
-  - "undetermined"
-  - "Other"
+  - undetermined
+  - Other
   # - na -> namibia
   - n a
   - unknown
@@ -7676,6 +7676,7 @@ ES:
   - An Spáinn
   - Španělsko
   - Spain nutome
+  - Francoist Spain
   - Spania
   - Espanha
   - ספרד
@@ -8726,6 +8727,7 @@ GB:
   - The United Kingdom
   - United Kingdom of Great Britain
   - United Kingdom of Great Britain
+  - United Kingdom of Great Britain and Ireland
   - Grande-Bretagne
   - Kingdom of England
   - Cardiff
