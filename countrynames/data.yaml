@@ -105,6 +105,7 @@ GE-AB:
 AZ-NK:
   - AZ--NK
   - Nagorno-Karabakh
+  - Republic of Artsakh
   - Bergkarabach
   - Нагорный Карабах
   - Gorski Karabah
@@ -218,6 +219,7 @@ GB-SCT:
   - GBSCT
   - Scotish
   - Kingdom of Scotland
+  - Шотландія
   - Шотландія
   - alba
   - Aberdeen
@@ -393,6 +395,8 @@ AE:
   - i  -United Arab Emirates
   - সংযুক্ত আরব আমিরাত
   - Обединени арабски емирства
+  - Абу Даби
+  - מאע"מ
   - Emiratos Árabes Unidos
   - Orílẹ́ède Ẹmirate ti Awọn Arabu
   - Uni Emirat Arab
@@ -501,6 +505,8 @@ AE:
   - Ʉtemi wa Kɨaráabu
   - Emirats Arabs Unids
   - Dubai
+  - Dubai, UAE
+  - Дубай, ОАЕ
   - ཡུ་ནཱའི་ཊེཌ་ ཨ་རབ་ ཨེ་མེ་རེཊས
   - アラブ首長国連邦
   - Orílɛ́ède Ɛmirate ti Awɔn Arabu
@@ -2001,6 +2007,7 @@ BA:
   - Bosnia And Herzergov
   - Bosnia-Herzegowina
   - Bosnia And Herzegowina
+  - Bosnian/Herzegovinian
   - Herzegovinian
   - Bosnia
   - Bosnian
@@ -2360,6 +2367,7 @@ BE:
   - བེལ་ཇི་ཡམ།
   - Bubirigi
   - Belgiya
+  - белгиец
   - bɛljík
   - Бельги
   - Belgujo
@@ -3397,6 +3405,9 @@ BR:
   - Birazil
   - Il  -Brażil
   - Federative Republic of Brazil
+  - Empire of Brazil
+  - República Federativa del Brasi
+  - República Federativa del Brasil
   - Emetab Brazil
   - Brasîl
   - ब्राज़ील
@@ -4719,6 +4730,7 @@ CH:
   - سوئیس
   - Switzerland nutome
   - Emetab Switzerland
+  - Zurich, Switzerland
   - Švica
   - Švicarska
   - CHE
@@ -5458,6 +5470,8 @@ CN:
   - Chnese
   - China/Chine
   - Caina, Sin
+  - P.R. China
+  - Chine /Rép. pop./
   - Cina
   - Chinese
   - Chíina
@@ -7018,9 +7032,11 @@ DZ:
   - Aljeria
   - An Ailgéir
   - الجزیره
+  - אלג'ריה
   - Algeria nutome
   - Algerian
   - Hualjelia
+  - алжирска
   - அல்ஜீரியா
   - ଆଲଜେରିଆ
   - Ալժիր
@@ -7357,6 +7373,8 @@ EG:
   - עגיפּטן
   - ಈಜಿಪ್ಟ್
   - Ägyptɛn
+  - египетска
+  - египтянин
   - Exiptu
   - Miṣr
   - Misili
@@ -8732,6 +8750,7 @@ GB:
   - United Kingdom of Great Britain and Ireland
   - Grande-Bretagne
   - Kingdom of England
+  - London, United Kingdom
   - Cardiff
   - Britsh
   - Great British
@@ -9241,6 +9260,7 @@ GE:
   - Tbilisi
   - Tbilisian
   - Democratic Republic of Georgia
+  - Socialist Soviet Republic Of Georgia
 GF:
   - Французийн Гвиана
   - Ranskan Guayana
@@ -10287,6 +10307,7 @@ GR:
   - Greqi
   - Greece
   - यूनान
+  - "Kingdom of Greece"
 GS:
   - An tSeoirsia Theas agus Oileáin Sandwich Theas
   - Südgeorgien und die Südlichen Sandwichinseln
@@ -11442,6 +11463,8 @@ ID:
   - Indoneesije
   - Indōnezija
   - Індонезія
+  - индонезиец
+  - индонезийска
   - ئیندۆنیزیا
   - Indonesiya
   - Indoneezi
@@ -12194,6 +12217,7 @@ IQ:
   - អ៊ីរ៉ាក់
   - irák
   - An Iaráic
+  - иракчанин
   - Iraki
   - Irako
   - Ирак
@@ -12727,6 +12751,7 @@ JO:
   - Jordánia
   - ヨルダン
   - Jɔrdania
+  - йорданска
   - ಜೋರ್ಡಾನ್
   - Jordánsko
   - Yordan nutome
@@ -14623,6 +14648,7 @@ LI:
   - ལིཀ་ཏནས་ཏ་ཡིན
   - Liečteštei
   - Emetab Liechtenstein
+  - Vaduz, Liechtenstein
   - Licansitan
   - Licitensitayini
   - ລິດເທນສະຕາຍ
@@ -15408,6 +15434,7 @@ MA:
   - Marokɛ
   - Moroco
   - Moroccan
+  - мароканец
   - MA
   - Maarok
   - Marocko
@@ -16029,6 +16056,7 @@ MK:
   - The Former Yugoslav Republic of Macedonia
   - Macedonia, The Former Yugoslav Republic of
   - North Macedonia, The Republic of
+  - Socialist Republic of Macedonia
   - REPUBLIC OF MACEDONIA (F.Y.R.O.M.)
   - Macedonian
   - F.Y.R.O.M.
@@ -17462,6 +17490,7 @@ MY:
   - i  -Malaysia
   - Malazia
   - Humalesia
+  - малайзиец
   - MYS
   - ಮಲೇಶಿಯಾ
   - มาเลเซีย
@@ -19380,6 +19409,7 @@ PH:
   - Filipini
   - Ebizinga bya Firipino
   - Filipino
+  - филипинец
   - Filipinn
   - Filipina
   - Filipine
@@ -19498,12 +19528,14 @@ PK:
   - פקיסטן
   - Пәкістан
   - Пакистан
+  - пакистанец
   - ፓኪስታን
   - پاكىستان
   - Պակիստան
   - Pakistaŋ
   - Pakistani
   - Pakistanni
+  - Karachi, Pakistan
   - پاکستان
   - Pagastàn
   - პაკისტანი
@@ -22488,6 +22520,8 @@ SO:
   - Somalia
   - Somalian
   - Somali Democratic Republic
+  - Mogadishu, Somalia
+  - Могадишу, Сомалия
   - Somalii
   - سۆمالیا
   - Sumalia
@@ -23041,6 +23075,7 @@ SY:
   - Orílɛ́ède Siria
   - סיריע
   - i  -Syria
+  - сириец
   - Silîa
   - Sirii
   - Sirio
@@ -24181,6 +24216,7 @@ TN:
   - An Túinéis
   - Tunes
   - Tunesia
+  - тунизиец
   - توونس
   - Túnis
   - Tunizi
@@ -24341,6 +24377,7 @@ TR:
   - Туркойчоь
   - Turkojska
   - ตุรกี
+  - תורכיה
   - Turquie
   - Turky
   - Turquia
@@ -24673,6 +24710,7 @@ TW:
   - TWN
   - i  -Taiwan
   - Taiwan, Province of China
+  - Republic of China
   - Taiwan, China
   - Taiwan (Republic of China)
   - Taipei,China
@@ -26645,6 +26683,7 @@ YE:
   - yaman
   - 예멘
   - Υεμένη
+  - йеменска
   - Ємен
   - 葉門
   - ⵢⴰⵎⴰⵏ
