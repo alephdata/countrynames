@@ -594,6 +594,7 @@ AF:
   - Əfqanıstan
   - Afuganisitani
   - Афғонистон
+  - Афганец
   - Afghánistán
   - ᎠᏫᎨᏂᏍᏖᏂ
   - Faganïta, Afganïstäan
@@ -888,6 +889,7 @@ AL:
   - អាល់បានី
   - Alibaniya
   - Àabɛnìa
+  - Албанец
   - अल्बानिया
   - Alibani
   - Albánsko
@@ -4121,6 +4123,7 @@ CA:
   - कनाडा
   - Kanadäa
   - Кана́да
+  - Kанадец
   - Καναδάς
   - NOVA SCOTIA, CANADA
   - கனடா
@@ -4744,6 +4747,7 @@ CH:
   - Suïssa
   - Ubusuwisi
   - Швајцарска
+  - Швейцарец
   - Svisujo
   - Sẅísɛ
   - ສະວິດເຊີແລນ
@@ -6444,6 +6448,7 @@ DE:
   - Allemagne (Rép.féd.)
   - West Germany
   - Германія
+  - Германец
   - Däitschland
   - Alemanu
   - Týskland
@@ -7037,6 +7042,7 @@ DZ:
   - Algerian
   - Hualjelia
   - алжирска
+  - Алжирец
   - அல்ஜீரியா
   - ଆଲଜେରିଆ
   - Ալժիր
@@ -7352,6 +7358,8 @@ EG:
   - Egipat
   - Sǝr Egypt
   - Egyptian
+  - Egyptyian
+  - Eгиптенин
   - Mısır
   - Edzì
   - 이집트
@@ -8769,6 +8777,8 @@ GB:
   - Reinu Xuníu
   - THE BRITISH ISLANDS
   - Бирлашган Қироллик
+  - Обединено кралство
+  - Англия
   - Birtaniya
   - Стыр Британи
   - Združeno kraljestvo
@@ -11992,6 +12002,7 @@ IN:
   - Indi
   - இந்தியா
   - Индия
+  - Индиец
   - Índɛ
   - Lhend
   - הודו
@@ -12761,6 +12772,7 @@ JO:
   - Yorodani
   - Gyɔdan
   - Йорданія
+  - Йорданец
   - Jordània
   - Jordaanije
   - Dzodàn
@@ -13050,6 +13062,7 @@ KE:
   - Кенія
   - కెన్యా
   - Кения
+  - Кениец
   - केन्या
   - Emetab Kenya
   - קניה
@@ -13474,6 +13487,7 @@ KM:
   - Komorene
   - ཀོ་མོ་རོས
   - Comorerne
+  - Comorian
   - دوورگەکانی قەمەر
   - COM
   - de Kommoore
@@ -13502,6 +13516,7 @@ KM:
   - Comoren
   - Les Comores
   - Каморскія Астравы
+  - Коморец
   - කොමොරෝස්
   - ⵇⵓⵎⵓⵔ
   - कोमोरोस
@@ -15391,6 +15406,7 @@ LY:
   - LY
   - Lebhiya
   - Либија
+  - Либиец
   - Ulibya
   - לוב
   - Ливия
@@ -20135,6 +20151,7 @@ PS:
   - ดินแดนปาเลสไตน์
   - Territorju Palestinjan
   - Фаластин ҳудуди
+  - Палестинец
   - Falastin hududi
   - Palesitayini ni Gaza
   - پەلەستىن زېمىنى
@@ -20871,6 +20888,7 @@ RU:
   - Арассыыйа
   - Rusujo
   - Russian
+  - Руснак
   - Krievija
   - Расія
   - Росія
@@ -21163,6 +21181,8 @@ SA:
   - Thaudi
   - Саудын Араб
   - Саудиска Арабија
+  - Саудитец
+  - Саудиец
   - Saŭda Arabujo
   - Saudi  -Araabie
   - ssaɛudiya
@@ -22512,6 +22532,7 @@ SO:
   - Sòmalìa
   - ಸೊಮಾಲಿಯಾ
   - Самалі
+  - Сомалец
   - โซมาเลีย
   - Somalis
   - ဆိုမာလီယာ
@@ -24810,6 +24831,7 @@ TZ:
   - Tànzànià
   - တန်ဇန်းနီးယား
   - Танзани
+  - Танзаниец
   - Orílɛ́ède Tanshania
   - ታንዛኒያ
   - ṭanẓanya
@@ -26704,6 +26726,7 @@ YE:
   - イエメン
   - ယီမင်
   - Јемен
+  - Йеменец
   - Եմեն
   - Jemenas
   - An Eaman
