@@ -1,5 +1,5 @@
 import logging
-import Levenshtein  # type: ignore
+import Levenshtein
 from functools import lru_cache
 from typing import Any, Optional, Dict
 
@@ -36,7 +36,9 @@ def _fuzzy_search(name: str) -> Optional[str]:
             best_code = code
     if best_distance is None or best_distance > (len(name) * 0.15):
         return None
-    log.debug("Guessing country: %s -> %s (distance %d)", name, best_code, best_distance)
+    log.debug(
+        "Guessing country: %s -> %s (distance %d)", name, best_code, best_distance
+    )
     return best_code
 
 
