@@ -295,6 +295,7 @@ MD-PMR:
   - Приднестровье
   - Придністров'я
   - Pridnestrovian Moldavian Republic
+  - Pridnestrovian Moldavian Soviet Socialist Republic
   - Приднестровская Молдавская Республика
   - Republica Moldovenească Nistreană
   - Придністровська Молдавська Республіка
@@ -423,6 +424,7 @@ AE:
   - Аб’яднаныя Арабскія Эміраты
   - De Forenede Arabiske Emirater
   - متحدہ عرب امارات
+  - الامارات
   - Verenigde Arabiese Emirate
   - Արաբական Միացյալ Էմիրություններ
   - Bemirá yá Arábə uní
@@ -4333,6 +4335,7 @@ CD:
   - কঙ্গো  -কিনশাসা
   - ਕਾਂਗੋ   - ਕਿੰਸ਼ਾਸਾ
   - Emetab Congo   - Kinshasa
+  - Kinshasa
   - کۆنگۆ کینشاسا
   - Конго (Киншаса)
   - DR Congo
@@ -11245,6 +11248,7 @@ HR:
 HT:
   - Ha’itti
   - Haïti
+  - Haitian
   - Haitis
   - Sǝr Haiti
   - ہایتی
@@ -12283,6 +12287,7 @@ IR:
   - Иран (Исламская Республика)
   - i  -Iran
   - ئىران
+  - إيراني
   - Èlân
   - इराण
   - Uadyemi
@@ -13251,6 +13256,7 @@ KH:
   - Kamboodiya
   - ꕪꕹꔵꕩ
   - Cambodia
+  - Cambodian
   - کمپوچیا
   - Камбоджа
   - kambudya
@@ -13571,6 +13577,7 @@ KN:
   - सेंट किट्स आणि नेव्हिस
   - سینٛٹ کِٹَس تہٕ نیوِس
   - سەینت کیتس و نیڤیس
+  - سانت كيتس - نافيس
   - Senti Kitisi ne Nevisi
   - Shën  -Kits dhe Nevis
   - San Kits və Nevis
@@ -17025,6 +17032,8 @@ MT:
   - Malta
   - Maltese
   - Maltà
+  - Crown Colony of Malta
+  - State of Malta
   - Sǝr Malta
   - maltǝ
   - Humalta
@@ -18137,6 +18146,7 @@ NG:
   - ໄນຈີເຣຍ
   - Hunijelia
   - Nigerian
+  - Oyo State
   - Nijeliya
   - nijɛ́rya
   - Niġerja
@@ -18169,6 +18179,7 @@ NG:
   - ናይጄሪያ
   - ไนจีเรีย
   - نایجیرِیا
+  - نيجيري
   - Nigeria nutome
   - Νιγηρία
   - 奈及利亞
@@ -20108,6 +20119,7 @@ PS:
   - West Bank and Gaza
   - רצועת עזה
   - הרשות הפלסטינית
+  - פלסטין
   - PALESTINE
   - OCCUPIED PALESTINIAN TERRITORY
   - PALESTINIAN TERRITORY, Occupied
@@ -21117,6 +21129,8 @@ SA:
   - ဆော်ဒီအာရေးဗီးယား
   - साउदी अरब
   - سەئۇدى ئەرەبىستان
+  - السعوديه
+  - السعودية
   - ਸਾਊਦੀ ਅਰਬ
   - საუდის არაბეთი
   - སཱཝ་དི་ ཨ་རེ་བྷི་ཡ
@@ -23153,6 +23167,7 @@ SY:
   - સીરિયા
   - سووریا
   - سوريا
+  - سوري
   - ਸੀਰੀਆ
   - sirí
   - Sīlia
@@ -24414,6 +24429,7 @@ TR:
   - Turcija
   - Türgi
   - Republic of Turkey
+  - TÃ¼rkiye
   - Турция
   - Türggei
   - Toake
@@ -25301,6 +25317,7 @@ US:
   - එක්සත් ජනපදය
   - ئامېرىكا قوشما شتاتلىرى
   - ڤولاتیا یأکاگئرتە
+  - أمريكا
   - АИШ
   - Spojené štáty
   - Estados Unidos
@@ -26430,6 +26447,7 @@ VU:
   - వనాటు
   - וואַנואַטו
   - Vanuatu
+  - Vanuata
   - Vanuatuan
   - Vanuatú
   - વાનુઆતુ
