@@ -31,7 +31,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     test_suite="nose.collector",
-    install_requires=["normality", "python-Levenshtein", "pyyaml"],
+    install_requires=["normality", "jellyfish", "pyyaml"],
     extras_require={
         "dev": ["mypy", "wheel", "twine", "pytest", "types-PyYAML"],
     },

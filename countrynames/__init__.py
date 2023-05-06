@@ -1,5 +1,5 @@
 import logging
-import Levenshtein
+from jellyfish import levenshtein_distance
 from functools import lru_cache
 from typing import Any, Optional, Dict
 
@@ -30,7 +30,7 @@ def _fuzzy_search(name: str) -> Optional[str]:
     for cand, code in COUNTRY_NAMES.items():
         if len(cand) <= 4:
             continue
-        distance = Levenshtein.distance(name, cand)
+        distance = levenshtein_distance(name, cand)
         if best_distance is None or distance < best_distance:
             best_distance = distance
             best_code = code
@@ -82,7 +82,7 @@ def to_code_3(country_name: Any, fuzzy: bool = False) -> Optional[str]:
     """Given a human name for a country, return a three letter code.
 
     Arguments:
-        ``fuzzy``: Try fuzzy matching based on Levenshtein distance.
+        ``fuzzy``: Try fuzzy matching based on levenshtein distance.
     """
     code = to_code(country_name, fuzzy=fuzzy)
     if code and len(code) > 2:

@@ -7,7 +7,7 @@ two or three letter codes. The idea is
 to incorporate common names for countries, and even some limited misspellings,
 as they occur in source data.
 
-There is also support for fuzzy matching, which uses a heuristic based on Levenshtein distance.
+There is also support for fuzzy matching, which uses a heuristic based on levenshtein distance.
 
 ## Usage
 
