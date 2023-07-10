@@ -298,6 +298,7 @@ MD-PMR:
   - Pridnestrovian Moldavian Republic
   - Pridnestrovian Moldavian Soviet Socialist Republic
   - Приднестровская Молдавская Республика
+  - Оккупированная Россией территория Молдовы
   - Republica Moldovenească Nistreană
   - Придністровська Молдавська Республіка
   - MDPMR
@@ -397,6 +398,7 @@ AE:
   - i  -United Arab Emirates
   - সংযুক্ত আরব আমিরাত
   - Обединени арабски емирства
+  - Объединённые Арабские Эмираты
   - Абу Даби
   - מאע"מ
   - Emiratos Árabes Unidos
@@ -3030,6 +3032,7 @@ BM:
   - Berimúuda
   - Birmuda
   - Бермуд аралдары
+  - Бермудские острова
   - de Bermudas
   - بٔرمیوڈا
   - Bermudy
@@ -3537,6 +3540,7 @@ BS:
   - Bämuɔth
   - Baháama
   - Багамські Острови
+  - Багамские Острова
   - ⴱⴰⵀⴰⵎⴰⵙ
   - ဘဟားမား
   - ბაჰამის კუნძულები
@@ -3898,6 +3902,7 @@ BY:
   - بېلارۇسىيە
   - Orílɛ́ède Bélárúsì
   - Республіка Білорусь
+  - Республика Беларусь
   - Belarusi
   - Balarus
   - Belrus
@@ -4341,6 +4346,7 @@ CD:
   - Kinshasa
   - کۆنگۆ کینشاسا
   - Конго (Киншаса)
+  - ДР Конго
   - DR Congo
   - Congo DR
   - DRC
@@ -7930,6 +7936,7 @@ EU:
   - European Union
   - European Union (28)
   - Europäische Union
+  - Европейский союз
   - THE EUROPEAN UNION
   - EU27
   - EU28
@@ -11841,6 +11848,7 @@ IM:
   - جزیرهٔ من
   - Đảo Man
   - Man uhartea
+  - Остров Мэн
   - IOM
   - ཨ་ཡུལ་ ཨོཕ་ མཱན
   - Insula Man
@@ -13739,6 +13747,7 @@ KP:
   - North Korean
   - DPR Korea
   - Къилбаседа Корей
+  - Северная Корея
   - Түндүк Корея
   - ਉੱਤਰੀ ਕੋਰੀਆ
   - 北朝鮮
@@ -13885,6 +13894,7 @@ KR:
   - Coreea de Sud
   - દક્ષિણ કોરિયા
   - Түштүк Корея
+  - Южная Корея
   - South Korean
   - Korean
   - Korea Południowa
@@ -14134,6 +14144,7 @@ KY:
   - केयमान टापु
   - Islles Caimán
   - Каймановы о  -ва
+  - Острова Кайман
   - Ilhas Cayman
   - Caymanian
   - Grand Cayman
@@ -15942,6 +15953,7 @@ MH:
   - Մարշալյան կղզիներ
   - Marshallove ostrovy
   - Māršala salas
+  - Маршалловы Острова
   - Chisiwa cha Malushal
   - Minlán Mí Maresál
   - جزایر مارشال
@@ -16096,6 +16108,7 @@ MK:
   - FYROM
   - Macedonia, Republic of North
   - North Macedonia, The Republic of
+  - Северная Македония
   - ແມຊິໂດເນຍ
   - መቄዶንያ
   - మేసిడోనియా
@@ -16277,6 +16290,7 @@ MM:
   - म्यानमार
   - Mjanmar (Búrma)
   - Мʼянма (Бірма)
+  - Мьянма
   - ਮਿਆਂਮਾਰ (ਬਰਮਾ)
   - म्यानमार (बर्मा)
   - Pema
@@ -21421,6 +21435,7 @@ SC:
   - Sɛsɛ́l
   - Orílɛ́ède seshɛlɛsi
   - Сейшэльскія Астравы
+  - Сейшельские Острова
   - sɛcɛl
   - Sečelle
   - Сейшелан гӀайренаш
@@ -26043,6 +26058,7 @@ VE:
 VG:
   - Британські Віргінські острови
   - Брытанскія Віргінскія астравы
+  - Британские Виргинские острова
   - i  -British Virgin Islands
   - Bìòn bi kɔnji bi Ŋgisì
   - Britiši Virgin gungey
