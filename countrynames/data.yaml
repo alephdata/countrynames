@@ -15,6 +15,8 @@ FAIL:
   - indies
   - THE WEST INDIES
   - THE CHENNAL ISLES
+  - CHANNEL ISLANDS
+  - VIRGIN ISLANDS
   - Other
   - undetermined
   - Africa
@@ -72,6 +74,7 @@ SUHH:
 ANHH:
   - De Nederlandske Antiller
   - NETHERLAND ANTILLES
+  - NETHERLANDS ANTILLES
   - Netherlands Antilles
   - DUTCH ANTILLES
   - Antilles yr Iseldiroedd
@@ -1907,6 +1910,7 @@ AZ:
   - Azerbaidžāna
   - آذربایجون
   - Asserbaidschahn
+  - Азербайджанська Республіка
   - Uazabajani
   - Azerbaidžanas
   - Azerbaayijaŋ
@@ -9882,6 +9886,7 @@ GN:
   - گینێ
   - Gínea
   - Guineab
+  - Guinée Conakry
   - Guinea
   - Guinean
   - An Ghuine
@@ -10737,7 +10742,6 @@ GY:
   - غيانا
   - GUY
   - Guäjaana
-  - گیانا
   - ഗയാന
   - Gujana
   - 圭亞那
@@ -11588,6 +11592,7 @@ IE:
   - REPUBLIC OF IRELAND
   - IRISH REPUBLIC
   - Rep Of Ireland
+  - IRELAND REP
   - Éire-Ireland
   - Éire-Irlande
   - REPULBIC OF IRELAND
@@ -14410,6 +14415,7 @@ LA:
   - Layosi
   - Laosi
   - Laos
+  - Laotian
   - Emetab Laos
   - Laaos
   - Lawoos
@@ -22011,6 +22017,7 @@ SI:
   - Slowenien
   - ꔻꖃꔍꕇꕰ
   - Slovenië
+  - Slovene
   - Uslovenia
   - i  -Slovenia
   - سلۆڤێنیا
@@ -22975,6 +22982,7 @@ SV:
   - Salvadoras
   - Salvadoran
   - El salvador
+  - Salvadoran
   - Elsavado
   - 엘살바도르
   - Salwador
@@ -23063,7 +23071,6 @@ SV:
   - 薩爾瓦多
   - Elisalivado
 SX:
-  - سينت مارتن
   - Sint Marten
   - सिंट मार्टेन
   - 荷属圣马丁
@@ -23134,6 +23141,7 @@ SY:
   - Syrian
   - Republic Of Syria
   - Second Syrian Republic
+  - Syrian Arab Republic
   - 敘利亞
   - 叙利亚
   - Syyria
@@ -24171,6 +24179,7 @@ TM:
   - Huuturukimenistani
   - Ṭurkmanistan
   - turkmanstan
+  - Туркмения
   - Turukumenisitani
   - Turkumenistäan
   - تورکمانستان
@@ -24272,6 +24281,7 @@ TN:
   - Tunisian
   - tunusí
   - تیونیسیا
+  - תוניס
   - 튀니지
   - Tunezja
   - Tunesie
@@ -24955,6 +24965,7 @@ UA:
   - ཡུ་ཀརེན
   - Oekraïne
   - Ukrania
+  - Украна
   - ⵓⴽⵔⴰⵏⵢⴰ
   - ইউক্রেইন
   - ukranya
