@@ -1576,6 +1576,7 @@ AT:
   - Ööschtriich
   - Usɨtɨ̀là
   - Republic of Austria
+  - Австрийская Республика
   - Orílẹ́ède Asítíríà
   - ཨསྟྲི་ཡ།
   - نەمسا
@@ -1911,6 +1912,7 @@ AZ:
   - آذربایجون
   - Asserbaidschahn
   - Азербайджанська Республіка
+  - Республика Азербайджан
   - Uazabajani
   - Azerbaidžanas
   - Azerbaayijaŋ
@@ -2022,6 +2024,7 @@ BA:
   - Bosnia And Herzegowina
   - Bosnian/Herzegovinian
   - Herzegovinian
+  - Herzegovina
   - Bosnia
   - Bosnian
   - באסניע הערצעגאווינע
@@ -3036,6 +3039,7 @@ BM:
   - Berimúuda
   - Birmuda
   - Бермуд аралдары
+  - Бермудские острова
   - Бермудские острова
   - de Bermudas
   - بٔرمیوڈا
@@ -4351,6 +4355,7 @@ CD:
   - کۆنگۆ کینشاسا
   - Конго (Киншаса)
   - ДР Конго
+  - ДР Конго
   - DR Congo
   - Congo DR
   - DRC
@@ -5512,6 +5517,7 @@ CN:
   - People's Republic of China
   - CHINA (MAINLAND)
   - Китайська Народна Республіка
+  - Китайская Народная Республика
   - כינע
   - ຈີນ
   - چین
@@ -6335,6 +6341,7 @@ CZ:
   - Gweriniaeth Tsiec
   - ꗿꕃ ꕸꖃꔀ
   - Republik Czech
+  - ЧЕШСКАЯ РЕСПУБЛИКА
   - Çek Cumhuriyeti
   - Orílɛ́ède shɛ́ɛ́kì
   - Çexiya
@@ -7341,6 +7348,7 @@ EE:
   - Estónsko
   - Orílɛ́ède Esitonia
   - Republic of Estonia
+  - Эстонская Республика
   - Estonja
   - اسٹونیا
   - Estooni
@@ -7393,7 +7401,8 @@ EG:
   - مِسٔر
   - مصري
   - Ägypten
-  - مصر
+  # Transliterates to "MSR", which is the three-letter for Montserrat
+  # - مصر
   - ɛjípt
   - ეგვიპტე
   - עגיפּטן
@@ -8798,6 +8807,8 @@ GB:
   - THE BRITISH ISLANDS
   - Бирлашган Қироллик
   - Обединено кралство
+  - СОЕДИНЕННОЕ КОРОЛЕВСТВО
+  - Соединенное Королевство Великобритании и Северной Ирландии
   - Англия
   - Birtaniya
   - Стыр Британи
@@ -10280,6 +10291,7 @@ GR:
   - ግሪክ
   - Ugilichi
   - Hellenic Republic
+  - Греческая Республика
   - Hellenic
   - اليونان
   - lyunan
@@ -11892,6 +11904,7 @@ IM:
   - આઈલ ઓફ મૅન
   - マン島
   - Мэн Арал
+  - Остров Мэн
   - Aisle of Man nutome
   - de Ensel Män
   - ఐల్ ఆఫ్ మాన్
@@ -11994,6 +12007,7 @@ IN:
   - ভারত
   - རྒྱ་གར་
   - Orílɛ́ède India
+  - Республика Индия
   - インド
   - ʻĪnia
   - Hindistan
@@ -13807,6 +13821,7 @@ KP:
   - Korea Północna
   - Nood  -Koreja
   - i  -North Korea
+  - Северная Корея
   - Korɛ ya nɔ́rdi
   - Koreja ta’ Fuq
   - Оңтүстік Корея
@@ -13911,6 +13926,7 @@ KR:
   - Kore wa mwinshi
   - Anaafo Koria
   - Жанубий Корея
+  - Республика Корея
   - Orílẹ́ède Ariwa Kọria
   - جنوٗبی کورِیا
   - Söd  -Koreja
@@ -15659,6 +15675,8 @@ MD:
   - Moldóva
   - Mɔldova
   - Republica Moldova
+  - Республика Молдова
+  - МОЛДОВА, РЕСПУБЛИКА
   - Molidova
   - 摩爾多瓦
   - Молдавија
@@ -15755,6 +15773,7 @@ ME:
   - মন্টিনিগ্রো
   - Mali i Zi
   - Чарнагорыя
+  - Республика Черногория
   - Monteneqro
   - મૉન્ટેંનેગ્રો
   - MNE
@@ -15970,6 +15989,7 @@ MH:
   - Marshalleilannen
   - Marshallsullot
   - Illes Marshall
+  - Маршалловы Острова
   - Маршалл аралдары
   - Tigzirin n Marcal
   - Ilhas Marxal
@@ -16302,6 +16322,7 @@ MM:
   - म्यानमार (बर्मा)
   - Pema
   - Birma
+  - Мьянма
   - Burmese
   - മ്യാൻമാർ (ബർമ്മ)
   - Miáama
@@ -22189,6 +22210,7 @@ SK:
   - Slovakian
   - Slovakia
   - Slovak Republic
+  - Словацкая Республика
   - סלאוואַקיי
   - Slovak
   - Slovákia
@@ -23371,6 +23393,7 @@ TC:
   - Turks and Caicos Islads
   - Turiki Gun ni Kayiki
   - Острва Туркс и Каикос
+  - ОСТРОВА ТЕРКС И КАЙКОС
   - Turks a Caicos kupy
   - Νήσοι Τερκ και Κάικος
   - Chwɨla n Tɨtê à Kaekùs
@@ -24474,6 +24497,7 @@ TR:
   - Turcija
   - Türgi
   - Republic of Turkey
+  - Турецкая Республика
   - TÃ¼rkiye
   - Турция
   - Türggei
@@ -24590,6 +24614,7 @@ TT:
   - Tirnidaad e Tobaago
   - Trinidad és Tobago
   - "Trinidad,"
+  - "Tobago"
   - Trinidad aamma Tobago
   - Тринидад жана Тобаго
   - ترینیداد و تۆباگو
@@ -25610,6 +25635,7 @@ UZ:
   - ಉಜ್ಬೇಕಿಸ್ಥಾನ್
   - usupekistáaŋ
   - Emetab Uzibekistani
+  - Республика Узбекистан
   - Узбекистан
   - Uzibekistani
   - ਉਜ਼ਬੇਕਿਸਤਾਨ
