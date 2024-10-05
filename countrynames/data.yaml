@@ -43,6 +43,17 @@ FAIL:
 ZZ:
   - Global
   - Worldwide
+UN:
+  - United Nations
+  - Vereinte Nationen
+  - الأمم المتحدة
+  - UNO
+  - Organización de las Naciones Unidas
+  - Nations unies
+  - Организация Объединённых Наций
+  - Організація Об’єднаних Націй
+  - member states of the United Nations
+  - member of the United Nations Security Council
 YUCS:
   - YUGOSLAVIA
   - YUGOSLAVIA (FORMER SOCIALIST FEDERAL REPUBLIC)
@@ -104,6 +115,7 @@ GE-AB:
   - Abkhazian
   - Respublika Abkhaziya
   - Republic of Abkhazia
+  - Autonomous Republic of Abkhazia
   - Республика Абхазия
 AZ-NK:
   - AZ--NK
@@ -305,6 +317,17 @@ MD-PMR:
   - Republica Moldovenească Nistreană
   - Придністровська Молдавська Республіка
   - MDPMR
+AC:
+  - Ascension
+  - Ascension Island
+  - île de l'Ascension
+  - Isla Ascensión
+  - アセンション島
+  - 어센션섬
+  - ამაღლების კუნძული
+  - 阿森松岛
+  - Острів Вознесіння
+  - Остров Вознесения
 AD:
   - Andɔr
   - អង់ដូរ៉ា
@@ -1850,6 +1873,7 @@ AX:
   - ᎣᎴᏅᏓ ᏚᎦᏚᏛᎢ
   - Kepulauan Aland
   - Inslas Aland
+  - Åland Islands
   - Ilhas Åland
   - Ålandski otoki
   - آلینڈ آئلینڈز
@@ -5446,6 +5470,7 @@ CN-XZ:
   - Jizhou
   - Tibet
   - Tibetan
+  - Tibet Autonomous Region
 CN-CQ:
   - Chungking
   - Chongqing
@@ -5713,6 +5738,12 @@ CO:
   - Kolambiya
   - કોલમ્બિયા
   - culumbya
+CP:
+  - Clipperton Island
+  - Clipperton
+  - Clipperton-Insel
+  - 克利珀顿岛
+  - Клиппертон
 CR:
   - Kòsɨ̀tà Lekà
   - Kusta Rika
@@ -7498,6 +7529,9 @@ EH:
   - पश्चिमी सहारा
   - Sahara Occidental
   - Sahrawi Arab Democratic Republic
+  - Demokratische Arabische Republik Sahara
+  - République arabe sahraouie démocratique
+  - Сахарская Арабская Демократическая Республика
   - Västsahara
   - Δυτική Σαχάρα
   - Sahara occidentale
@@ -7830,10 +7864,12 @@ ES:
   - สเปน
   - Lespagn
   - Sepanyol
-  - canary islands
-  - Canarian
   - Calatayud
   - Barcelona
+IC:
+  - Canary Islands
+  - canary islands
+  - Canarian
 ET:
   - Etiopía
   - എത്യോപ്യ
@@ -9441,7 +9477,7 @@ GF:
   - Guiana thuộc Pháp
   - Gùyanà Pùlàsi
   - Prancūzijos Gviana
-GG-SRK:
+CQ:
   - Sark
   - Sercq
   - Sèr
@@ -12074,6 +12110,20 @@ IN:
   - Kingdom of Mysore
   - Pondicherry
   - Provinces of India
+DG:
+  - Diego Garcia
+  - Dieqo-Qarsia
+  - Диего Гарсия
+  - Дыега Гарсія
+  - Ντιέγκο Γκαρσία
+  - Atol Diego García
+  - ディエゴガルシア島
+  - Դիեգո-Գարսիա
+  - דייגו גרסיה
+  - 디에고가르시아섬
+  - डिएगो गार्सिया
+  - Диего-Гарсия
+  - Дієго-Гарсія
 IO:
   - బ్రిటీష్ భారతీయ సముద్రపు ప్రాంతం
   - Ieneo la Uingeredha katika Bahari Hindi
@@ -12092,7 +12142,6 @@ IO:
   - Tiriogaeth Brydeinig Cefnfor India
   - BIOT
   - British Indian Ocean Territory
-  - Diego Garcia
   - Camp Justice
   - IOT
   - Thuộc địa Anh tại Ấn Độ Dương
@@ -14722,6 +14771,7 @@ LI:
   - lictɛnstɛ́n
   - Litsenstein nutome
   - Liechtenstein,
+  - Liechtenstein
   - લૈચટેંસ્ટેઇન
   - Λιχτενστάιν
   - ಲಿಚೆನ್‌ಸ್ಟೈನ್
@@ -19687,6 +19737,8 @@ PK:
   - پاکستون
   - Balochistan
   - Baluch
+PK-KM:
+  - Kashmir
 PL:
   - Pólandi
   - ໂປໂລຍ
@@ -22151,6 +22203,7 @@ SJ:
   - Σβάλμπαρντ και Γιαν Μαγιέν
   - سىۋالبارد ۋە يان  -مايېن ئارىلى
   - Svalbard dan Jan Mayen
+  - Svalbard & Jan Mayen
   - Svalbardo kaj Jan  -Majen  -insulo
   - Kepulauan Svalbard dan Jan Mayen
   - i  -Svalbard ne  -Jan Mayen
@@ -23362,6 +23415,8 @@ SZ:
   - Sważiland
   - Swàzìlând
   - Suazilándia
+TA:
+  - Tristan da Cunha
 TC:
   - Ynysoedd Turks a Caicos
   - TURKS & CAICOS
@@ -23608,6 +23663,9 @@ TD:
   - Sead
 TF:
   - Territoris Franzos Meridiunals
+  - French Southern and Antarctic Lands
+  - Französische Süd- und Antarktisgebiete
+  - Terres australes et antarctiques françaises
   - දකුණු ප්‍රංශ දූපත් සමූහය
   - Francúzske južné a antarktické územia
   - Terras Franses di Sul
@@ -25188,6 +25246,7 @@ UM:
   - US Minor Outlying Islands
   - Jungtinių Valstijų Mažosios Tolimosios Salos
   - 米領太平洋諸島
+  - Wake Island
   - સંયુક્ત રાજ્ય આઉટલાઇંગ આયલેન્ડ્સ
   - AQSH yondosh orollari
   - U.S. Outlying Islands
