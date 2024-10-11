@@ -235,6 +235,7 @@ GB-SCT:
   - GBSCT
   - Scotish
   - Kingdom of Scotland
+  - Scottland
   - Шотландія
   - Шотландія
   - alba
@@ -338,6 +339,7 @@ AD:
   - Àŋdɔ̂r
   - ⴰⵏⴷⵓⵔⴰ
   - Andorra
+  - Andorran
   - Andorrano
   - अँडोरा
   - Uandora
@@ -417,6 +419,7 @@ AE:
   - AJMAN
   - SHARJAH
   - AJMAN FREE ZONE
+  - Emirate Of Dubai, U.A.E
   - FUJAIRAH MEDIA FREE ZONE
   - Emirati
   - Emirâts araps unîts
@@ -2514,6 +2517,7 @@ BF:
   - Burkina Fasoa
   - Burkinabé
   - Burkinabè
+  - Burkinan
   - Буркина  - Фасо
   - Buircíne Fasó
   - बर्किना फासो
@@ -3865,6 +3869,7 @@ BW:
   - போட்ஸ்வானா
   - බොට්ස්වානා
   - botswana
+  - Botswanan
   - Motswana
   - Botiswáana
   - Բոթսվանա
@@ -4091,6 +4096,7 @@ BZ:
   - Belizë
   - i  -Belize
   - Belizean
+  - Belizian
   - Belizi
   - ꔆꔷꔘ
   - Белиз
@@ -4556,6 +4562,7 @@ CF:
   - केंद्रीय अफ्रिकी प्रजासत्ताक
   - i  -Central African Republic
   - Cenral African Republic
+  - Central African
   - Central African Republic (Car)
   - Lipubulika eya Senturafiriki
   - Repubulika ya Santarafurika
@@ -7212,6 +7219,7 @@ EC:
   - Ikwaḍur
   - Republic of Ecuador
   - Ecuadoran
+  - Ecuadorean
   - Ikuwadɔ
   - エクアドル
   - Էկվադոր
@@ -8811,6 +8819,7 @@ GB:
   - England and Wales
   - England & Wales
   - England/United Kingdom
+  - United Kingdom (England And Wales)
   - British English
   - Englishwoman
   - England
@@ -9484,6 +9493,8 @@ CQ:
   - Cerq
   - Сарк
   - Sarkese
+  - 薩克
+  - gg-srk
 GG:
   - ເກີນຊີ
   - Guernési
@@ -10859,6 +10870,7 @@ GY:
   - Guyáana
 HK:
   - Hongkong SAR van Sina
+  - Hong Kong Sar
   - Hongkong
   - China, Hong Kong Special Administrative Region
   - Hong Kong Special Administrative Region
@@ -11640,6 +11652,7 @@ IE:
   - REPUBLIC OF IRELAND
   - IRISH REPUBLIC
   - Rep Of Ireland
+  - Ireland (Republic Of)
   - IRELAND REP
   - Éire-Ireland
   - Éire-Irlande
@@ -14657,6 +14670,7 @@ LC:
   - St. Lusia
   - Sante Lusie
   - St Lucia
+  - St Lucian
   - ශාන්ත ලුසියා
   - sɛntlísí
   - Santa Lucia
@@ -15359,6 +15373,7 @@ LV:
   - লাত্ভিয়া
   - Летонија
   - Republic of Latvia
+  - The Republic Of Latvia
   - Латвия
   - Lativiya
   - Lotyšsko
@@ -15634,6 +15649,7 @@ MC:
   - munaku
   - ମୋନାକୋ
   - Mùnaku
+  - Monegasque
   - Emetab Monaco
   - མོ་ན་ཀོ
   - Orílẹ́ède Monako
@@ -16178,6 +16194,7 @@ MK:
   - Macedonia, The Former Yugoslav Republic of
   - North Macedonia, The Republic of
   - Socialist Republic of Macedonia
+  - Republic of North Macedonia
   - REPUBLIC OF MACEDONIA (F.Y.R.O.M.)
   - Macedonian
   - F.Y.R.O.M.
@@ -19122,6 +19139,7 @@ PA:
   - Emetab Panama
   - පැනමාව
   - Panamá
+  - Panamanian
   - Panamà
   - পানামা
   - ພານາມາ
@@ -19569,6 +19587,7 @@ PH:
   - Firipino
   - Філіппіни
   - Philippinnen
+  - Phillipines
   - Philippino
   - Filipiinid
   - Emetab Philippines
@@ -19739,6 +19758,7 @@ PK:
   - Baluch
 PK-KM:
   - Kashmir
+  - Pakistan Occupied Kashmir
 PL:
   - Pólandi
   - ໂປໂລຍ
@@ -22912,6 +22932,7 @@ SS:
   - Sudan Selatan
   - దక్షిణ సూడాన్
   - ਦੱਖਣੀ ਸੂਡਾਨ
+  - South Sudanese
 ST:
   - Sâô Tömê na Prinsîpe
   - Usao Tome na Principe
@@ -23062,6 +23083,7 @@ SV:
   - Salvadoran
   - El salvador
   - Salvadoran
+  - Salvadorean
   - Elsavado
   - 엘살바도르
   - Salwador
@@ -23789,6 +23811,7 @@ TG:
   - टोगो
   - ṭugu
   - Togö
+  - Togolese
   - 多哥
   - Togu
   # - ටොගෝ
@@ -23956,6 +23979,7 @@ TJ:
   - Τατζικιστάν
   - 塔吉克
   - Republic of Tajikistan
+  - Tajik
   - Tadzikisətáŋ
   - ທາຈິກິສຖານ
   - તાજીકિસ્તાન
@@ -24555,6 +24579,7 @@ TR:
   - Turcija
   - Türgi
   - Republic of Turkey
+  - Istanbul
   - Турецкая Республика
   - TÃ¼rkiye
   - Турция
@@ -24672,6 +24697,7 @@ TT:
   - Tirnidaad e Tobaago
   - Trinidad és Tobago
   - "Trinidad,"
+  - Trinidadian
   - "Tobago"
   - Trinidad aamma Tobago
   - Тринидад жана Тобаго
@@ -25367,6 +25393,7 @@ US:
   - ALASKA, U.S.A.
   - WASHINGTON, U.S.A.
   - MASSACHUSETTS, U.S.A.
+  - Massachusetts, United States
   - MINNESOTA, U.S.A.
   - PENNSYLVANIA, U.S.A.
   - TENNESSEE, U.S.A.
@@ -25375,6 +25402,7 @@ US:
   - OKLAHOMA, U.S.A.
   - MICHIGAN, U.S.A.
   - NEW YORK, U.S.A.
+  - New York, Usa
   - LOUISIANA, U.S.A.
   - GEORGIA, U.S.A.
   - OHIO, U.S.A.
@@ -25393,6 +25421,7 @@ US:
   - COLORADO, U.S.A.
   - IOWA, U.S.A.
   - Delaware
+  - Delaware, Usa
   - ARIZONA
   - NORTH CAROLINA
   - SOUTH CAROLINA
@@ -25682,6 +25711,7 @@ UY:
   - Urugvay
   - Urugauy
   - Uruguaidh
+  - Uruguayan
 UZ:
   - ഉസ്‌ബെക്കിസ്ഥാൻ
   - אוזבקיסטן
