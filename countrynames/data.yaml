@@ -109,15 +109,6 @@ DD:
   - Germany, Democratic Republic (GDR)
   - FORMER GERMAN DEMOCRATIC REPUBLIC
   - Германская Демократическая Республика
-GE-AB:
-  - GEAB
-  - Abkhazia
-  - Abkhaziya
-  - Abkhazian
-  - Respublika Abkhaziya
-  - Republic of Abkhazia
-  - Autonomous Republic of Abkhazia
-  - Республика Абхазия
 AZ-NK:
   - AZ--NK
   - Nagorno-Karabakh
@@ -162,17 +153,6 @@ UA-CRI:
   - Автономная Республика Крым
   - Qırım Muhtar Cumhuriyeti
   - тимчасово окупована територія Автономної Республіки Крим
-SO-SOM:
-  - SOSOM
-  - Somaliland
-  - Soomaaliland
-  - Republic of Somaliland
-  - State of Somaliland
-  - British Somaliland
-  - Jamhuuriyadda Soomaaliland
-  - Somalilander
-  - Dschumhūriyyat Arḍ aṣ-Ṣūmāl
-  - جمهورية أرض الصومال
 GB-WLS:
   - Wales
   - Welsh
@@ -9352,6 +9332,15 @@ GE:
   - Tbilisian
   - Democratic Republic of Georgia
   - Socialist Soviet Republic Of Georgia
+GE-AB:
+  - GEAB
+  - Abkhazia
+  - Abkhaziya
+  - Abkhazian
+  - Respublika Abkhaziya
+  - Republic of Abkhazia
+  - Autonomous Republic of Abkhazia
+  - Республика Абхазия
 GF:
   - Французийн Гвиана
   - Ranskan Guayana
@@ -12373,6 +12362,13 @@ IQ:
   - Iraque
   - Ӏиракъ
   - ᎢᎳᎩ
+IQ-KR:
+  - Kurdistan
+  - Iraqi Kurdistan
+  - Southern Kurdistan
+  - کوردستان
+  - باشووری کوردستان
+  - Herêm-î Kurdistan
 IR:
   - အီရန်
   - Iraŋ
@@ -22761,6 +22757,17 @@ SO:
   - Sòmalìà
   - சோமாலியா
   - සෝමාලියාව
+SO-SOM:
+  - SOSOM
+  - Somaliland
+  - Soomaaliland
+  - Republic of Somaliland
+  - State of Somaliland
+  - British Somaliland
+  - Jamhuuriyadda Soomaaliland
+  - Somalilander
+  - Dschumhūriyyat Arḍ aṣ-Ṣūmāl
+  - جمهورية أرض الصومال
 SR:
   - سورينام
   - Sürinamm
